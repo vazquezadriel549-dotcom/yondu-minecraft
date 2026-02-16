@@ -105,7 +105,7 @@
       "cooldown": 3,
       "required_level": 2
     },
-    "ravager_regeneration": {
+    "centaurian_healing": {
       "ability": "lucraftcore:regeneration",
       "show_in_bar": true,
       "title": {"text": "Centaurian Healing"},
@@ -117,7 +117,7 @@
       "amount": 2,
       "required_level": 3
     },
-    "triple_arrow": {
+    "triple_arrow_strike": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Triple Arrow Strike"},
