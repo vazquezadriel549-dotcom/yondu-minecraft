@@ -63,6 +63,17 @@
       "title": {"text": "Ravager Mobility"},
       "amount": 1,
       "show_in_bar": false
+    },
+    "yondu_booster_flight": {
+      "ability": "lucraftcore:flight",
+      "show_in_bar": true,
+      "title": {"text": "Yondu Boosters"},
+      "speed": 0.6,
+      "sprint_speed": 1.5,
+      "rotate_arms": false,
+      "cooldown": 30,
+      "bar_color": "red",
+      "icon": {"type": "internal"}
     }
   },
   "armor_parts": {
@@ -101,8 +112,8 @@
     },
     "feet": {
       "openable": false,
-      "glow": false,
-      "name": {"text": "Yondu Boots"},
+      "glow": true,
+      "name": {"text": "Yondu Boosters"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_feet.png"
       },
