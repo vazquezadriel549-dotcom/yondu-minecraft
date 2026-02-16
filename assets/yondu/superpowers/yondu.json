@@ -102,13 +102,6 @@
       "description": "Devastating hand-to-hand attacks"
     },
     {
-      "ability": "yondu:arrow_tracking",
-      "required_ability": "lucraftcore:toggle_power",
-      "required_level": 5,
-      "title": {"text": "Arrow Tracking"},
-      "description": "Whistle-guided arrows with deadly precision"
-    },
-    {
       "ability": "lucraftcore:jump_boost",
       "amount": 5,
       "operation": 0,
@@ -117,6 +110,13 @@
       "required_level": 5,
       "title": {"text": "Enhanced Jump"},
       "description": "Jump higher and farther"
+    },
+    {
+      "ability": "yondu:arrow_tracking",
+      "required_ability": "lucraftcore:toggle_power",
+      "required_level": 6,
+      "title": {"text": "Arrow Tracking"},
+      "description": "Whistle-guided arrows with deadly precision"
     },
     {
       "ability": "lucraftcore:fall_resistance",
@@ -142,7 +142,7 @@
       "operation": 0,
       "uuid": "c3d4e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 6,
+      "required_level": 7,
       "title": {"text": "Damage Resistance"},
       "description": "Reduce all incoming damage"
     },
@@ -152,42 +152,42 @@
       "operation": 0,
       "uuid": "d5e6f7a8-b9c0-d1e2-f3a4-b5c6d7e8f9a0",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 7,
+      "required_level": 8,
       "title": {"text": "Stability"},
       "description": "Resist being knocked back by attacks"
     },
     {
       "ability": "lucraftcore:tough_lungs",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 8,
+      "required_level": 9,
       "title": {"text": "Breathe Underwater"},
       "description": "Survive underwater indefinitely"
     },
     {
       "ability": "lucraftcore:water_breathing",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 9,
+      "required_level": 10,
       "title": {"text": "Aquatic Respiration"},
       "description": "Full underwater combat capability"
     },
     {
-      "ability": "yondu:arrow_storm",
-      "required_ability": "lucraftcore:toggle_power",
-      "required_level": 10,
-      "title": {"text": "Arrow Storm"},
-      "description": "Unleash a devastating barrage of arrows"
-    },
-    {
       "ability": "lucraftcore:fire_resistance",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 10,
+      "required_level": 11,
       "title": {"text": "Flame Immunity"},
       "description": "Complete protection from fire and lava"
     },
     {
+      "ability": "yondu:arrow_storm",
+      "required_ability": "lucraftcore:toggle_power",
+      "required_level": 12,
+      "title": {"text": "Arrow Storm"},
+      "description": "Unleash a devastating barrage of arrows"
+    },
+    {
       "ability": "lucraftcore:night_vision",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 11,
+      "required_level": 13,
       "title": {"text": "Guardian Sight"},
       "description": "See clearly in darkness"
     },
@@ -197,7 +197,7 @@
       "operation": 0,
       "uuid": "e7f8a9b0-c1d2-e3f4-a5b6-c7d8e9f0a1b2",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 12,
+      "required_level": 14,
       "title": {"text": "Supersonic Movement"},
       "description": "Move at incredible speeds"
     },
@@ -207,14 +207,14 @@
       "operation": 0,
       "uuid": "f9a0b1c2-d3e4-f5a6-b7c8-d9e0f1a2b3c4",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 13,
+      "required_level": 16,
       "title": {"text": "Guardian Endurance"},
       "description": "Never get hungry while active"
     },
     {
       "ability": "yondu:whistler_barrage",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 15,
+      "required_level": 18,
       "title": {"text": "Whistler's Barrage"},
       "description": "Command multiple arrows with expert control"
     },
@@ -224,14 +224,14 @@
       "operation": 0,
       "uuid": "a2b3c4d5-e6f7-a8b9-c0d1-e2f3a4b5c6d7",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 15,
+      "required_level": 20,
       "title": {"text": "Energy Absorption"},
       "description": "Absorb damage and convert to shields"
     },
     {
       "ability": "yondu:sonic_arrow",
       "required_ability": "lucraftcore:toggle_power",
-      "required_level": 20,
+      "required_level": 25,
       "title": {"text": "Sonic Arrow"},
       "description": "Sonic-charged arrow with devastating impact"
     }
