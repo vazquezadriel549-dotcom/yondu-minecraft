@@ -1,1 +1,0 @@
-{\n  "type": "extractor_recipe",\n  "power": "yondu",\n  "ingredients": [\n    {\n      "item": "item1",\n      "amount": 1\n    },\n    {\n      "item": "item2",\n      "amount": 2\n    }\n  ],\n  "result": {\n    "item": "yondu_item",\n    "amount": 1\n  },\n  "requirements": {\n    "energy": 100,\n    "time": 200\n  }\n}
