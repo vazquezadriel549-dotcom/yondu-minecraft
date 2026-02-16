@@ -1,5 +1,6 @@
 {
   "name": {"text": "Yondu Ravager Suit"},
+  "add_abilities": true,
   "effects": [
     {
       "type": "skin_overlay",
@@ -82,7 +83,7 @@
       "glow": true,
       "name": {"text": "Yondu Helmet"},
       "textures": {
-        "normal": "yondu:textures/armor/yondu_fin_armor.png"
+        "normal": "yondu:textures/armor/yondu_layer_1.png"
       },
       "item_texture": {
         "blockstate": "yondu:yondu_helmet"
@@ -93,7 +94,7 @@
       "glow": false,
       "name": {"text": "Yondu Chestplate"},
       "textures": {
-        "normal": "yondu:textures/armor/yondu_chest.png"
+        "normal": "yondu:textures/armor/yondu_layer_1.png"
       },
       "item_texture": {
         "blockstate": "yondu:yondu_chestplate"
@@ -104,7 +105,7 @@
       "glow": false,
       "name": {"text": "Yondu Leggings"},
       "textures": {
-        "normal": "yondu:textures/armor/yondu_legs.png"
+        "normal": "yondu:textures/armor/yondu_layer_2.png"
       },
       "item_texture": {
         "blockstate": "yondu:yondu_leggings"
@@ -115,7 +116,7 @@
       "glow": true,
       "name": {"text": "Yondu Boosters"},
       "textures": {
-        "normal": "yondu:textures/armor/yondu_feet.png"
+        "normal": "yondu:textures/armor/yondu_layer_1.png"
       },
       "item_texture": {
         "blockstate": "yondu:yondu_boots"
