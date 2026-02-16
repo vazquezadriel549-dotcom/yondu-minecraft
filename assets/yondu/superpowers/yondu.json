@@ -1,43 +1,51 @@
 {
   "name": {
-    "text": "Yondu Udonta Powers"
+    "text": "Yondu Udonta - Yaka Arrow Master"
   },
   "icon": {
     "type": "texture",
     "texture": "yondu:textures/gui/yondu.png"
   },
   "max_level": 10,
-  "capsule_color": 11141375,
+  "capsule_color": 16724787,
   "abilities": {
-    "strength": {
+    "ravager_strength": {
       "ability": "lucraftcore:strength",
       "show_in_bar": false,
       "title": {"text": "Ravager Strength"},
       "icon": {"type": "internal"},
-      "amount": 2,
+      "amount": 3,
       "required_level": 1
     },
-    "resistance": {
+    "combat_training": {
       "ability": "lucraftcore:resistance",
       "show_in_bar": false,
-      "title": {"text": "Combat Resistance"},
+      "title": {"text": "Ravager Combat Training"},
       "icon": {"type": "internal"},
-      "amount": 3,
+      "amount": 4,
+      "required_level": 1
+    },
+    "centaurian_agility": {
+      "ability": "lucraftcore:jump_boost",
+      "show_in_bar": false,
+      "title": {"text": "Centaurian Agility"},
+      "icon": {"type": "internal"},
+      "amount": 2,
       "required_level": 1
     },
     "fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "show_in_bar": false,
-      "amount": 5,
+      "amount": 8,
       "required_level": 1
     },
     "knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "show_in_bar": false,
-      "amount": 5,
+      "amount": 6,
       "required_level": 1
     },
-    "yaka_arrow": {
+    "yaka_arrow_basic": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Yaka Arrow"},
@@ -47,95 +55,113 @@
       },
       "projectile": {
         "type": "arrow",
-        "damage": 12,
-        "speed": 3.5,
+        "damage": 10,
+        "speed": 3.0,
         "gravity": false,
-        "piercing": 3
+        "piercing": 2
       },
-      "cooldown": 30,
+      "cooldown": 20,
       "required_level": 1
     },
-    "arrow_tracking": {
+    "whistle_control": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Arrow Tracking"},
+      "title": {"text": "Whistle Control - Tracking Arrow"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/tracking.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 15,
-        "speed": 4.5,
+        "damage": 20,
+        "speed": 5.5,
         "gravity": false,
-        "piercing": 5,
-        "knockback": 2
+        "piercing": 8,
+        "knockback": 3
       },
-      "cooldown": 45,
-      "required_level": 3
+      "cooldown": 40,
+      "required_level": 2
     },
-    "sonic_arrow": {
+    "ravager_massacre": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Sonic Arrow"},
+      "title": {"text": "Ravager Massacre"},
       "icon": {
         "type": "texture",
-        "texture": "yondu:textures/gui/sonic.png"
+        "texture": "yondu:textures/gui/barrage.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 18,
-        "speed": 5.0,
+        "damage": 15,
+        "speed": 4.8,
         "gravity": false,
-        "knockback": 3,
-        "fire": 5
+        "piercing": 10
       },
-      "cooldown": 80,
+      "cooldown": 60,
       "required_level": 5
     },
-    "whistler_barrage": {
-      "ability": "lucraftcore:projectile",
+    "im_mary_poppins": {
+      "ability": "lucraftcore:slowfall",
       "show_in_bar": true,
-      "title": {"text": "Whistler's Barrage"},
+      "title": {"text": "I'm Mary Poppins Y'all"},
       "icon": {
         "type": "texture",
-        "texture": "yondu:textures/gui/whistler.png"
+        "texture": "yondu:textures/gui/whistle.png"
       },
-      "projectile": {
-        "type": "arrow",
-        "damage": 10,
-        "speed": 3.8,
-        "gravity": false,
-        "piercing": 4
-      },
-      "cooldown": 50,
-      "required_level": 7
+      "required_level": 6
     },
-    "arrow_storm": {
+    "ship_clearer": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Arrow Storm"},
+      "title": {"text": "Ship Clearer"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 8,
-        "speed": 4.0,
+        "damage": 25,
+        "speed": 6.0,
         "gravity": false,
-        "piercing": 2
+        "piercing": 15,
+        "knockback": 4
       },
-      "cooldown": 60,
-      "required_level": 9
+      "cooldown": 90,
+      "required_level": 8
+    },
+    "centaurian_mastery": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Centaurian Arrow Mastery"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/sonic.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 30,
+        "speed": 7.0,
+        "gravity": false,
+        "piercing": 20,
+        "knockback": 5,
+        "fire": 10
+      },
+      "cooldown": 120,
+      "required_level": 10
     }
   },
   "effects": [
     {
       "type": "skin_overlay",
       "texture": "yondu:textures/skins/yondu_fin.png",
-      "glow": false,
-      "size": 0.05
+      "glow": true,
+      "size": 0.1
+    },
+    {
+      "type": "trail",
+      "trail_type": "arrow",
+      "color": [0.8, 0.1, 0.1],
+      "size": 0.3
     }
   ]
 }
