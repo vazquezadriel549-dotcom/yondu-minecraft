@@ -9,20 +9,20 @@
   "max_level": 10,
   "capsule_color": 16724787,
   "abilities": {
-    "ravager_strength": {
+    "centaurian_strength": {
       "ability": "lucraftcore:strength",
       "show_in_bar": false,
-      "title": {"text": "Ravager Strength"},
+      "title": {"text": "Centaurian Strength"},
       "icon": {"type": "internal"},
-      "amount": 3,
+      "amount": 1,
       "required_level": 1
     },
-    "combat_training": {
+    "basic_resistance": {
       "ability": "lucraftcore:resistance",
       "show_in_bar": false,
-      "title": {"text": "Ravager Combat Training"},
+      "title": {"text": "Basic Resistance"},
       "icon": {"type": "internal"},
-      "amount": 4,
+      "amount": 2,
       "required_level": 1
     },
     "centaurian_agility": {
@@ -30,19 +30,19 @@
       "show_in_bar": false,
       "title": {"text": "Centaurian Agility"},
       "icon": {"type": "internal"},
-      "amount": 2,
+      "amount": 1,
       "required_level": 1
     },
     "fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "show_in_bar": false,
-      "amount": 8,
+      "amount": 4,
       "required_level": 1
     },
     "knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "show_in_bar": false,
-      "amount": 6,
+      "amount": 3,
       "required_level": 1
     },
     "yaka_arrow_basic": {

@@ -1,11 +1,11 @@
 {
-  "name": {"text": "Yondu Suit"},
+  "name": {"text": "Yondu Ravager Suit"},
   "effects": [
     {
       "type": "skin_overlay",
       "texture": "yondu:textures/skins/yondu_fin.png",
       "size": 0.55,
-      "glow": false
+      "glow": true
     }
   ],
   "creative_tab": "models",
@@ -17,26 +17,58 @@
     "sound": "item.armor.equip_diamond"
   },
   "abilities": {
-    "health": {
+    "ravager_strength": {
+      "ability": "lucraftcore:strength",
+      "title": {"text": "Ravager Combat Strength"},
+      "amount": 4,
+      "show_in_bar": false
+    },
+    "ravager_resistance": {
+      "ability": "lucraftcore:resistance",
+      "title": {"text": "Ravager Armor Plating"},
+      "amount": 6,
+      "show_in_bar": false
+    },
+    "ravager_agility": {
+      "ability": "lucraftcore:jump_boost",
+      "title": {"text": "Powered Ravager Boots"},
+      "amount": 3,
+      "show_in_bar": false
+    },
+    "enhanced_health": {
       "ability": "lucraftcore:health",
-      "amount": 10
+      "title": {"text": "Ravager Vitality Enhancement"},
+      "amount": 20,
+      "show_in_bar": false
     },
     "fire_resistance": {
-      "ability": "lucraftcore:fire_resistance"
+      "ability": "lucraftcore:fire_resistance",
+      "title": {"text": "Environmental Protection"},
+      "show_in_bar": false
     },
-    "fall_resistance": {
+    "enhanced_fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
-      "amount": 5
+      "title": {"text": "Shock Absorbers"},
+      "amount": 6,
+      "show_in_bar": false
     },
-    "knockback_resistance": {
+    "enhanced_knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
-      "amount": 8
+      "title": {"text": "Stability Gyros"},
+      "amount": 10,
+      "show_in_bar": false
+    },
+    "ravager_speed": {
+      "ability": "lucraftcore:speed_boost",
+      "title": {"text": "Ravager Mobility"},
+      "amount": 1,
+      "show_in_bar": false
     }
   },
   "armor_parts": {
     "head": {
       "openable": false,
-      "glow": false,
+      "glow": true,
       "name": {"text": "Yondu Helmet"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_fin_armor.png"
