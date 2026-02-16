@@ -132,26 +132,10 @@
   },
   "effects": [
     {
-      "type": "particle",
-      "particle": "crit",
-      "conditions": [
-        {
-          "type": "ability_enabled",
-          "ability": "lucraftcore:projectile"
-        }
-      ]
-    },
-    {
-      "type": "sound_loop",
-      "sound": "entity.arrow.shoot",
-      "volume": 0.3,
-      "pitch": 1.2,
-      "conditions": [
-        {
-          "type": "ability_enabled",
-          "ability": "lucraftcore:projectile"
-        }
-      ]
+      "type": "skin_overlay",
+      "texture": "yondu:textures/skins/yondu_fin.png",
+      "glow": false,
+      "size": 0.05
     }
   ]
 }
