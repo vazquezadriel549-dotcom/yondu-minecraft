@@ -1,1 +1,181 @@
-{"name" : {"text": "Yondu Udonta"},"icon": {"type": "texture","texture": "yondu:textures/icons/yondu.png"},"max_level": 20,"capsule_color" : 16711680,"effects": [{"type": "trail","trail_type": "lightnings","color": [1, 0, 0],"use_suit_trails": false,"conditions": [{"type": "ability_enabled","ability": "yaka_arrow"},{"type": "moving"}]},{"type": "glowing_hand","color": [1, 0, 0],"size": 1.5,"conditions": [{"type": "ability_enabled","ability": "yaka_arrow"}]},{"type": "skin_overlay","texture": "yondu:textures/skins/yondu_fin.png","size": 0.6,"glow": false,"conditions": [{"type": "ability_enabled","ability": "predator_supreme"}]}],"abilities": [{"ability": "lucraftcore:toggle_power","title": {"text":"Whistler's Control"},"abilities": [],"icon": {"type": "texture","texture": "yondu:textures/icons/yondu.png"}},{"ability": "yaka_arrow","title": {"text":"Yaka Arrow"},"cooldown": 15,"required_level": 2,"icon": {"type": "texture","texture": "yondu:textures/icons/yaka_arrow.png"}},{"ability": "lucraftcore:strength","amount": 2,"operation": 0,"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e"},{"ability": "lucraftcore:punch","amount": 3,"operation": 0,"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e","required_level": 2},{"ability": "lucraftcore:fall_resistance","amount": 5,"operation": 0,"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e"},{"ability": "lucraftcore:jump_boost","amount": 4,"operation": 0,"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e","required_ability": "toggle_power"},{"ability": "arrow_storm","title": {"text":"Arrow Storm"},"cooldown": 40,"required_level": 7,"icon": {"type": "texture","texture": "yondu:textures/icons/arrow_storm.png"}},{"ability": "combat_enhancement","title": {"text":"Combat Rage"},"cooldown": 50,"required_level": 8,"icon": {"type": "texture","texture": "yondu:textures/icons/combat.png"}},{"ability": "ravager_instinct","title": {"text":"Ravager Instinct"},"cooldown": 60,"required_level": 9,"icon": {"type": "texture","texture": "yondu:textures/icons/ravager.png"}},{"ability": "master_of_arrows","title": {"text":"Master of Arrows"},"cooldown": 70,"required_level": 10,"icon": {"type": "texture","texture": "yondu:textures/icons/master_of_arrows.png"}},{"ability": "sonic_scream","title": {"text":"Sonic Scream"},"cooldown": 90,"required_level": 11,"icon": {"type": "texture","texture": "yondu:textures/icons/sonic.png"}},{"ability": "arrow_barrage","title": {"text":"Arrow Barrage"},"cooldown": 80,"required_level": 12,"icon": {"type": "texture","texture": "yondu:textures/icons/barrage.png"}},{"ability": "predator_supreme","title": {"text":"Predator Supreme"},"cooldown": 100,"required_level": 14,"icon": {"type": "texture","texture": "yondu:textures/icons/whistler.png"}}]}
+{
+	"name": {
+		"text": "§cYondu Udonta"
+	},
+	"icon": {
+		"type": "texture",
+		"texture": "yondu:textures/icons/yondu.png"
+	},
+	"capsule_color": 16711680,
+	"effects": [{
+		"type": "name_change",
+		"name": {
+			"text": "§cYondu"
+		},
+		"conditions": [{
+			"type": "always"
+		}]
+	},
+	{
+		"type": "trail",
+		"trail_type": "lightnings",
+		"color": [1, 0, 0],
+		"use_suit_trails": false,
+		"conditions": [{
+			"type": "ability_enabled",
+			"ability": "Yaka Arrow"
+		},
+		{
+			"type": "moving"
+		}]
+	},
+	{
+		"type": "glowing_hand",
+		"color": [1, 0, 0],
+		"size": 1.5,
+		"conditions": [{
+			"type": "ability_enabled",
+			"ability": "Yaka Arrow"
+		}]
+	},
+	{
+		"type": "skin_overlay",
+		"glow": false,
+		"size": 0.6,
+		"texture": "yondu:textures/skins/yondu_fin.png",
+		"conditions": [{
+			"type": "ability_enabled",
+			"ability": "Predator Supreme"
+		}]
+	}],
+	
+	"abilities": {
+		"Whistler's Control": {
+			"ability": "lucraftcore:toggle_power",
+			"title": {"text": "Whistler's Control"},
+			"bar_color": "red"
+		},
+		"Yaka Arrow": {
+			"ability": "lucraftcore:command_loop",
+			"title": {"text": "Yaka Arrow"},
+			"cooldown": 15,
+			"bar_color": "red",
+			"commands": ["effect @s speed 1 10 true", "effect @s strength 1 10 true"],
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Arrow Storm": {
+			"ability": "lucraftcore:command_loop",
+			"title": {"text": "Arrow Storm"},
+			"cooldown": 40,
+			"bar_color": "red",
+			"commands": ["effect @s strength 1 20 true", "effect @s speed 1 20 true"],
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Combat Rage": {
+			"ability": "lucraftcore:strength",
+			"amount": 5,
+			"title": {"text": "Combat Rage"},
+			"bar_color": "red",
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Ravager Instinct": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3,
+			"title": {"text": "Ravager Instinct"},
+			"bar_color": "red",
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Master of Arrows": {
+			"ability": "lucraftcore:command_loop",
+			"title": {"text": "Master of Arrows"},
+			"cooldown": 70,
+			"bar_color": "red",
+			"commands": ["effect @s speed 1 15 true"],
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Sonic Scream": {
+			"ability": "lucraftcore:command_loop",
+			"title": {"text": "Sonic Scream"},
+			"cooldown": 90,
+			"bar_color": "red",
+			"commands": ["effect @a[r=20] slowness 3 1 true", "effect @s strength 1 5 true"],
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Arrow Barrage": {
+			"ability": "lucraftcore:command_loop",
+			"title": {"text": "Arrow Barrage"},
+			"cooldown": 80,
+			"bar_color": "red",
+			"commands": ["effect @s speed 1 10 true", "effect @s strength 1 10 true"],
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Predator Supreme": {
+			"ability": "lucraftcore:command_loop",
+			"title": {"text": "Predator Supreme"},
+			"cooldown": 100,
+			"bar_color": "dark_red",
+			"commands": ["effect @s strength 1 20 true", "effect @s speed 1 20 true", "effect @s resistance 1 20 true"],
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Superhuman Strength": {
+			"ability": "lucraftcore:strength",
+			"amount": 3,
+			"title": {"text": "Superhuman Strength"},
+			"bar_color": "red",
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Enhanced Durability": {
+			"ability": "lucraftcore:resistance",
+			"amount": 5,
+			"title": {"text": "Enhanced Durability"},
+			"bar_color": "red",
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "Whistler's Control"
+			}]
+		},
+		"Extended Lungs": {
+			"ability": "lucraftcore:water_breathing",
+			"title": {"text": "Extended Lungs"},
+			"bar_color": "red"
+		},
+		"Ravager Reflexes": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5000,
+			"title": {"text": "Ravager Reflexes"},
+			"bar_color": "red"
+		},
+		"Warrior's Legacy": {
+			"ability": "lucraftcore:health",
+			"amount": 4,
+			"title": {"text": "Warrior's Legacy"}
+		}
+	}
+}
