@@ -12,39 +12,39 @@
   ],
   "creative_tab": "models",
   "armor_material": {
-    "durability": 7500,
-    "damage_reduction_amounts": [4, 8, 9, 4],
-    "enchantibility": 15,
-    "toughness": 4,
-    "sound": "item.armor.equip_diamond"
+    "durability": 2000,
+    "damage_reduction_amounts": [3, 8, 6, 3],
+    "enchantibility": 10,
+    "toughness": 3,
+    "sound": "item.armor.equip_netherite"
   },
   "abilities": {
     "ravager_strength": {
       "ability": "lucraftcore:strength",
       "title": {"text": "Ravager Combat Strength"},
-      "description": {"text": "Enhanced strength from powered armor (+5 strength)"},
-      "amount": 5,
+      "description": {"text": "Enhanced strength from powered armor (+3 strength)"},
+      "amount": 3,
       "show_in_bar": false
     },
     "ravager_resistance": {
       "ability": "lucraftcore:resistance",
       "title": {"text": "Ravager Armor Plating"},
-      "description": {"text": "Heavy armor plates (+7 resistance)"},
-      "amount": 7,
+      "description": {"text": "Heavy armor plates (+4 resistance)"},
+      "amount": 4,
       "show_in_bar": false
     },
     "ravager_agility": {
       "ability": "lucraftcore:jump_boost",
       "title": {"text": "Powered Ravager Boots"},
-      "description": {"text": "Hydraulic leg systems (+4 jump boost)"},
-      "amount": 4,
+      "description": {"text": "Hydraulic leg systems (+3 jump boost)"},
+      "amount": 3,
       "show_in_bar": false
     },
     "enhanced_health": {
       "ability": "lucraftcore:health",
       "title": {"text": "Ravager Vitality Enhancement"},
-      "description": {"text": "Life support systems (+25 health)"},
-      "amount": 25,
+      "description": {"text": "Life support systems (+15 health)"},
+      "amount": 15,
       "show_in_bar": false
     },
     "fire_resistance": {
@@ -56,15 +56,15 @@
     "enhanced_fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "title": {"text": "Shock Absorbers"},
-      "description": {"text": "Advanced dampening (+8 fall resistance)"},
-      "amount": 8,
+      "description": {"text": "Advanced dampening (+6 fall resistance)"},
+      "amount": 6,
       "show_in_bar": false
     },
     "enhanced_knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "title": {"text": "Stability Gyros"},
-      "description": {"text": "Gyroscopic stabilizers (+10 knockback resistance)"},
-      "amount": 10,
+      "description": {"text": "Gyroscopic stabilizers (+8 knockback resistance)"},
+      "amount": 8,
       "show_in_bar": false
     },
     "ravager_speed": {
@@ -84,6 +84,12 @@
       "ability": "lucraftcore:water_breathing",
       "title": {"text": "Sealed Suit Systems"},
       "description": {"text": "Breathe underwater with suit life support"},
+      "show_in_bar": false
+    },
+    "mary_poppins_slowfall": {
+      "ability": "lucraftcore:slowfall",
+      "title": {"text": "I'm Mary Poppins Y'all"},
+      "description": {"text": "Rocket boosters provide controlled descent"},
       "show_in_bar": false
     },
     "yondu_booster_flight": {

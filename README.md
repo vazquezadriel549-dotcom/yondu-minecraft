@@ -37,8 +37,8 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - Whistle Control - Tracking arrow (60 dmg, 7.0 spd, 60 pierce, 3s cooldown)
 
 ### Level 3 - Regenerator & Shield Master
-- Centaurian Healing - Accelerated health regeneration (+2)
-- Ravager Shield - Energy absorption shields (+6 absorption hearts)
+- **Centaurian Healing** - Passive regeneration (+2) for sustained combat
+- **Ravager Shield** - Passive absorption shields (+6 hearts) for extra protection
 
 ### Level 4 - Multi-Strike
 - Triple Arrow Strike - Split arrow attack (70 dmg, 6.0 spd, 80 pierce, 4s cooldown)
@@ -47,10 +47,10 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - Ravager Massacre - Multi-target piercing (85 dmg, 6.5 spd, 120 pierce, 2s cooldown)
 
 ### Level 6 - Sky Dancer
-- "I'm Mary Poppins Y'all" - Slow fall ability
+- (Slow fall moved to Ravager Suit requirement)
 
 ### Level 7 - Aquatic Operative
-- Aquatic Adaptation - Breathe underwater for extended missions
+- **Aquatic Adaptation** - Passive underwater breathing for extended missions
 
 ### Level 8 - Ship Clearer
 - Room-clearing devastation (120 dmg, 8.0 spd, 180 pierce, 2s cooldown)
@@ -62,13 +62,15 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - Ultimate arrow mastery (250 dmg, 10.0 spd, 999 pierce, Fire 25, 1s cooldown)
 
 ## Ravager Suit Features
-- Superior armor protection (7500 durability, better than diamond)
-- Enhanced enchantability (15) and toughness (+4)
+- Balanced armor protection (2000 durability, netherite-tier)
+- Protection values: [3, 8, 6, 3] (Helmet, Chest, Legs, Boots)
+- Enhanced enchantability (10) and toughness (+3)
 - Flight capability with rocket boosters (0.8 speed, 2.0 sprint speed)
-- Combat bonuses: +5 strength, +7 resistance, +4 jump boost, +2 speed
-- Defensive systems: +8 fall resistance, +10 knockback resistance
-- Life support: +25 health, fire resistance, water breathing
-- Night vision HUD system
+- **"I'm Mary Poppins Y'all"** - Passive slow fall from rocket boosters
+- Combat bonuses: +3 strength, +4 resistance, +3 jump boost, +2 speed
+- Defensive systems: +6 fall resistance, +8 knockback resistance
+- Life support: +15 health, fire resistance, water breathing (passive)
+- Night vision HUD system (passive)
 - **Openable Helmet**: Toggle between closed (standard) and open (fin armor) modes
 - Complete armor glow effects for intimidation
 
@@ -80,6 +82,19 @@ As you level up, your fin appearance evolves to reflect your growing power:
 - **Level 10**: Ultimate Fin (maximum power display - size 0.62)
 
 This progressive visual system lets other players immediately recognize your power level!
+
+## Passive Effect Abilities
+These abilities are always active when unlocked (no activation required):
+
+**Base Powers:**
+- **Centaurian Healing** (Level 3): Constant regeneration from alien biology
+- **Ravager Shield** (Level 3): Passive absorption hearts for extra protection
+- **Aquatic Adaptation** (Level 7): Breathe underwater indefinitely
+
+**Ravager Suit Required:**
+- **Mary Poppins Slowfall**: Rocket boosters provide controlled descent (armor only)
+- **Night Vision**: Advanced HUD targeting system
+- **Water Breathing**: Sealed suit life support systems
 
 ## Controls
 - **W, A, S, D**: Move your character
@@ -109,6 +124,7 @@ https://github.com/vazquezadriel549-dotcom/yondu-minecraft
 - v1.2.1: Enhanced progression with new mid-tier abilities, regeneration, water breathing, night vision, improved visual effects and particle trails
 - v1.3.0: Added absorption shields, detailed stat descriptions, improved extractor recipe, sound effects, enhanced armor stats and enchantability
 - v1.4.0: Implemented progressive visual fin evolution (4 variants), openable helmet with fin armor variant, custom water adaptation icon - all previously unused textures now functional
+- v1.5.0: Balanced armor and abilities for better gameplay - armor now netherite-tier (2000 durability), reduced overpowered stats, made all effect abilities passive, moved slow fall to armor requirement (thematic with rocket boosters)
 - v1.1.0: Initial release with full Yondu powers and suit
 
 ## Credits

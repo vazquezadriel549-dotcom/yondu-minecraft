@@ -109,7 +109,7 @@
     },
     "centaurian_healing": {
       "ability": "lucraftcore:regeneration",
-      "show_in_bar": true,
+      "show_in_bar": false,
       "title": {"text": "Centaurian Healing"},
       "description": {"text": "Accelerated healing from alien biology"},
       "icon": {
@@ -121,7 +121,7 @@
     },
     "ravager_shield": {
       "ability": "lucraftcore:absorption",
-      "show_in_bar": true,
+      "show_in_bar": false,
       "title": {"text": "Ravager Shield"},
       "description": {"text": "Generate protective energy shields (+6 absorption hearts)"},
       "icon": {
@@ -172,17 +172,6 @@
       "cooldown": 2,
       "sound": "entity.arrow.shoot",
       "required_level": 5
-    },
-    "im_mary_poppins": {
-      "ability": "lucraftcore:slowfall",
-      "show_in_bar": true,
-      "title": {"text": "I'm Mary Poppins Y'all"},
-      "description": {"text": "Float gently through the air like Mary Poppins"},
-      "icon": {
-        "type": "texture",
-        "texture": "yondu:textures/gui/whistle.png"
-      },
-      "required_level": 6
     },
     "water_adaptation": {
       "ability": "lucraftcore:water_breathing",
