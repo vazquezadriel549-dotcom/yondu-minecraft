@@ -9,12 +9,17 @@
     "fluid": "water",
     "amount": 3000
   },
-  "energy": 60000,
+  "energy": 50000,
   "outputs": {
     "primary": {
       "item": "lucraftcore:injection",
       "nbt": "{\"Injection\": \"yondu:yondu\"}",
-      "chance": 0.70
+      "chance": 0.75
+    },
+    "secondary": {
+      "item": "minecraft:feather",
+      "count": 2,
+      "chance": 0.35
     }
   }
 }

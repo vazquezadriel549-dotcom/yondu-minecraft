@@ -27,21 +27,22 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ## Abilities Progression
 ### Level 1 - Centaurian Warrior
-- Centaurian Strength, Resistance, Agility, and Vitality
-- Basic Yaka Arrow attack (30 damage)
-- Enhanced fall resistance and knockback resistance
+- Centaurian Strength (+2), Resistance (+3), Agility (+2), and Vitality (+15 health)
+- Basic Yaka Arrow attack (30 dmg, 4.5 spd, 35 pierce, 4s cooldown)
+- Enhanced fall resistance (+5) and knockback resistance (+4)
 
 ### Level 2 - Whistler
-- Whistle Control - Tracking arrow with increased damage (60 damage)
+- Whistle Control - Tracking arrow (60 dmg, 7.0 spd, 60 pierce, 3s cooldown)
 
-### Level 3 - Regenerator
-- Centaurian Healing - Accelerated health regeneration
+### Level 3 - Regenerator & Shield Master
+- Centaurian Healing - Accelerated health regeneration (+2)
+- Ravager Shield - Energy absorption shields (+6 absorption hearts)
 
 ### Level 4 - Multi-Strike
-- Triple Arrow Strike - Split arrow attack (70 damage)
+- Triple Arrow Strike - Split arrow attack (70 dmg, 6.0 spd, 80 pierce, 4s cooldown)
 
 ### Level 5 - Ravager
-- Ravager Massacre - Multi-target piercing attack (85 damage)
+- Ravager Massacre - Multi-target piercing (85 dmg, 6.5 spd, 120 pierce, 2s cooldown)
 
 ### Level 6 - Sky Dancer
 - "I'm Mary Poppins Y'all" - Slow fall ability
@@ -50,22 +51,22 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - Aquatic Adaptation - Breathe underwater for extended missions
 
 ### Level 8 - Ship Clearer
-- Devastating room-clearing arrow attack (120 damage)
+- Room-clearing devastation (120 dmg, 8.0 spd, 180 pierce, 2s cooldown)
 
 ### Level 9 - Barrage Master
-- Arrow Barrage - Rapid-fire assault with fire damage (150 damage)
+- Arrow Barrage - Rapid-fire assault with fire (150 dmg, 9.0 spd, 250 pierce, 1s cooldown)
 
 ### Level 10 - Centaurian Master
-- Ultimate mastery with unstoppable fire arrows (250 damage)
+- Ultimate arrow mastery (250 dmg, 10.0 spd, 999 pierce, Fire 25, 1s cooldown)
 
 ## Ravager Suit Features
-- Superior armor protection (better than diamond)
-- Flight capability with rocket boosters
-- Enhanced strength, resistance, and mobility
-- Fire resistance and environmental protection
-- Advanced shock absorbers for fall damage
+- Superior armor protection (7500 durability, better than diamond)
+- Enhanced enchantability (15) and toughness (+4)
+- Flight capability with rocket boosters (0.8 speed, 2.0 sprint speed)
+- Combat bonuses: +5 strength, +7 resistance, +4 jump boost, +2 speed
+- Defensive systems: +8 fall resistance, +10 knockback resistance
+- Life support: +25 health, fire resistance, water breathing
 - Night vision HUD system
-- Full underwater capability with life support
 - Complete armor glow effects for intimidation
 
 ## Controls
@@ -80,8 +81,9 @@ Use the Extractor with:
 - Arrow
 - Injection container
 - Water (3000mb)
-- 60,000 RF energy
-- 70% success rate for Yondu power injection
+- 50,000 RF energy (reduced from 60k)
+- 75% success rate for Yondu power injection (improved)
+- Bonus: 35% chance for 2 feathers as secondary output
 
 ## Creator Information
 Created by vazquezadriel549
@@ -92,6 +94,7 @@ https://github.com/vazquezadriel549-dotcom/yondu-minecraft
 ## Version History
 - v1.2.0: Major improvements to abilities, balance, and added missing model files
 - v1.2.1: Enhanced progression with new mid-tier abilities, regeneration, water breathing, night vision, improved visual effects and particle trails
+- v1.3.0: Added absorption shields, detailed stat descriptions, improved extractor recipe, sound effects, enhanced armor stats and enchantability
 - v1.1.0: Initial release with full Yondu powers and suit
 
 ## Credits

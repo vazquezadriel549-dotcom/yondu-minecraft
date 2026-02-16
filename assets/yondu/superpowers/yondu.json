@@ -70,7 +70,7 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Yaka Arrow - Basic"},
-      "description": {"text": "Launch a controlled Yaka Arrow that ignores gravity"},
+      "description": {"text": "Launch a controlled Yaka Arrow (30 dmg, 4.5 spd, 35 pierce)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/yaka_arrow.png"
@@ -83,13 +83,14 @@
         "piercing": 35
       },
       "cooldown": 4,
+      "sound": "entity.arrow.shoot",
       "required_level": 1
     },
     "whistle_control": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Whistle Control - Tracking"},
-      "description": {"text": "Whistle to guide your arrow with precision"},
+      "description": {"text": "Whistle to guide your arrow (60 dmg, 7.0 spd, 60 pierce)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/tracking.png"
@@ -103,6 +104,7 @@
         "knockback": 5
       },
       "cooldown": 3,
+      "sound": "entity.arrow.shoot",
       "required_level": 2
     },
     "centaurian_healing": {
@@ -117,11 +119,23 @@
       "amount": 2,
       "required_level": 3
     },
+    "ravager_shield": {
+      "ability": "lucraftcore:absorption",
+      "show_in_bar": true,
+      "title": {"text": "Ravager Shield"},
+      "description": {"text": "Generate protective energy shields (+6 absorption hearts)"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/combat.png"
+      },
+      "amount": 6,
+      "required_level": 3
+    },
     "triple_arrow_strike": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Triple Arrow Strike"},
-      "description": {"text": "Split your arrow into three devastating projectiles"},
+      "description": {"text": "Split arrow into three projectiles (70 dmg, 6.0 spd, 80 pierce)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
@@ -135,13 +149,14 @@
         "knockback": 4
       },
       "cooldown": 4,
+      "sound": "entity.arrow.shoot",
       "required_level": 4
     },
     "ravager_massacre": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Ravager Massacre"},
-      "description": {"text": "Devastating attack that pierces through multiple enemies"},
+      "description": {"text": "Devastating multi-pierce attack (85 dmg, 6.5 spd, 120 pierce)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/barrage.png"
@@ -155,6 +170,7 @@
         "knockback": 3
       },
       "cooldown": 2,
+      "sound": "entity.arrow.shoot",
       "required_level": 5
     },
     "im_mary_poppins": {
@@ -180,7 +196,7 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Ship Clearer"},
-      "description": {"text": "Clear entire rooms of enemies with devastating force"},
+      "description": {"text": "Room-clearing devastation (120 dmg, 8.0 spd, 180 pierce)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
@@ -194,13 +210,14 @@
         "knockback": 7
       },
       "cooldown": 2,
+      "sound": "entity.arrow.shoot",
       "required_level": 8
     },
     "arrow_barrage": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Arrow Barrage"},
-      "description": {"text": "Rapid-fire arrow assault overwhelming enemies"},
+      "description": {"text": "Rapid-fire assault (150 dmg, 9.0 spd, 250 pierce, Fire 10)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/ravager.png"
@@ -215,13 +232,14 @@
         "fire": 10
       },
       "cooldown": 1,
+      "sound": "entity.arrow.shoot",
       "required_level": 9
     },
     "centaurian_mastery": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Centaurian Mastery"},
-      "description": {"text": "Ultimate mastery of the Yaka Arrow - unstoppable and devastating"},
+      "description": {"text": "Ultimate arrow mastery (250 dmg, 10.0 spd, 999 pierce, Fire 25)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
@@ -236,6 +254,7 @@
         "fire": 25
       },
       "cooldown": 1,
+      "sound": "entity.arrow.shoot",
       "required_level": 10
     }
   },
