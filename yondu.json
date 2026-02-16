@@ -1,1 +1,24 @@
-{\n  "armor_material": "yondu:material/yondu_armor",\n  "armor_parts": {\n    "head": {\n      "texture": "yondu:textures/suits/yondu/yondu_fin.png"\n    },\n    "chest": {\n      "texture": "yondu:textures/suits/yondu/yondu_fin.png"\n    },\n    "legs": {\n      "texture": "yondu:textures/suits/yondu/yondu_fin.png"\n    },\n    "feet": {\n      "texture": "yondu:textures/suits/yondu/yondu_fin.png"\n    }\n  }\n}
+{
+    "input": {
+        "item": "minecraft:arrow"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+
+    "input_fluid": {
+        "fluid": "water",
+        "amount": 3000
+    },
+
+    "energy": 60000,
+
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"yondu:f4_humantorch\"}",
+            "chance": 0.60
+        }
+    }
+}
