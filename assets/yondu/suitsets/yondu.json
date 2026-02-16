@@ -1,5 +1,6 @@
 {
   "name": {"text": "Yondu Ravager Suit"},
+  "description": {"text": "Authentic Ravager combat armor with integrated Yaka Arrow technology and flight systems"},
   "add_abilities": true,
   "effects": [
     {
@@ -11,46 +12,52 @@
   ],
   "creative_tab": "models",
   "armor_material": {
-    "durability": 5000,
-    "damage_reduction_amounts": [3, 6, 8, 3],
-    "enchantibility": 10,
-    "toughness": 2,
+    "durability": 6000,
+    "damage_reduction_amounts": [4, 7, 9, 4],
+    "enchantibility": 12,
+    "toughness": 3,
     "sound": "item.armor.equip_diamond"
   },
   "abilities": {
     "ravager_strength": {
       "ability": "lucraftcore:strength",
       "title": {"text": "Ravager Combat Strength"},
-      "amount": 4,
+      "description": {"text": "Enhanced strength from powered armor systems"},
+      "amount": 5,
       "show_in_bar": false
     },
     "ravager_resistance": {
       "ability": "lucraftcore:resistance",
       "title": {"text": "Ravager Armor Plating"},
-      "amount": 6,
+      "description": {"text": "Heavy armor plates provide superior protection"},
+      "amount": 7,
       "show_in_bar": false
     },
     "ravager_agility": {
       "ability": "lucraftcore:jump_boost",
       "title": {"text": "Powered Ravager Boots"},
-      "amount": 3,
+      "description": {"text": "Hydraulic leg systems for enhanced jumping"},
+      "amount": 4,
       "show_in_bar": false
     },
     "enhanced_health": {
       "ability": "lucraftcore:health",
       "title": {"text": "Ravager Vitality Enhancement"},
-      "amount": 20,
+      "description": {"text": "Life support systems boost your endurance"},
+      "amount": 25,
       "show_in_bar": false
     },
     "fire_resistance": {
       "ability": "lucraftcore:fire_resistance",
       "title": {"text": "Environmental Protection"},
+      "description": {"text": "Sealed suit protects against fire and extreme temperatures"},
       "show_in_bar": false
     },
     "enhanced_fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "title": {"text": "Shock Absorbers"},
-      "amount": 6,
+      "description": {"text": "Advanced dampening systems reduce fall damage"},
+      "amount": 8,
       "show_in_bar": false
     },
     "enhanced_knockback_resistance": {
@@ -62,17 +69,19 @@
     "ravager_speed": {
       "ability": "lucraftcore:speed_boost",
       "title": {"text": "Ravager Mobility"},
-      "amount": 1,
+      "description": {"text": "Enhanced movement speed for tactical advantage"},
+      "amount": 2,
       "show_in_bar": false
     },
     "yondu_booster_flight": {
       "ability": "lucraftcore:flight",
       "show_in_bar": true,
       "title": {"text": "Yondu Boosters"},
-      "speed": 0.6,
-      "sprint_speed": 1.5,
+      "description": {"text": "Rocket-powered flight system with high-speed capability"},
+      "speed": 0.8,
+      "sprint_speed": 2.0,
       "rotate_arms": false,
-      "cooldown": 30,
+      "cooldown": 25,
       "bar_color": "red",
       "icon": {"type": "internal"}
     }
@@ -84,9 +93,6 @@
       "name": {"text": "Yondu Helmet"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_1.png"
-      },
-      "item_texture": {
-        "blockstate": "yondu:yondu_helmet"
       }
     },
     "chest": {
@@ -95,9 +101,6 @@
       "name": {"text": "Yondu Chestplate"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_1.png"
-      },
-      "item_texture": {
-        "blockstate": "yondu:yondu_chestplate"
       }
     },
     "legs": {
@@ -106,9 +109,6 @@
       "name": {"text": "Yondu Leggings"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_2.png"
-      },
-      "item_texture": {
-        "blockstate": "yondu:yondu_leggings"
       }
     },
     "feet": {
@@ -117,9 +117,6 @@
       "name": {"text": "Yondu Boosters"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_1.png"
-      },
-      "item_texture": {
-        "blockstate": "yondu:yondu_boots"
       }
     }
   }

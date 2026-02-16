@@ -2,6 +2,9 @@
   "name": {
     "text": "Yondu Udonta - Yaka Arrow Master"
   },
+  "description": {
+    "text": "Master the legendary Yaka Arrow and channel the power of Centauri. Unlock devastating abilities as you progress through levels."
+  },
   "icon": {
     "type": "texture",
     "texture": "yondu:textures/gui/yondu.png"
@@ -13,105 +16,120 @@
       "ability": "lucraftcore:strength",
       "show_in_bar": false,
       "title": {"text": "Centaurian Strength"},
+      "description": {"text": "Enhanced physical strength from Centauri heritage"},
       "icon": {"type": "internal"},
-      "amount": 1,
+      "amount": 2,
       "required_level": 1
     },
     "basic_resistance": {
       "ability": "lucraftcore:resistance",
       "show_in_bar": false,
-      "title": {"text": "Basic Resistance"},
+      "title": {"text": "Ravager Toughness"},
+      "description": {"text": "Years of combat have hardened your body"},
       "icon": {"type": "internal"},
-      "amount": 2,
+      "amount": 3,
       "required_level": 1
     },
     "centaurian_agility": {
       "ability": "lucraftcore:jump_boost",
       "show_in_bar": false,
       "title": {"text": "Centaurian Agility"},
+      "description": {"text": "Superior mobility and reflexes"},
       "icon": {"type": "internal"},
-      "amount": 1,
+      "amount": 2,
       "required_level": 1
     },
     "fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "show_in_bar": false,
-      "amount": 4,
+      "title": {"text": "Acrobatic Landing"},
+      "description": {"text": "Take less damage from falls"},
+      "icon": {"type": "internal"},
+      "amount": 5,
       "required_level": 1
     },
     "knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "show_in_bar": false,
-      "amount": 3,
+      "title": {"text": "Unwavering Stance"},
+      "description": {"text": "Resist being knocked back in combat"},
+      "icon": {"type": "internal"},
+      "amount": 4,
       "required_level": 1
     },
     "centaurian_vitality": {
       "ability": "lucraftcore:health",
       "show_in_bar": false,
       "title": {"text": "Centaurian Vitality"},
+      "description": {"text": "Increased health from alien physiology"},
       "icon": {"type": "internal"},
-      "amount": 10,
+      "amount": 15,
       "required_level": 1
     },
     "yaka_arrow_basic": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Yaka Arrow - Persistent"},
+      "title": {"text": "Yaka Arrow - Basic"},
+      "description": {"text": "Launch a controlled Yaka Arrow that ignores gravity"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/yaka_arrow.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 25,
-        "speed": 4.0,
+        "damage": 30,
+        "speed": 4.5,
         "gravity": false,
-        "piercing": 30
+        "piercing": 35
       },
-      "cooldown": 5,
+      "cooldown": 4,
       "required_level": 1
     },
     "whistle_control": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Whistle Control - Auto-Tracking"},
+      "title": {"text": "Whistle Control - Tracking"},
+      "description": {"text": "Whistle to guide your arrow with precision"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/tracking.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 50,
-        "speed": 6.5,
+        "damage": 60,
+        "speed": 7.0,
         "gravity": false,
-        "piercing": 50,
-        "knockback": 4
+        "piercing": 60,
+        "knockback": 5
       },
-      "cooldown": 2,
+      "cooldown": 3,
       "required_level": 2
     },
     "ravager_massacre": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Ravager Massacre - Multi-Kill"},
+      "title": {"text": "Ravager Massacre"},
+      "description": {"text": "Devastating attack that pierces through multiple enemies"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/barrage.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 75,
-        "speed": 5.5,
+        "damage": 85,
+        "speed": 6.5,
         "gravity": false,
-        "piercing": 100
+        "piercing": 120,
+        "knockback": 3
       },
-      "cooldown": 1,
+      "cooldown": 2,
       "required_level": 5
     },
     "im_mary_poppins": {
       "ability": "lucraftcore:slowfall",
       "show_in_bar": true,
       "title": {"text": "I'm Mary Poppins Y'all"},
+      "description": {"text": "Float gently through the air like Mary Poppins"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistle.png"
@@ -121,40 +139,42 @@
     "ship_clearer": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Ship Clearer - Devastation"},
+      "title": {"text": "Ship Clearer"},
+      "description": {"text": "Clear entire rooms of enemies with devastating force"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 100,
-        "speed": 7.5,
+        "damage": 120,
+        "speed": 8.0,
         "gravity": false,
-        "piercing": 150,
-        "knockback": 6
+        "piercing": 180,
+        "knockback": 7
       },
-      "cooldown": 1,
+      "cooldown": 2,
       "required_level": 8
     },
     "centaurian_mastery": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Centaurian Mastery - Unstoppable"},
+      "title": {"text": "Centaurian Mastery"},
+      "description": {"text": "Ultimate mastery of the Yaka Arrow - unstoppable and devastating"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 200,
-        "speed": 9.0,
+        "damage": 250,
+        "speed": 10.0,
         "gravity": false,
         "piercing": 999,
-        "knockback": 8,
-        "fire": 20
+        "knockback": 10,
+        "fire": 25
       },
-      "cooldown": 0,
+      "cooldown": 1,
       "required_level": 10
     }
   },

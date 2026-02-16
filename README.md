@@ -1,24 +1,84 @@
-# Yondu Minecraft Mod
+# Yondu Minecraft Addon
+
+A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians of the Galaxy to Minecraft!
+
+## Requirements
+- Minecraft Java Edition 1.12.2
+- Forge Mod Loader
+- Lucraft Core (required)
+- Heroes Expansion (required)
+- CurseForge launcher (recommended)
 
 ## Features
-- Customizable character abilities
-- Unique gameplay mechanics
-- Enhanced graphics and textures
+- **10 Progressive Ability Levels**: Unlock devastating powers as you level up
+- **Yaka Arrow Mastery**: Multiple arrow abilities with increasing damage and piercing
+- **Centaurian Physiology**: Enhanced strength, resistance, agility, and health
+- **Full Ravager Suit**: Complete armor set with boosted stats and flight capability
+- **Unique Abilities**: Including the iconic "I'm Mary Poppins Y'all" slow fall
+- **Enhanced Graphics**: Custom textures for armor, abilities, and visual effects
 
 ## Installation Instructions
-1. Download the mod file from the release section.
-2. Place the mod file in your `mods` folder.
-3. Launch Minecraft with the appropriate mod loader (e.g., Forge).
+1. Install Minecraft Java Edition 1.12.2
+2. Install Forge Mod Loader for 1.12.2
+3. Download and install Lucraft Core and Heroes Expansion
+4. Download this addon from the releases section
+5. Place the addon file in your `mods` folder or `lucraftcore/addons` folder
+6. Launch Minecraft through CurseForge or Forge profile
 
 ## Abilities Progression
-- Players can unlock new abilities by completing challenges.
-- Abilities can be upgraded for increased effectiveness.
+### Level 1 - Centaurian Warrior
+- Centaurian Strength, Resistance, Agility, and Vitality
+- Basic Yaka Arrow attack
+- Enhanced fall resistance and knockback resistance
+
+### Level 2 - Whistler
+- Whistle Control - Tracking arrow with increased damage
+
+### Level 5 - Ravager
+- Ravager Massacre - Multi-target piercing attack
+
+### Level 6 - Sky Dancer
+- "I'm Mary Poppins Y'all" - Slow fall ability
+
+### Level 8 - Ship Clearer
+- Devastating room-clearing arrow attack
+
+### Level 10 - Centaurian Master
+- Ultimate mastery with unstoppable fire arrows
+
+## Ravager Suit Features
+- Superior armor protection (better than diamond)
+- Flight capability with rocket boosters
+- Enhanced strength, resistance, and mobility
+- Fire resistance and environmental protection
+- Advanced shock absorbers for fall damage
 
 ## Controls
 - **W, A, S, D**: Move your character
-- **Space**: Jump
+- **Space**: Jump (enhanced with abilities)
 - **E**: Open Inventory
-- **F**: Use Ability
+- **F**: Use Active Ability (cycle through abilities)
+- **Double Space**: Activate flight (when wearing full suit)
+
+## Crafting
+Use the Extractor with:
+- Arrow
+- Injection container
+- Water (3000mb)
+- 60,000 RF energy
+- 70% success rate for Yondu power injection
 
 ## Creator Information
-This mod was created by vazquezadriel549. For updates and support, visit https://github.com/vazquezadriel549-dotcom/yondu-minecraft
+Created by vazquezadriel549
+
+For updates, support, and bug reports:
+https://github.com/vazquezadriel549-dotcom/yondu-minecraft
+
+## Version History
+- v1.2.0: Major improvements to abilities, balance, and added missing model files
+- v1.1.0: Initial release with full Yondu powers and suit
+
+## Credits
+- Based on Yondu Udonta from Marvel's Guardians of the Galaxy
+- Powered by Lucraft Core and Heroes Expansion mods
+- Special thanks to the Lucraft community
