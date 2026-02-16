@@ -1,23 +1,175 @@
 {
-  "superpowers": {
-    "toggle_power": { "enabled": false, "level": 1 },
-    "flight": { "enabled": false, "level": 2 },
-    "sprint": { "enabled": false, "level": 1 },
-    "health_boost": { "enabled": false, "level": 3 },
-    "healing": { "enabled": false, "level": 1 },
-    "strength": { "enabled": false, "level": 2 },
-    "punch": { "enabled": false, "level": 1 },
-    "fall_resistance": { "enabled": false, "level": 2 },
-    "jump_boost": { "enabled": false, "level": 2 },
-    "step_assist": { "enabled": false, "level": 1 },
-    "resistance": { "enabled": false, "level": 3 },
-    "knockback_resistance": { "enabled": false, "level": 2 },
-    "tough_lungs": { "enabled": false, "level": 1 },
-    "water_breathing": { "enabled": false, "level": 1 },
-    "fire_resistance": { "enabled": false, "level": 3 },
-    "night_vision": { "enabled": false, "level": 4 },
-    "speed_boost": { "enabled": false, "level": 2 },
-    "saturation": { "enabled": false, "level": 1 },
-    "absorption": { "enabled": false, "level": 3 }
-  }
+  "name": {
+    "text": "Yondu Udonta - Yaka Arrow Master"
+  },
+  "icon": {
+    "type": "texture",
+    "texture": "yondu:textures/gui/yondu.png"
+  },
+  "max_level": 10,
+  "capsule_color": 16724787,
+  "abilities": {
+    "centaurian_strength": {
+      "ability": "lucraftcore:strength",
+      "show_in_bar": false,
+      "title": {"text": "Centaurian Strength"},
+      "icon": {"type": "internal"},
+      "amount": 1,
+      "required_level": 1
+    },
+    "basic_resistance": {
+      "ability": "lucraftcore:resistance",
+      "show_in_bar": false,
+      "title": {"text": "Basic Resistance"},
+      "icon": {"type": "internal"},
+      "amount": 2,
+      "required_level": 1
+    },
+    "centaurian_agility": {
+      "ability": "lucraftcore:jump_boost",
+      "show_in_bar": false,
+      "title": {"text": "Centaurian Agility"},
+      "icon": {"type": "internal"},
+      "amount": 1,
+      "required_level": 1
+    },
+    "fall_resistance": {
+      "ability": "lucraftcore:fall_resistance",
+      "show_in_bar": false,
+      "amount": 4,
+      "required_level": 1
+    },
+    "knockback_resistance": {
+      "ability": "lucraftcore:knockback_resistance",
+      "show_in_bar": false,
+      "amount": 3,
+      "required_level": 1
+    },
+    "centaurian_vitality": {
+      "ability": "lucraftcore:health",
+      "show_in_bar": false,
+      "title": {"text": "Centaurian Vitality"},
+      "icon": {"type": "internal"},
+      "amount": 10,
+      "required_level": 1
+    },
+    "yaka_arrow_basic": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Yaka Arrow - Persistent"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/yaka_arrow.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 25,
+        "speed": 4.0,
+        "gravity": false,
+        "piercing": 30
+      },
+      "cooldown": 5,
+      "required_level": 1
+    },
+    "whistle_control": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Whistle Control - Auto-Tracking"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/tracking.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 50,
+        "speed": 6.5,
+        "gravity": false,
+        "piercing": 50,
+        "knockback": 4
+      },
+      "cooldown": 2,
+      "required_level": 2
+    },
+    "ravager_massacre": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Ravager Massacre - Multi-Kill"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/barrage.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 75,
+        "speed": 5.5,
+        "gravity": false,
+        "piercing": 100
+      },
+      "cooldown": 1,
+      "required_level": 5
+    },
+    "im_mary_poppins": {
+      "ability": "lucraftcore:slowfall",
+      "show_in_bar": true,
+      "title": {"text": "I'm Mary Poppins Y'all"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/whistle.png"
+      },
+      "required_level": 6
+    },
+    "ship_clearer": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Ship Clearer - Devastation"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/arrow_storm.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 100,
+        "speed": 7.5,
+        "gravity": false,
+        "piercing": 150,
+        "knockback": 6
+      },
+      "cooldown": 1,
+      "required_level": 8
+    },
+    "centaurian_mastery": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Centaurian Mastery - Unstoppable"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/sonic.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 200,
+        "speed": 9.0,
+        "gravity": false,
+        "piercing": 999,
+        "knockback": 8,
+        "fire": 20
+      },
+      "cooldown": 0,
+      "required_level": 10
+    }
+  },
+  "effects": [
+    {
+      "type": "skin_overlay",
+      "texture": "yondu:textures/skins/yondu_fin.png",
+      "glow": true,
+      "size": 0.55
+    },
+    {
+      "type": "trail",
+      "trail_type": "arrow",
+      "color": [0.8, 0.1, 0.1],
+      "size": 0.3
+    }
+  ]
 }
