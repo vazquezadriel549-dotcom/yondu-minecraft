@@ -291,7 +291,8 @@
       "texture": "yondu:textures/skins/yondu_fin3.png",
       "glow": true,
       "size": 0.62,
-      "min_level": 10
+      "min_level": 10,
+      "max_level": 10
     },
     {
       "type": "trail",
