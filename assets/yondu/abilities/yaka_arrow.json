@@ -1,0 +1,12 @@
+{"ability": "Yaka Arrow",
+ "description": "Targets the nearest mob, deals damage, persists until the mob is dead, and can be recalled with a second cast to return to player and disappear.",
+ "effects": {
+   "type": "damage",
+   "target": "nearest_mob",
+   "damage": 10,
+   "persistence": true,
+   "recall": {
+     "enabled": true,
+     "action": "return"
+   }
+ }}
