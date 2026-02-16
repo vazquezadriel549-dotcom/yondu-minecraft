@@ -1,0 +1,7 @@
+<!DOCTYPE png>
+<!-- Placeholder texture with multiple red arrows -->
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="16,0 12,6 20,6" fill="red"/>
+  <polygon points="16,10 12,16 20,16" fill="red"/>
+  <polygon points="16,20 12,26 20,26" fill="red"/>
+</svg>
