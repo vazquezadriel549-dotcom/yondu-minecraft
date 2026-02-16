@@ -1,1 +1,15 @@
-{"superpowers":{"baseFin":{"image":"yondu_fin.png","condition":"always"},"overlays":{"fin1":{"condition":"Whistler's Control","enabled":true},"fin2":{"condition":"Arrow Storm","enabled":false},"fin3":{"condition":"Predator Supreme","enabled":false,"retainUntilDisabled":true}},"abilities":{"Yaka Arrow":{"effects":[],"condition":"enabled"},"Combat Rage":{"effects":[],"condition":"enabled"},"Ravager Instinct":{"effects":[],"condition":"enabled"},"Master of Arrows":{"effects":[],"condition":"enabled"},"Sonic Scream":{"effects":[],"condition":"enabled"},"Arrow Barrage":{"effects":[],"condition":"enabled"}},"passiveAbilities":["Passive Ability 1","Passive Ability 2"]}}
+{
+  "superpowers": [
+    {
+      "name": "Power 1",
+      "description": "Description of Power 1",
+      "requirements": {}
+    },
+    {
+      "name": "Power 2",
+      "description": "Description of Power 2",
+      "requirements": {}
+    }
+    // Additional powers
+  ]
+}
