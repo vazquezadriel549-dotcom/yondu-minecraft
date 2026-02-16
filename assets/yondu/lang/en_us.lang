@@ -1,4 +1,25 @@
-# Sample Language File
-# Add your translations below
-# Example:
-# message_key=translated_message
+# Power Yondu
+power_yondu.name=Power Yondu
+power_yondu.description=The ultimate warrior with unmatched skills.
+
+# Abilities
+abilities.yaka_arrow.name=Yaka Arrow
+abilities.yaka_arrow.description=Launch a deadly arrow that homes in on enemies.
+
+abilities.sonic_pull.name=Sonic Pull
+abilities.sonic_pull.description=Pulls enemies closer within a radius.
+
+abilities.sonic_stun.name=Sonic Stun
+abilities.sonic_stun.description=Stuns all enemies in a small area.
+
+abilities.echo_wave.name=Echo Wave
+abilities.echo_wave.description=Sends out a wave of energy that damages and pushes back enemies.
+
+abilities.sonic_burst.name=Sonic Burst
+abilities.sonic_burst.description=A burst of sonic energy that knocks back enemies.
+
+# Passive Effects
+passive_effects.power_mastery.name=Power Mastery
+passive_effects.power_mastery.description=Increases damage output by 20%.
+passive_effects.speed_boost.name=Speed Boost
+passive_effects.speed_boost.description=Increases movement speed by 15%.
