@@ -45,6 +45,14 @@
       "amount": 3,
       "required_level": 1
     },
+    "centaurian_vitality": {
+      "ability": "lucraftcore:health",
+      "show_in_bar": false,
+      "title": {"text": "Centaurian Vitality"},
+      "icon": {"type": "internal"},
+      "amount": 10,
+      "required_level": 1
+    },
     "yaka_arrow_basic": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
