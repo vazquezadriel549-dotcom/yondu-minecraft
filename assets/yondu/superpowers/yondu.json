@@ -1,1 +1,161 @@
-{\n  "name": "Yondu Udonta",\n  "superpowers": [\n    {\n      "ability": "toggle_power",\n      "cooldown": 10,\n      "level": 1,\n      "bar_color": "blue",\n      "conditions": ["none"],\n      "effects": ["none"],\n      "learning_progression": "Unlocks at level 1"\n    },\n    {\n      "ability": "Whistle",\n      "cooldown": 5,\n      "level": 1,\n      "bar_color": "red",\n      "conditions": ["none"],\n      "effects": ["calls Yaka Arrow"],\n      "learning_progression": "Unlocks at level 1"\n    },\n    {\n      "ability": "Yaka_Arrow",\n      "cooldown": 15,\n      "level": 2,\n      "bar_color": "green",\n      "conditions": ["toggle_power"],\n      "effects": ["deals damage"],\n      "learning_progression": "Unlocks at level 2"\n    },\n    {\n      "ability": "Predator_Mode",\n      "cooldown": 20,\n      "level": 3,\n      "bar_color": "yellow",\n      "conditions": ["none"],\n      "effects": ["enhanced vision"],\n      "learning_progression": "Unlocks at level 3"\n    },\n    {\n      "ability": "Flight",\n      "cooldown": 25,\n      "level": 4,\n      "bar_color": "purple",\n      "conditions": ["none"],\n      "effects": ["grants flying ability"],\n      "learning_progression": "Unlocks at level 4"\n    },\n    {\n      "ability": "Tracking",\n      "cooldown": 10,\n      "level": 5,\n      "bar_color": "cyan",\n      "conditions": ["none"],\n      "effects": ["tracks enemies"],\n      "learning_progression": "Unlocks at level 5"\n    },\n    {\n      "ability": "Telekinesis",\n      "cooldown": 30,\n      "level": 6,\n      "bar_color": "orange",\n      "conditions": ["none"],\n      "effects": ["move objects"],\n      "learning_progression": "Unlocks at level 6"\n    },\n    {\n      "ability": "Arrow_Storm",\n      "cooldown": 40,\n      "level": 7,\n      "bar_color": "pink",\n      "conditions": ["none"],\n      "effects": ["fires multiple arrows"],\n      "learning_progression": "Unlocks at level 7"\n    },\n    {\n      "ability": "Combat_Enhancement",\n      "cooldown": 50,\n      "level": 8,\n      "bar_color": "red",\n      "conditions": ["none"],\n      "effects": ["enhances combat abilities"],\n      "learning_progression": "Unlocks at level 8"\n    },\n    {\n      "ability": "Ravager_Instinct",\n      "cooldown": 60,\n      "level": 9,\n      "bar_color": "brown",\n      "conditions": ["none"],\n      "effects": ["increases reflexes"],\n      "learning_progression": "Unlocks at level 9"\n    },\n    {\n      "ability": "Master_of_Arrows",\n      "cooldown": 70,\n      "level": 10,\n      "bar_color": "black",\n      "conditions": ["none"],\n      "effects": ["boosts arrow damage"],\n      "learning_progression": "Unlocks at level 10"\n    },\n    {\n      "ability": "Sonic_Scream",\n      "cooldown": 90,\n      "level": 11,\n      "bar_color": "violet",\n      "conditions": ["none"],\n      "effects": ["deals area damage"],\n      "learning_progression": "Unlocks at level 11"\n    },\n    {\n      "ability": "Arrow_Barrage",\n      "cooldown": 80,\n      "level": 12,\n      "bar_color": "blue",\n      "conditions": ["none"],\n      "effects": ["rapidly fires arrows"],\n      "learning_progression": "Unlocks at level 12"\n    },\n    {\n      "ability": "Whistler",\n      "cooldown": 15,\n      "level": 13,\n      "bar_color": "green",\n      "conditions": ["none"],\n      "effects": ["calls arrows"],\n      "learning_progression": "Unlocks at level 13"\n    },\n    {\n      "ability": "Predator_Supreme",\n      "cooldown": 100,\n      "level": 14,\n      "bar_color": "red",\n      "conditions": ["none"],\n      "effects": ["ultimate predator mode"],\n      "learning_progression": "Unlocks at level 14"\n    }\n  ]\n}
+{
+	"name" : {
+		"text": "Yondu Udonta"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "yondu:textures/icons/yondu.png"
+	},
+	
+	"max_level": 20,
+	
+	"capsule_color" : 16711680,
+	
+	"effects": [
+		{
+			"type": "trail",
+			"trail_type": "lightnings",
+			"color": [1, 0, 0],
+			"use_suit_trails": false,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "yaka_arrow"
+				},
+				{
+					"type": "moving"
+				}
+			]
+		},
+		{
+			"type": "glowing_hand",
+			"color": [1, 0, 0],
+			"size": 1.5,
+			"conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "yaka_arrow"
+				}
+			]
+		}
+	],
+	
+	"abilities": [
+		{
+			"ability": "lucraftcore:toggle_power",
+			"title": {"text":"Whistler's Control"},
+			"abilities": [],
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/yondu.png"
+				}
+		},
+		{
+			"ability": "yaka_arrow",
+			"title": {"text":"Yaka Arrow"},
+			"cooldown": 15,
+			"required_level": 2,
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/yaka_arrow.png"
+				}
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 2,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e"
+		},
+		{
+			"ability": "lucraftcore:punch",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e",
+			"required_level": 2
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 4,
+			"operation": 0,
+			"uuid": "ff38d1b5-fd0c-4063-ae71-0838291e118e",
+			"required_ability": "toggle_power"
+		},
+		{
+			"ability": "arrow_storm",
+			"title": {"text":"Arrow Storm"},
+			"cooldown": 40,
+			"required_level": 7,
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/arrow_storm.png"
+				}
+		},
+		{
+			"ability": "combat_enhancement",
+			"title": {"text":"Combat Rage"},
+			"cooldown": 50,
+			"required_level": 8,
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/combat.png"
+				}
+		},
+		{
+			"ability": "ravager_instinct",
+			"title": {"text":"Ravager Instinct"},
+			"cooldown": 60,
+			"required_level": 9,
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/ravager.png"
+				}
+		},
+		{
+			"ability": "master_of_arrows",
+			"title": {"text":"Master of Arrows"},
+			"cooldown": 70,
+			"required_level": 10,
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/master_of_arrows.png"
+				}
+		},
+		{
+			"ability": "sonic_scream",
+			"title": {"text":"Sonic Scream"},
+			"cooldown": 90,
+			"required_level": 11,
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/sonic.png"
+				}
+		},
+		{
+			"ability": "arrow_barrage",
+			"title": {"text":"Arrow Barrage"},
+			"cooldown": 80,
+			"required_level": 12,
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/barrage.png"
+				}
+		},
+		{
+			"ability": "predator_supreme",
+			"title": {"text":"Predator Supreme"},
+			"cooldown": 100,
+			"required_level": 14,
+			"icon": {
+					"type": "texture",
+					"texture": "yondu:textures/icons/whistler.png"
+				}
+		}
+	]
+}
