@@ -11,9 +11,11 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ## Features
 - **10 Progressive Ability Levels**: Unlock devastating powers as you level up
+- **Visual Progression**: Evolving fin appearance that grows with your power level
 - **Yaka Arrow Mastery**: Multiple arrow abilities with increasing damage and piercing
 - **Centaurian Physiology**: Enhanced strength, resistance, agility, and health
 - **Full Ravager Suit**: Complete armor set with boosted stats and flight capability
+- **Openable Helmet**: Toggle between standard and fin armor variants
 - **Unique Abilities**: Including the iconic "I'm Mary Poppins Y'all" slow fall
 - **Enhanced Graphics**: Custom textures for armor, abilities, and visual effects
 
@@ -67,7 +69,17 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - Defensive systems: +8 fall resistance, +10 knockback resistance
 - Life support: +25 health, fire resistance, water breathing
 - Night vision HUD system
+- **Openable Helmet**: Toggle between closed (standard) and open (fin armor) modes
 - Complete armor glow effects for intimidation
+
+## Visual Progression System
+As you level up, your fin appearance evolves to reflect your growing power:
+- **Levels 1-3**: Basic Yondu Fin (standard appearance)
+- **Levels 4-6**: Enhanced Fin (larger, more prominent - size 0.58)
+- **Levels 7-9**: Advanced Fin (even more imposing - size 0.60)
+- **Level 10**: Ultimate Fin (maximum power display - size 0.62)
+
+This progressive visual system lets other players immediately recognize your power level!
 
 ## Controls
 - **W, A, S, D**: Move your character
@@ -75,6 +87,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - **E**: Open Inventory
 - **F**: Use Active Ability (cycle through abilities)
 - **Double Space**: Activate flight (when wearing full suit)
+- **Helmet Toggle**: Open/close helmet to switch between standard and fin armor appearances
 
 ## Crafting
 Use the Extractor with:
@@ -95,6 +108,7 @@ https://github.com/vazquezadriel549-dotcom/yondu-minecraft
 - v1.2.0: Major improvements to abilities, balance, and added missing model files
 - v1.2.1: Enhanced progression with new mid-tier abilities, regeneration, water breathing, night vision, improved visual effects and particle trails
 - v1.3.0: Added absorption shields, detailed stat descriptions, improved extractor recipe, sound effects, enhanced armor stats and enchantability
+- v1.4.0: Implemented progressive visual fin evolution (4 variants), openable helmet with fin armor variant, custom water adaptation icon - all previously unused textures now functional
 - v1.1.0: Initial release with full Yondu powers and suit
 
 ## Credits

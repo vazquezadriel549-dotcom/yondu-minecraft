@@ -189,7 +189,10 @@
       "show_in_bar": false,
       "title": {"text": "Aquatic Adaptation"},
       "description": {"text": "Breathe underwater for extended operations"},
-      "icon": {"type": "internal"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/icons/yondu_fin_icon.png"
+      },
       "required_level": 7
     },
     "ship_clearer": {
@@ -263,7 +266,32 @@
       "type": "skin_overlay",
       "texture": "yondu:textures/skins/yondu_fin.png",
       "glow": true,
-      "size": 0.55
+      "size": 0.55,
+      "min_level": 1,
+      "max_level": 3
+    },
+    {
+      "type": "skin_overlay",
+      "texture": "yondu:textures/skins/yondu_fin1.png",
+      "glow": true,
+      "size": 0.58,
+      "min_level": 4,
+      "max_level": 6
+    },
+    {
+      "type": "skin_overlay",
+      "texture": "yondu:textures/skins/yondu_fin2.png",
+      "glow": true,
+      "size": 0.60,
+      "min_level": 7,
+      "max_level": 9
+    },
+    {
+      "type": "skin_overlay",
+      "texture": "yondu:textures/skins/yondu_fin3.png",
+      "glow": true,
+      "size": 0.62,
+      "min_level": 10
     },
     {
       "type": "trail",

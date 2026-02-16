@@ -101,11 +101,12 @@
   },
   "armor_parts": {
     "head": {
-      "openable": false,
+      "openable": true,
       "glow": true,
       "name": {"text": "Yondu Helmet"},
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_1.png"
+        "normal": "yondu:textures/armor/yondu_layer_1.png",
+        "open": "yondu:textures/armor/yondu_fin_armor.png"
       }
     },
     "chest": {
