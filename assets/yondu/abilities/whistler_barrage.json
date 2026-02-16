@@ -1,0 +1,14 @@
+{
+  "type": "lucraftcore:projectile",
+  "title": {"text": "Whistler's Barrage"},
+  "description": "Command multiple Yaka Arrows simultaneously with expert whistle control",
+  "icon": {"type": "texture", "texture": "yondu:textures/gui/whistler.png"},
+  "projectile": {
+    "type": "arrow",
+    "damage": 10,
+    "speed": 3.8,
+    "gravity": false,
+    "piercing": 4
+  },
+  "cooldown": 50
+}

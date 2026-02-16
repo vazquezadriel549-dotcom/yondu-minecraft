@@ -1,0 +1,15 @@
+{
+  "type": "lucraftcore:projectile",
+  "title": {"text": "Arrow Tracking"},
+  "description": "Whistle to guide the Yaka Arrow with deadly precision and increased velocity",
+  "icon": {"type": "texture", "texture": "yondu:textures/gui/tracking.png"},
+  "projectile": {
+    "type": "arrow",
+    "damage": 15,
+    "speed": 4.5,
+    "gravity": false,
+    "piercing": 5,
+    "knockback": 2
+  },
+  "cooldown": 45
+}

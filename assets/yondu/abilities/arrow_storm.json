@@ -1,0 +1,14 @@
+{
+  "type": "lucraftcore:projectile",
+  "title": {"text": "Arrow Storm"},
+  "description": "Unleash a devastating barrage of Yaka Arrows in rapid succession",
+  "icon": {"type": "texture", "texture": "yondu:textures/gui/arrow_storm.png"},
+  "projectile": {
+    "type": "arrow",
+    "damage": 8,
+    "speed": 4.0,
+    "gravity": false,
+    "piercing": 2
+  },
+  "cooldown": 60
+}

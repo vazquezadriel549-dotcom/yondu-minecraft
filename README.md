@@ -21,4 +21,4 @@
 - **F**: Use Ability
 
 ## Creator Information
-This mod was created by [Your Name]. For updates and support, follow [Your GitHub Profile or Website].
+This mod was created by vazquezadriel549. For updates and support, visit https://github.com/vazquezadriel549-dotcom/yondu-minecraft

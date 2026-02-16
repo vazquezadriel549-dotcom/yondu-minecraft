@@ -1,0 +1,15 @@
+{
+  "type": "lucraftcore:projectile",
+  "title": {"text": "Sonic Arrow"},
+  "description": "Fire a sonic-charged Yaka Arrow that creates a shockwave on impact",
+  "icon": {"type": "texture", "texture": "yondu:textures/gui/sonic.png"},
+  "projectile": {
+    "type": "arrow",
+    "damage": 18,
+    "speed": 5.0,
+    "gravity": false,
+    "knockback": 3,
+    "fire": 5
+  },
+  "cooldown": 80
+}
