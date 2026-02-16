@@ -1,1 +1,0 @@
-{\n  "armor": {\n    "helmet": {\n      "id": "yondu_helmet",\n      "defense": 3\n    },\n    "chestplate": {\n      "id": "yondu_chestplate",\n      "defense": 8\n    },\n    "leggings": {\n      "id": "yondu_leggings",\n      "defense": 6\n    },\n    "boots": {\n      "id": "yondu_boots",\n      "defense": 2\n    }\n  }\n}
