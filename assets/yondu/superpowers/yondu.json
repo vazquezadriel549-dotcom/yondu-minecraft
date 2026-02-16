@@ -14,7 +14,7 @@
       "show_in_bar": false,
       "title": {"text": "Ravager Strength"},
       "icon": {"type": "internal"},
-      "amount": 2.0,
+      "amount": 2,
       "required_level": 1
     },
     "resistance": {
@@ -22,33 +22,32 @@
       "show_in_bar": false,
       "title": {"text": "Combat Resistance"},
       "icon": {"type": "internal"},
-      "amount": 3.0,
+      "amount": 3,
       "required_level": 1
     },
     "fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "show_in_bar": false,
-      "amount": 5.0,
+      "amount": 5,
       "required_level": 1
     },
     "knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "show_in_bar": false,
-      "amount": 5.0,
+      "amount": 5,
       "required_level": 1
     },
     "yaka_arrow": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Yaka Arrow"},
-      "description": {"text": "Launch the deadly whistling Yaka Arrow that pierces through enemies"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/yaka_arrow.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 12.0,
+        "damage": 12,
         "speed": 3.5,
         "gravity": false,
         "piercing": 3
@@ -60,18 +59,17 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Arrow Tracking"},
-      "description": {"text": "Whistle to guide the Yaka Arrow with deadly precision and increased velocity"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/tracking.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 15.0,
+        "damage": 15,
         "speed": 4.5,
         "gravity": false,
         "piercing": 5,
-        "knockback": 2.0
+        "knockback": 2
       },
       "cooldown": 45,
       "required_level": 3
@@ -80,17 +78,16 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Sonic Arrow"},
-      "description": {"text": "Fire a sonic-charged Yaka Arrow that creates a shockwave on impact"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 18.0,
+        "damage": 18,
         "speed": 5.0,
         "gravity": false,
-        "knockback": 3.0,
+        "knockback": 3,
         "fire": 5
       },
       "cooldown": 80,
@@ -100,14 +97,13 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Whistler's Barrage"},
-      "description": {"text": "Command multiple Yaka Arrows simultaneously with expert whistle control"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 10.0,
+        "damage": 10,
         "speed": 3.8,
         "gravity": false,
         "piercing": 4
@@ -119,14 +115,13 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Arrow Storm"},
-      "description": {"text": "Unleash a devastating barrage of Yaka Arrows in rapid succession"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 8.0,
+        "damage": 8,
         "speed": 4.0,
         "gravity": false,
         "piercing": 2
