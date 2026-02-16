@@ -155,7 +155,7 @@
       "type": "skin_overlay",
       "texture": "yondu:textures/skins/yondu_fin.png",
       "glow": true,
-      "size": 0.1
+      "size": 0.55
     },
     {
       "type": "trail",
