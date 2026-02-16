@@ -1,118 +1,23 @@
 {
-  "abilities": [
-    {
-      "id": "ability1",
-      "title": "Ability One",
-      "description": "Description for ability one",
-      "icon": ""
-    },
-    {
-      "id": "ability2",
-      "title": "Ability Two",
-      "description": "Description for ability two",
-      "icon": ""
-    },
-    {
-      "id": "ability3",
-      "title": "Ability Three",
-      "description": "Description for ability three",
-      "icon": ""
-    },
-    {
-      "id": "ability4",
-      "title": "Ability Four",
-      "description": "Description for ability four",
-      "icon": ""
-    },
-    {
-      "id": "ability5",
-      "title": "Ability Five",
-      "description": "Description for ability five",
-      "icon": ""
-    },
-    {
-      "id": "ability6",
-      "title": "Ability Six",
-      "description": "Description for ability six",
-      "icon": ""
-    },
-    {
-      "id": "ability7",
-      "title": "Ability Seven",
-      "description": "Description for ability seven",
-      "icon": ""
-    },
-    {
-      "id": "ability8",
-      "title": "Ability Eight",
-      "description": "Description for ability eight",
-      "icon": ""
-    },
-    {
-      "id": "ability9",
-      "title": "Ability Nine",
-      "description": "Description for ability nine",
-      "icon": ""
-    },
-    {
-      "id": "ability10",
-      "title": "Ability Ten",
-      "description": "Description for ability ten",
-      "icon": ""
-    },
-    {
-      "id": "ability11",
-      "title": "Ability Eleven",
-      "description": "Description for ability eleven",
-      "icon": ""
-    },
-    {
-      "id": "ability12",
-      "title": "Ability Twelve",
-      "description": "Description for ability twelve",
-      "icon": ""
-    },
-    {
-      "id": "ability13",
-      "title": "Ability Thirteen",
-      "description": "Description for ability thirteen",
-      "icon": ""
-    },
-    {
-      "id": "ability14",
-      "title": "Ability Fourteen",
-      "description": "Description for ability fourteen",
-      "icon": ""
-    },
-    {
-      "id": "ability15",
-      "title": "Ability Fifteen",
-      "description": "Description for ability fifteen",
-      "icon": ""
-    },
-    {
-      "id": "ability16",
-      "title": "Ability Sixteen",
-      "description": "Description for ability sixteen",
-      "icon": ""
-    },
-    {
-      "id": "ability17",
-      "title": "Ability Seventeen",
-      "description": "Description for ability seventeen",
-      "icon": ""
-    },
-    {
-      "id": "ability18",
-      "title": "Ability Eighteen",
-      "description": "Description for ability eighteen",
-      "icon": ""
-    },
-    {
-      "id": "toggle_power",
-      "title": "Toggle Power",
-      "description": "Toggles the power on or off",
-      "icon": ""
-    }
-  ]
+  "superpowers": {
+    "toggle_power": { "enabled": false, "level": 1 },
+    "flight": { "enabled": false, "level": 2 },
+    "sprint": { "enabled": false, "level": 1 },
+    "health_boost": { "enabled": false, "level": 3 },
+    "healing": { "enabled": false, "level": 1 },
+    "strength": { "enabled": false, "level": 2 },
+    "punch": { "enabled": false, "level": 1 },
+    "fall_resistance": { "enabled": false, "level": 2 },
+    "jump_boost": { "enabled": false, "level": 2 },
+    "step_assist": { "enabled": false, "level": 1 },
+    "resistance": { "enabled": false, "level": 3 },
+    "knockback_resistance": { "enabled": false, "level": 2 },
+    "tough_lungs": { "enabled": false, "level": 1 },
+    "water_breathing": { "enabled": false, "level": 1 },
+    "fire_resistance": { "enabled": false, "level": 3 },
+    "night_vision": { "enabled": false, "level": 4 },
+    "speed_boost": { "enabled": false, "level": 2 },
+    "saturation": { "enabled": false, "level": 1 },
+    "absorption": { "enabled": false, "level": 3 }
+  }
 }
