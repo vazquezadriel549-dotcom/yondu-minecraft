@@ -48,56 +48,56 @@
     "yaka_arrow_basic": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Yaka Arrow"},
+      "title": {"text": "Yaka Arrow - Persistent"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/yaka_arrow.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 10,
-        "speed": 3.0,
+        "damage": 25,
+        "speed": 4.0,
         "gravity": false,
-        "piercing": 2
+        "piercing": 30
       },
-      "cooldown": 20,
+      "cooldown": 5,
       "required_level": 1
     },
     "whistle_control": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Whistle Control - Tracking Arrow"},
+      "title": {"text": "Whistle Control - Auto-Tracking"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/tracking.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 20,
-        "speed": 5.5,
+        "damage": 50,
+        "speed": 6.5,
         "gravity": false,
-        "piercing": 8,
-        "knockback": 3
+        "piercing": 50,
+        "knockback": 4
       },
-      "cooldown": 40,
+      "cooldown": 2,
       "required_level": 2
     },
     "ravager_massacre": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Ravager Massacre"},
+      "title": {"text": "Ravager Massacre - Multi-Kill"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/barrage.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 15,
-        "speed": 4.8,
+        "damage": 75,
+        "speed": 5.5,
         "gravity": false,
-        "piercing": 10
+        "piercing": 100
       },
-      "cooldown": 60,
+      "cooldown": 1,
       "required_level": 5
     },
     "im_mary_poppins": {
@@ -113,40 +113,40 @@
     "ship_clearer": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Ship Clearer"},
+      "title": {"text": "Ship Clearer - Devastation"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 25,
-        "speed": 6.0,
+        "damage": 100,
+        "speed": 7.5,
         "gravity": false,
-        "piercing": 15,
-        "knockback": 4
+        "piercing": 150,
+        "knockback": 6
       },
-      "cooldown": 90,
+      "cooldown": 1,
       "required_level": 8
     },
     "centaurian_mastery": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Centaurian Arrow Mastery"},
+      "title": {"text": "Centaurian Mastery - Unstoppable"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 30,
-        "speed": 7.0,
+        "damage": 200,
+        "speed": 9.0,
         "gravity": false,
-        "piercing": 20,
-        "knockback": 5,
-        "fire": 10
+        "piercing": 999,
+        "knockback": 8,
+        "fire": 20
       },
-      "cooldown": 120,
+      "cooldown": 0,
       "required_level": 10
     }
   },
