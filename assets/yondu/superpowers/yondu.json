@@ -105,6 +105,38 @@
       "cooldown": 3,
       "required_level": 2
     },
+    "ravager_regeneration": {
+      "ability": "lucraftcore:regeneration",
+      "show_in_bar": true,
+      "title": {"text": "Centaurian Healing"},
+      "description": {"text": "Accelerated healing from alien biology"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/combat.png"
+      },
+      "amount": 2,
+      "required_level": 3
+    },
+    "triple_arrow": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Triple Arrow Strike"},
+      "description": {"text": "Split your arrow into three devastating projectiles"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/whistler.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 70,
+        "speed": 6.0,
+        "gravity": false,
+        "piercing": 80,
+        "knockback": 4
+      },
+      "cooldown": 4,
+      "required_level": 4
+    },
     "ravager_massacre": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
@@ -136,6 +168,14 @@
       },
       "required_level": 6
     },
+    "water_adaptation": {
+      "ability": "lucraftcore:water_breathing",
+      "show_in_bar": false,
+      "title": {"text": "Aquatic Adaptation"},
+      "description": {"text": "Breathe underwater for extended operations"},
+      "icon": {"type": "internal"},
+      "required_level": 7
+    },
     "ship_clearer": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
@@ -155,6 +195,27 @@
       },
       "cooldown": 2,
       "required_level": 8
+    },
+    "arrow_barrage": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Arrow Barrage"},
+      "description": {"text": "Rapid-fire arrow assault overwhelming enemies"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/ravager.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 150,
+        "speed": 9.0,
+        "gravity": false,
+        "piercing": 250,
+        "knockback": 8,
+        "fire": 10
+      },
+      "cooldown": 1,
+      "required_level": 9
     },
     "centaurian_mastery": {
       "ability": "lucraftcore:projectile",
@@ -188,8 +249,14 @@
     {
       "type": "trail",
       "trail_type": "arrow",
-      "color": [0.8, 0.1, 0.1],
-      "size": 0.3
+      "color": [1.0, 0.2, 0.2],
+      "size": 0.4
+    },
+    {
+      "type": "particles",
+      "particle": "redstone",
+      "count": 3,
+      "speed": 0.1
     }
   ]
 }

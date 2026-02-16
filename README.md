@@ -28,23 +28,35 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 ## Abilities Progression
 ### Level 1 - Centaurian Warrior
 - Centaurian Strength, Resistance, Agility, and Vitality
-- Basic Yaka Arrow attack
+- Basic Yaka Arrow attack (30 damage)
 - Enhanced fall resistance and knockback resistance
 
 ### Level 2 - Whistler
-- Whistle Control - Tracking arrow with increased damage
+- Whistle Control - Tracking arrow with increased damage (60 damage)
+
+### Level 3 - Regenerator
+- Centaurian Healing - Accelerated health regeneration
+
+### Level 4 - Multi-Strike
+- Triple Arrow Strike - Split arrow attack (70 damage)
 
 ### Level 5 - Ravager
-- Ravager Massacre - Multi-target piercing attack
+- Ravager Massacre - Multi-target piercing attack (85 damage)
 
 ### Level 6 - Sky Dancer
 - "I'm Mary Poppins Y'all" - Slow fall ability
 
+### Level 7 - Aquatic Operative
+- Aquatic Adaptation - Breathe underwater for extended missions
+
 ### Level 8 - Ship Clearer
-- Devastating room-clearing arrow attack
+- Devastating room-clearing arrow attack (120 damage)
+
+### Level 9 - Barrage Master
+- Arrow Barrage - Rapid-fire assault with fire damage (150 damage)
 
 ### Level 10 - Centaurian Master
-- Ultimate mastery with unstoppable fire arrows
+- Ultimate mastery with unstoppable fire arrows (250 damage)
 
 ## Ravager Suit Features
 - Superior armor protection (better than diamond)
@@ -52,6 +64,9 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - Enhanced strength, resistance, and mobility
 - Fire resistance and environmental protection
 - Advanced shock absorbers for fall damage
+- Night vision HUD system
+- Full underwater capability with life support
+- Complete armor glow effects for intimidation
 
 ## Controls
 - **W, A, S, D**: Move your character
@@ -76,6 +91,7 @@ https://github.com/vazquezadriel549-dotcom/yondu-minecraft
 
 ## Version History
 - v1.2.0: Major improvements to abilities, balance, and added missing model files
+- v1.2.1: Enhanced progression with new mid-tier abilities, regeneration, water breathing, night vision, improved visual effects and particle trails
 - v1.1.0: Initial release with full Yondu powers and suit
 
 ## Credits

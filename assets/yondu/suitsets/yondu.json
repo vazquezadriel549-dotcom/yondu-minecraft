@@ -63,6 +63,7 @@
     "enhanced_knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "title": {"text": "Stability Gyros"},
+      "description": {"text": "Gyroscopic stabilizers prevent being knocked around"},
       "amount": 10,
       "show_in_bar": false
     },
@@ -71,6 +72,18 @@
       "title": {"text": "Ravager Mobility"},
       "description": {"text": "Enhanced movement speed for tactical advantage"},
       "amount": 2,
+      "show_in_bar": false
+    },
+    "night_vision": {
+      "ability": "lucraftcore:night_vision",
+      "title": {"text": "Helmet HUD"},
+      "description": {"text": "Advanced targeting system with night vision"},
+      "show_in_bar": false
+    },
+    "water_breathing": {
+      "ability": "lucraftcore:water_breathing",
+      "title": {"text": "Sealed Suit Systems"},
+      "description": {"text": "Breathe underwater with suit life support"},
       "show_in_bar": false
     },
     "yondu_booster_flight": {
@@ -97,7 +110,7 @@
     },
     "chest": {
       "openable": false,
-      "glow": false,
+      "glow": true,
       "name": {"text": "Yondu Chestplate"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_1.png"
@@ -105,7 +118,7 @@
     },
     "legs": {
       "openable": false,
-      "glow": false,
+      "glow": true,
       "name": {"text": "Yondu Leggings"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_2.png"
