@@ -24,7 +24,7 @@
     ],
     "enchantibility": 10,
     "toughness": 3,
-    "sound": "item.armor.equip_netherite"
+    "sound": "item.armor.equip_diamond"
   },
   "abilities": {
     "ravager_strength": {

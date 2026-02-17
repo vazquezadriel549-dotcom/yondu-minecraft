@@ -11,7 +11,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ## Features
 - **10 Progressive Ability Levels**: Unlock devastating powers as you level up
-- **40 Total Abilities**: 24 base powers + 16 suit abilities
+- **38 Total Abilities**: 23 base powers + 15 suit abilities
 - **Visual Progression**: Evolving fin appearance that grows with your power level
 - **Yaka Arrow Mastery**: Multiple arrow abilities with smooth damage scaling (35-300 dmg)
 - **Centaurian Physiology**: Enhanced strength, resistance, agility, health, and endurance
@@ -75,7 +75,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - **Yaka Arrow Rampage** - Toggle ON/OFF -- The Yaka Arrow flies on its own, hunting down and killing every enemy nearby one after another, just like the iconic Eclector hallway scene (25 dmg per hit, 10 block radius, continuous). Use the power again to turn it off.
 
 ## Ravager Suit Features
-- Balanced armor protection (2000 durability, netherite-tier)
+- Balanced armor protection (2000 durability, diamond-tier)
 - Protection values: [3, 8, 6, 3] (Helmet, Chest, Legs, Boots)
 - Enhanced enchantability (10) and toughness (+3)
 - Flight capability with rocket boosters (0.8 speed, 2.0 sprint speed)
@@ -137,12 +137,10 @@ These abilities are always active when unlocked (no activation required):
 
 ## Crafting
 Use the Extractor with:
-- Arrow
-- Injection container
-- Water (3000mb)
-- 50,000 RF energy (reduced from 60k)
-- 75% success rate for Yondu power injection (improved)
-- Bonus: 35% chance for 2 feathers as secondary output
+- Arrow (ingredient)
+- Produces a Yondu superpower injection
+- Extracting Time: 200 ticks (10 seconds)
+- Extracting Power: 100 RF
 
 ## Creator Information
 Created by vazquezadriel549
@@ -151,8 +149,9 @@ For updates, support, and bug reports:
 https://github.com/vazquezadriel549-dotcom/yondu-minecraft
 
 ## Version History
-- v1.6.0: Major expansion - Added 8 new abilities (5 base + 3 suit), rebalanced all projectile damage for smooth progression (35→300), enhanced Battle Cry and Arrow Rain with status effects, improved particle effects (added crit particles), updated all ability descriptions with exact stats
-- v1.5.0: Balanced armor and abilities for better gameplay - armor now netherite-tier (2000 durability), reduced overpowered stats, made all effect abilities passive, moved slow fall to armor requirement (thematic with rocket boosters)
+- v1.7.0: Comprehensive format audit and compatibility fixes for Lucraft Core 1.12.2 -- fixed addonpack.mcmeta format, extractor recipe format, removed invalid netherite references, cleaned up unused textures, improved all texture detail, enhanced GUI icons
+- v1.6.0: Major expansion - Added 8 new abilities (5 base + 3 suit), rebalanced all projectile damage for smooth progression (35-300), enhanced Battle Cry and Arrow Rain with status effects, improved particle effects (added crit particles), updated all ability descriptions with exact stats
+- v1.5.0: Balanced armor and abilities for better gameplay - armor now diamond-tier (2000 durability), reduced overpowered stats, made all effect abilities passive, moved slow fall to armor requirement (thematic with rocket boosters)
 - v1.4.0: Implemented progressive visual fin evolution (4 variants), openable helmet with fin armor variant, custom water adaptation icon - all previously unused textures now functional
 - v1.3.0: Added absorption shields, detailed stat descriptions, improved extractor recipe, sound effects, enhanced armor stats and enchantability
 - v1.2.1: Enhanced progression with new mid-tier abilities, regeneration, water breathing, night vision, improved visual effects and particle trails
