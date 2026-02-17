@@ -92,6 +92,34 @@
       "description": {"text": "Rocket boosters provide controlled descent"},
       "show_in_bar": false
     },
+    "energy_shield": {
+      "ability": "lucraftcore:invulnerability",
+      "show_in_bar": true,
+      "title": {"text": "Energy Shield"},
+      "description": {"text": "Deploy temporary protective energy field (8s duration, 45s cooldown)"},
+      "duration": 8,
+      "cooldown": 45,
+      "icon": {"type": "internal"}
+    },
+    "ravager_fury": {
+      "ability": "lucraftcore:damage_boost",
+      "show_in_bar": true,
+      "title": {"text": "Ravager's Fury"},
+      "description": {"text": "Channel your rage into devastating attacks (+5 damage, 12s duration)"},
+      "amount": 5,
+      "duration": 12,
+      "cooldown": 30,
+      "icon": {"type": "internal"}
+    },
+    "stealth_mode": {
+      "ability": "lucraftcore:invisibility",
+      "show_in_bar": true,
+      "title": {"text": "Stealth Cloak"},
+      "description": {"text": "Advanced cloaking device (10s duration, 60s cooldown)"},
+      "duration": 10,
+      "cooldown": 60,
+      "icon": {"type": "internal"}
+    },
     "yondu_booster_flight": {
       "ability": "lucraftcore:flight",
       "show_in_bar": true,

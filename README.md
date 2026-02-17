@@ -43,20 +43,25 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 ### Level 4 - Multi-Strike
 - Triple Arrow Strike - Split arrow attack (70 dmg, 6.0 spd, 80 pierce, 4s cooldown)
 
-### Level 5 - Ravager
+### Level 5 - Ravager Warrior
 - Ravager Massacre - Multi-target piercing (85 dmg, 6.5 spd, 120 pierce, 2s cooldown)
+- **Battle Cry** - Intimidating war cry damages and weakens nearby enemies (15 dmg, 8 range, 15s cooldown)
 
-### Level 6 - Tracker
+### Level 6 - Enhanced Combatant
 - **Enhanced Perception** - Passive night vision to track targets in any environment
+- **Ravager's Reflexes** - Passive speed boost from combat experience (+3 speed)
 
-### Level 7 - Aquatic Operative
+### Level 7 - Tactical Specialist
 - **Aquatic Adaptation** - Passive underwater breathing for extended missions
+- **Arrow Rain** - Area-of-effect arrow bombardment (25 dmg, 12 range, 20s cooldown)
 
-### Level 8 - Ship Clearer
-- Room-clearing devastation (120 dmg, 8.0 spd, 180 pierce, 2s cooldown)
+### Level 8 - Elite Ravager
+- Ship Clearer - Room-clearing devastation (120 dmg, 8.0 spd, 180 pierce, 2s cooldown)
+- **Centaurian Endurance** - Passive superior stamina reduces hunger (+5 saturation)
 
-### Level 9 - Barrage Master
+### Level 9 - Master Warrior
 - Arrow Barrage - Rapid-fire assault with fire (150 dmg, 9.0 spd, 250 pierce, 1s cooldown)
+- **Yaka Boomerang** - Returning arrow with multiple strikes (100 dmg, 7.0 spd, 150 pierce, 8s cooldown)
 
 ### Level 10 - Centaurian Master
 - Ultimate arrow mastery (250 dmg, 10.0 spd, 999 pierce, Fire 25, 1s cooldown)
@@ -74,6 +79,12 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - **Openable Helmet**: Toggle between closed (standard) and open (fin armor) modes
 - Complete armor glow effects for intimidation
 
+### Active Suit Abilities
+- **Energy Shield** - Temporary invulnerability field (8s duration, 45s cooldown)
+- **Ravager's Fury** - Channel rage into devastating attacks (+5 damage, 12s duration, 30s cooldown)
+- **Stealth Cloak** - Advanced invisibility system (10s duration, 60s cooldown)
+- **Yondu Boosters** - Rocket-powered flight (0.8 spd, 2.0 sprint, 25s cooldown)
+
 ## Visual Progression System
 As you level up, your fin appearance evolves to reflect your growing power:
 - **Levels 1-3**: Basic Yondu Fin (standard appearance)
@@ -90,12 +101,21 @@ These abilities are always active when unlocked (no activation required):
 - **Centaurian Healing** (Level 3): Constant regeneration from alien biology
 - **Ravager Shield** (Level 3): Passive absorption hearts for extra protection
 - **Enhanced Perception** (Level 6): Night vision to track targets in any environment
+- **Ravager's Reflexes** (Level 6): Lightning-fast combat reflexes (+3 speed)
 - **Aquatic Adaptation** (Level 7): Breathe underwater indefinitely
+- **Centaurian Endurance** (Level 8): Superior stamina reduces hunger needs
 
 **Ravager Suit Required:**
 - **Mary Poppins Slowfall**: Rocket boosters provide controlled descent (armor only)
 - **Night Vision**: Advanced HUD targeting system
 - **Water Breathing**: Sealed suit life support systems
+
+## Active Abilities Summary
+**Projectile Attacks (8):** Yaka Arrow Basic, Whistle Control, Triple Arrow Strike, Ravager Massacre, Ship Clearer, Arrow Barrage, Yaka Boomerang, Centaurian Mastery
+
+**Area/Damage Abilities (2):** Battle Cry, Arrow Rain
+
+**Suit Active Powers (4):** Energy Shield, Ravager's Fury, Stealth Cloak, Yondu Boosters Flight
 
 ## Controls
 - **W, A, S, D**: Move your character

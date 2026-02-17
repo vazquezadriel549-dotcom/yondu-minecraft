@@ -173,6 +173,26 @@
       "sound": "entity.arrow.shoot",
       "required_level": 5
     },
+    "battle_cry": {
+      "ability": "lucraftcore:damage",
+      "show_in_bar": true,
+      "title": {"text": "Ravager Battle Cry"},
+      "description": {"text": "Unleash a fearsome war cry that damages and weakens nearby enemies"},
+      "icon": {"type": "internal"},
+      "damage": 15,
+      "range": 8,
+      "cooldown": 15,
+      "required_level": 5
+    },
+    "ravager_reflexes": {
+      "ability": "lucraftcore:speed_boost",
+      "show_in_bar": false,
+      "title": {"text": "Ravager's Reflexes"},
+      "description": {"text": "Lightning-fast reflexes from years of combat (+3 speed)"},
+      "icon": {"type": "internal"},
+      "amount": 3,
+      "required_level": 6
+    },
     "enhanced_perception": {
       "ability": "lucraftcore:night_vision",
       "show_in_bar": false,
@@ -193,6 +213,20 @@
         "type": "texture",
         "texture": "yondu:textures/icons/yondu_fin_icon.png"
       },
+      "required_level": 7
+    },
+    "arrow_rain": {
+      "ability": "lucraftcore:damage",
+      "show_in_bar": true,
+      "title": {"text": "Arrow Rain"},
+      "description": {"text": "Call down a rain of Yaka Arrows on nearby enemies (25 dmg, 12 range)"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/arrow_storm.png"
+      },
+      "damage": 25,
+      "range": 12,
+      "cooldown": 20,
       "required_level": 7
     },
     "ship_clearer": {
@@ -216,6 +250,15 @@
       "sound": "entity.arrow.shoot",
       "required_level": 8
     },
+    "centaurian_endurance": {
+      "ability": "lucraftcore:saturation",
+      "show_in_bar": false,
+      "title": {"text": "Centaurian Endurance"},
+      "description": {"text": "Superior stamina requires less food"},
+      "icon": {"type": "internal"},
+      "amount": 5,
+      "required_level": 8
+    },
     "arrow_barrage": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
@@ -235,6 +278,27 @@
         "fire": 10
       },
       "cooldown": 1,
+      "sound": "entity.arrow.shoot",
+      "required_level": 9
+    },
+    "yaka_boomerang": {
+      "ability": "lucraftcore:projectile",
+      "show_in_bar": true,
+      "title": {"text": "Yaka Boomerang"},
+      "description": {"text": "Returning arrow strikes multiple times (100 dmg, 7.0 spd, 150 pierce)"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/whistler.png"
+      },
+      "projectile": {
+        "type": "arrow",
+        "damage": 100,
+        "speed": 7.0,
+        "gravity": false,
+        "piercing": 150,
+        "knockback": 6
+      },
+      "cooldown": 8,
       "sound": "entity.arrow.shoot",
       "required_level": 9
     },
