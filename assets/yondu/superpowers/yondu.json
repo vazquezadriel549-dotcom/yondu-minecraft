@@ -25,7 +25,7 @@
         "type": "internal"
       },
       "amount": 2,
-      "required_level": 1,
+      "required_level": 0,
       "operation": 0,
       "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
@@ -110,7 +110,7 @@
         "type": "internal"
       },
       "amount": 15,
-      "required_level": 1,
+      "required_level": 0,
       "operation": 0,
       "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
@@ -136,7 +136,7 @@
       },
       "cooldown": 4,
       "sound": "entity.arrow.shoot",
-      "required_level": 1
+      "required_level": 0
     },
     "whistle_control": {
       "ability": "lucraftcore:projectile",
@@ -461,7 +461,7 @@
       "texture": "yondu:textures/skins/yondu_fin",
       "glow": true,
       "size": 0.55,
-      "min_level": 1,
+      "min_level": 0,
       "max_level": 3
     },
     {

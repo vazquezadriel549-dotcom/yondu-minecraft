@@ -32,9 +32,12 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 6. Launch Minecraft through CurseForge or Forge profile
 
 ## Abilities Progression
+### Level 0 - Freshly Injected
+- Centaurian Strength (+2) and Vitality (+15 health) kick in immediately
+- Basic Yaka Arrow attack (35 dmg, 4.5 spd, 40 pierce, 4s cooldown) - a solid power for grinding right away
+
 ### Level 1 - Centaurian Warrior
-- Centaurian Strength (+2), Resistance (+3), Agility (+2), and Vitality (+15 health)
-- Basic Yaka Arrow attack (35 dmg, 4.5 spd, 40 pierce, 4s cooldown)
+- Resistance (+3), Agility (+2) join your growing power set
 - Enhanced fall resistance (+5) and knockback resistance (+4)
 
 ### Level 2 - Whistler
