@@ -1,24 +1,25 @@
 {
-    "input": {
-        "item": "minecraft:arrow"
+  "input": {
+    "item": "minecraft:arrow"
+  },
+  "input_container": {
+    "item": "lucraftcore:injection"
+  },
+  "input_fluid": {
+    "fluid": "water",
+    "amount": 3000
+  },
+  "energy": 50000,
+  "outputs": {
+    "primary": {
+      "item": "lucraftcore:injection",
+      "nbt": "{\"Injection\": \"yondu:yondu\"}",
+      "chance": 0.75
     },
-
-    "input_container": {
-        "item": "lucraftcore:injection"
-    },
-    
-    "input_fluid": {
-        "fluid": "water",
-        "amount": 3000
-   },
-    
-    "energy": 60000,
-    
-    "outputs": {
-        "primary": {
-            "item": "lucraftcore:injection",
-            "nbt": "{\"Injection\": \"yondu:yondu\"}",
-            "chance": 0.60
-        }
+    "secondary": {
+      "item": "minecraft:feather",
+      "count": 2,
+      "chance": 0.35
     }
+  }
 }

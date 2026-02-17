@@ -1,5 +1,6 @@
 {
   "name": {"text": "Yondu Ravager Suit"},
+  "description": {"text": "Authentic Ravager combat armor with integrated Yaka Arrow technology and flight systems"},
   "add_abilities": true,
   "effects": [
     {
@@ -11,104 +12,151 @@
   ],
   "creative_tab": "models",
   "armor_material": {
-    "durability": 5000,
-    "damage_reduction_amounts": [3, 6, 8, 3],
+    "durability": 2000,
+    "damage_reduction_amounts": [3, 8, 6, 3],
     "enchantibility": 10,
-    "toughness": 2,
-    "sound": "item.armor.equip_diamond"
+    "toughness": 3,
+    "sound": "item.armor.equip_netherite"
   },
   "abilities": {
     "ravager_strength": {
       "ability": "lucraftcore:strength",
       "title": {"text": "Ravager Combat Strength"},
-      "amount": 4,
+      "description": {"text": "Enhanced strength from powered armor (+3 strength)"},
+      "amount": 3,
       "show_in_bar": false
     },
     "ravager_resistance": {
       "ability": "lucraftcore:resistance",
       "title": {"text": "Ravager Armor Plating"},
-      "amount": 6,
+      "description": {"text": "Heavy armor plates (+4 resistance)"},
+      "amount": 4,
       "show_in_bar": false
     },
     "ravager_agility": {
       "ability": "lucraftcore:jump_boost",
       "title": {"text": "Powered Ravager Boots"},
+      "description": {"text": "Hydraulic leg systems (+3 jump boost)"},
       "amount": 3,
       "show_in_bar": false
     },
     "enhanced_health": {
       "ability": "lucraftcore:health",
       "title": {"text": "Ravager Vitality Enhancement"},
-      "amount": 20,
+      "description": {"text": "Life support systems (+15 health)"},
+      "amount": 15,
       "show_in_bar": false
     },
     "fire_resistance": {
       "ability": "lucraftcore:fire_resistance",
       "title": {"text": "Environmental Protection"},
+      "description": {"text": "Sealed suit protects against fire and extreme temperatures"},
       "show_in_bar": false
     },
     "enhanced_fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "title": {"text": "Shock Absorbers"},
+      "description": {"text": "Advanced dampening (+6 fall resistance)"},
       "amount": 6,
       "show_in_bar": false
     },
     "enhanced_knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "title": {"text": "Stability Gyros"},
-      "amount": 10,
+      "description": {"text": "Gyroscopic stabilizers (+8 knockback resistance)"},
+      "amount": 8,
       "show_in_bar": false
     },
     "ravager_speed": {
       "ability": "lucraftcore:speed_boost",
       "title": {"text": "Ravager Mobility"},
-      "amount": 1,
+      "description": {"text": "Enhanced movement speed (+2 speed)"},
+      "amount": 2,
       "show_in_bar": false
+    },
+    "night_vision": {
+      "ability": "lucraftcore:night_vision",
+      "title": {"text": "Helmet HUD"},
+      "description": {"text": "Advanced targeting system with night vision"},
+      "show_in_bar": false
+    },
+    "water_breathing": {
+      "ability": "lucraftcore:water_breathing",
+      "title": {"text": "Sealed Suit Systems"},
+      "description": {"text": "Breathe underwater with suit life support"},
+      "show_in_bar": false
+    },
+    "mary_poppins_slowfall": {
+      "ability": "lucraftcore:slowfall",
+      "title": {"text": "I'm Mary Poppins Y'all"},
+      "description": {"text": "Rocket boosters provide controlled descent"},
+      "show_in_bar": false
+    },
+    "energy_shield": {
+      "ability": "lucraftcore:invulnerability",
+      "show_in_bar": true,
+      "title": {"text": "Energy Shield"},
+      "description": {"text": "Deploy temporary protective energy field (8s duration, 45s cooldown)"},
+      "duration": 8,
+      "cooldown": 45,
+      "icon": {"type": "internal"}
+    },
+    "ravager_fury": {
+      "ability": "lucraftcore:damage_boost",
+      "show_in_bar": true,
+      "title": {"text": "Ravager's Fury"},
+      "description": {"text": "Channel your rage into devastating attacks (+5 damage, 12s duration)"},
+      "amount": 5,
+      "duration": 12,
+      "cooldown": 30,
+      "icon": {"type": "internal"}
+    },
+    "stealth_mode": {
+      "ability": "lucraftcore:invisibility",
+      "show_in_bar": true,
+      "title": {"text": "Stealth Cloak"},
+      "description": {"text": "Advanced cloaking device (10s duration, 60s cooldown)"},
+      "duration": 10,
+      "cooldown": 60,
+      "icon": {"type": "internal"}
     },
     "yondu_booster_flight": {
       "ability": "lucraftcore:flight",
       "show_in_bar": true,
       "title": {"text": "Yondu Boosters"},
-      "speed": 0.6,
-      "sprint_speed": 1.5,
+      "description": {"text": "Rocket-powered flight (0.8 spd, 2.0 sprint, 25s cooldown)"},
+      "speed": 0.8,
+      "sprint_speed": 2.0,
       "rotate_arms": false,
-      "cooldown": 30,
+      "cooldown": 25,
       "bar_color": "red",
       "icon": {"type": "internal"}
     }
   },
   "armor_parts": {
     "head": {
-      "openable": false,
+      "openable": true,
       "glow": true,
       "name": {"text": "Yondu Helmet"},
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_1.png"
-      },
-      "item_texture": {
-        "blockstate": "yondu:yondu_helmet"
+        "normal": "yondu:textures/armor/yondu_layer_1.png",
+        "open": "yondu:textures/armor/yondu_fin_armor.png"
       }
     },
     "chest": {
       "openable": false,
-      "glow": false,
+      "glow": true,
       "name": {"text": "Yondu Chestplate"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_1.png"
-      },
-      "item_texture": {
-        "blockstate": "yondu:yondu_chestplate"
       }
     },
     "legs": {
       "openable": false,
-      "glow": false,
+      "glow": true,
       "name": {"text": "Yondu Leggings"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_2.png"
-      },
-      "item_texture": {
-        "blockstate": "yondu:yondu_leggings"
       }
     },
     "feet": {
@@ -117,9 +165,6 @@
       "name": {"text": "Yondu Boosters"},
       "textures": {
         "normal": "yondu:textures/armor/yondu_layer_1.png"
-      },
-      "item_texture": {
-        "blockstate": "yondu:yondu_boots"
       }
     }
   }
