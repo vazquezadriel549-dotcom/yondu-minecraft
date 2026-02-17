@@ -94,7 +94,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ## Visual Progression System
 As you level up, your fin appearance evolves to reflect your growing power:
-- **Levels 1-3**: Basic Yondu Fin (standard appearance)
+- **Levels 0-3**: Basic Yondu Fin (standard appearance)
 - **Levels 4-6**: Enhanced Fin (larger, more prominent - size 0.58)
 - **Levels 7-9**: Advanced Fin (even more imposing - size 0.60)
 - **Level 10**: Ultimate Fin (maximum power display - size 0.62)
