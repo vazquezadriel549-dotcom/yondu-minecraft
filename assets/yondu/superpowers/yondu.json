@@ -27,7 +27,7 @@
       "amount": 2,
       "required_level": 0,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "08562b61-fae6-4fdc-bd99-faf661d76172"
     },
     "basic_resistance": {
       "ability": "lucraftcore:resistance",
@@ -44,7 +44,7 @@
       "amount": 3,
       "required_level": 1,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "263af649-170e-49e3-8ebd-ca00ae8d4e90"
     },
     "centaurian_agility": {
       "ability": "lucraftcore:jump_boost",
@@ -61,7 +61,7 @@
       "amount": 2,
       "required_level": 1,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "e584ed74-530d-44e0-92ea-09513d02bda4"
     },
     "fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
@@ -78,7 +78,7 @@
       "amount": 5,
       "required_level": 1,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "04c0e500-a0f7-4808-a586-f8e83841219d"
     },
     "knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
@@ -95,7 +95,7 @@
       "amount": 4,
       "required_level": 1,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "d02cd09e-1b80-4591-b0e1-e09b49576917"
     },
     "centaurian_vitality": {
       "ability": "lucraftcore:health",
@@ -112,7 +112,7 @@
       "amount": 15,
       "required_level": 0,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "11c70866-89dd-461e-9492-1d814b9726c9"
     },
     "yaka_arrow_basic": {
       "ability": "lucraftcore:projectile",
@@ -278,7 +278,7 @@
       "amount": 3,
       "required_level": 6,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "b3eae4fa-dff7-4deb-8e4c-2ba03613b691"
     },
     "enhanced_perception": {
       "ability": "lucraftcore:night_vision",
