@@ -52,7 +52,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ### Level 5 - Ravager Warrior
 - Ravager Massacre - Multi-target piercing (100 dmg, 7.0 spd, 130 pierce, 3s cooldown)
-- **Battle Cry** - Intimidating war cry damages all enemies in a 5-block radius (4 dmg/tick, 15s cooldown)
+- **Battle Cry** - Intimidating war cry damages all enemies in a 5-block radius (4 dmg per hit, 15s cooldown)
 
 ### Level 6 - Enhanced Combatant
 - **Enhanced Perception** - Passive night vision to track targets in any environment

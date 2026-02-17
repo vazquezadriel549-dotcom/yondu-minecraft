@@ -253,7 +253,7 @@
         "text": "Ravager Battle Cry"
       },
       "description": {
-        "text": "Fearsome war cry damages all nearby enemies within range (4 dmg, 5 block radius, 15s cooldown)"
+        "text": "Fearsome war cry damages all nearby enemies (4 dmg per hit, 5 block radius, 15s cooldown)"
       },
       "icon": {
         "type": "internal"
