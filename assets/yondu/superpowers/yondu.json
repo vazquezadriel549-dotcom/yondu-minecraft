@@ -247,24 +247,20 @@
       "required_level": 5
     },
     "battle_cry": {
-      "ability": "lucraftcore:energy_blast",
+      "ability": "lucraftcore:damage_aura",
       "show_in_bar": true,
       "title": {
         "text": "Ravager Battle Cry"
       },
       "description": {
-        "text": "Fearsome war cry damages nearby enemies (20 dmg, 15s cooldown)"
+        "text": "Fearsome war cry damages all nearby enemies within range (4 dmg, 5 block radius, 15s cooldown)"
       },
       "icon": {
         "type": "internal"
       },
-      "damage": 20.0,
+      "damage": 4,
+      "radius": 5,
       "cooldown": 15,
-      "color": [
-        255,
-        50,
-        50
-      ],
       "required_level": 5
     },
     "ravager_reflexes": {
@@ -315,25 +311,28 @@
       "required_level": 7
     },
     "arrow_rain": {
-      "ability": "lucraftcore:energy_blast",
+      "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {
         "text": "Arrow Rain"
       },
       "description": {
-        "text": "Devastating arrow bombardment from above (30 dmg, 18s cooldown)"
+        "text": "Devastating volley of Yaka Arrows (30 dmg, 5.0 spd, 50 pierce, 18s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
-      "damage": 30.0,
+      "projectile": {
+        "type": "arrow",
+        "damage": 30,
+        "speed": 5.0,
+        "gravity": false,
+        "piercing": 50,
+        "knockback": 3
+      },
       "cooldown": 18,
-      "color": [
-        255,
-        100,
-        0
-      ],
+      "sound": "entity.arrow.shoot",
       "required_level": 7
     },
     "ship_clearer": {

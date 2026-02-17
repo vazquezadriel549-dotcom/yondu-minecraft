@@ -52,7 +52,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ### Level 5 - Ravager Warrior
 - Ravager Massacre - Multi-target piercing (100 dmg, 7.0 spd, 130 pierce, 3s cooldown)
-- **Battle Cry** - Intimidating war cry damages nearby enemies (20 dmg, 15s cooldown)
+- **Battle Cry** - Intimidating war cry damages all enemies in a 5-block radius (4 dmg/tick, 15s cooldown)
 
 ### Level 6 - Enhanced Combatant
 - **Enhanced Perception** - Passive night vision to track targets in any environment
@@ -60,7 +60,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ### Level 7 - Tactical Specialist
 - **Aquatic Adaptation** - Passive underwater breathing for extended missions
-- **Arrow Rain** - Area-of-effect bombardment (30 dmg, 18s cooldown)
+- **Arrow Rain** - Volley of piercing Yaka Arrows (30 dmg, 5.0 spd, 50 pierce, 18s cooldown)
 
 ### Level 8 - Elite Ravager
 - Ship Clearer - Room-clearing devastation (140 dmg, 8.5 spd, 200 pierce, Fire 5, 2s cooldown)
@@ -118,9 +118,9 @@ These abilities are always active when unlocked (no activation required):
 - **Water Breathing**: Sealed suit life support systems
 
 ## Active Abilities Summary
-**Projectile Attacks (8):** Yaka Arrow Basic, Whistle Control, Triple Arrow Strike, Ravager Massacre, Ship Clearer, Arrow Barrage, Yaka Boomerang, Centaurian Mastery
+**Projectile Attacks (9):** Yaka Arrow Basic, Whistle Control, Triple Arrow Strike, Ravager Massacre, Arrow Rain, Ship Clearer, Arrow Barrage, Yaka Boomerang, Centaurian Mastery
 
-**Area/Damage Abilities (2):** Battle Cry, Arrow Rain
+**Area Damage (1):** Battle Cry (damage aura)
 
 **Suit Active Powers (4):** Energy Shield, Ravager's Fury, Stealth Cloak, Yondu Boosters Flight
 
