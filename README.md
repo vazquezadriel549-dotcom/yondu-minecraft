@@ -11,13 +11,17 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ## Features
 - **10 Progressive Ability Levels**: Unlock devastating powers as you level up
+- **37 Total Abilities**: 22 base powers + 15 suit abilities
 - **Visual Progression**: Evolving fin appearance that grows with your power level
-- **Yaka Arrow Mastery**: Multiple arrow abilities with increasing damage and piercing
-- **Centaurian Physiology**: Enhanced strength, resistance, agility, and health
+- **Yaka Arrow Mastery**: 8 unique arrow abilities with smooth damage scaling (35-300 dmg)
+- **Centaurian Physiology**: Enhanced strength, resistance, agility, health, and endurance
 - **Full Ravager Suit**: Complete armor set with boosted stats and flight capability
+- **Tactical Abilities**: Battle Cry, Arrow Rain, Energy Shield, Stealth Cloak, and more
+- **Passive Powers**: 12 always-active enhancements including healing, shields, and perception
 - **Openable Helmet**: Toggle between standard and fin armor variants
 - **Unique Abilities**: Including the iconic "I'm Mary Poppins Y'all" slow fall
-- **Enhanced Graphics**: Custom textures for armor, abilities, and visual effects
+- **Enhanced Graphics**: Custom textures, particle effects, and visual trails
+- **Balanced Gameplay**: Smooth progression curve with thematic abilities
 
 ## Installation Instructions
 1. Install Minecraft Java Edition 1.12.2
@@ -30,22 +34,22 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 ## Abilities Progression
 ### Level 1 - Centaurian Warrior
 - Centaurian Strength (+2), Resistance (+3), Agility (+2), and Vitality (+15 health)
-- Basic Yaka Arrow attack (30 dmg, 4.5 spd, 35 pierce, 4s cooldown)
+- Basic Yaka Arrow attack (35 dmg, 4.5 spd, 40 pierce, 4s cooldown)
 - Enhanced fall resistance (+5) and knockback resistance (+4)
 
 ### Level 2 - Whistler
-- Whistle Control - Tracking arrow (60 dmg, 7.0 spd, 60 pierce, 3s cooldown)
+- Whistle Control - Tracking arrow (65 dmg, 7.0 spd, 65 pierce, 3s cooldown)
 
 ### Level 3 - Regenerator & Shield Master
 - **Centaurian Healing** - Passive regeneration (+2) for sustained combat
 - **Ravager Shield** - Passive absorption shields (+6 hearts) for extra protection
 
 ### Level 4 - Multi-Strike
-- Triple Arrow Strike - Split arrow attack (70 dmg, 6.0 spd, 80 pierce, 4s cooldown)
+- Triple Arrow Strike - Split arrow attack (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)
 
 ### Level 5 - Ravager Warrior
-- Ravager Massacre - Multi-target piercing (85 dmg, 6.5 spd, 120 pierce, 2s cooldown)
-- **Battle Cry** - Intimidating war cry damages and weakens nearby enemies (15 dmg, 8 range, 15s cooldown)
+- Ravager Massacre - Multi-target piercing (100 dmg, 7.0 spd, 130 pierce, 2.5s cooldown)
+- **Battle Cry** - Intimidating war cry damages and weakens enemies (20 dmg, 10 range, Weakness II, 15s cooldown)
 
 ### Level 6 - Enhanced Combatant
 - **Enhanced Perception** - Passive night vision to track targets in any environment
@@ -53,18 +57,18 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ### Level 7 - Tactical Specialist
 - **Aquatic Adaptation** - Passive underwater breathing for extended missions
-- **Arrow Rain** - Area-of-effect arrow bombardment (25 dmg, 12 range, 20s cooldown)
+- **Arrow Rain** - Area-of-effect bombardment (30 dmg, 14 range, Slowness II, 18s cooldown)
 
 ### Level 8 - Elite Ravager
-- Ship Clearer - Room-clearing devastation (120 dmg, 8.0 spd, 180 pierce, 2s cooldown)
+- Ship Clearer - Room-clearing devastation (140 dmg, 8.5 spd, 200 pierce, Fire 5, 2s cooldown)
 - **Centaurian Endurance** - Passive superior stamina reduces hunger (+5 saturation)
 
 ### Level 9 - Master Warrior
-- Arrow Barrage - Rapid-fire assault with fire (150 dmg, 9.0 spd, 250 pierce, 1s cooldown)
-- **Yaka Boomerang** - Returning arrow with multiple strikes (100 dmg, 7.0 spd, 150 pierce, 8s cooldown)
+- Arrow Barrage - Rapid-fire explosive assault (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)
+- **Yaka Boomerang** - Returning arrow devastates multiple foes (160 dmg, 8.0 spd, 220 pierce, 6s cooldown)
 
 ### Level 10 - Centaurian Master
-- Ultimate arrow mastery (250 dmg, 10.0 spd, 999 pierce, Fire 25, 1s cooldown)
+- Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 0.5s cooldown)
 
 ## Ravager Suit Features
 - Balanced armor protection (2000 durability, netherite-tier)
@@ -141,11 +145,12 @@ For updates, support, and bug reports:
 https://github.com/vazquezadriel549-dotcom/yondu-minecraft
 
 ## Version History
-- v1.2.0: Major improvements to abilities, balance, and added missing model files
-- v1.2.1: Enhanced progression with new mid-tier abilities, regeneration, water breathing, night vision, improved visual effects and particle trails
-- v1.3.0: Added absorption shields, detailed stat descriptions, improved extractor recipe, sound effects, enhanced armor stats and enchantability
-- v1.4.0: Implemented progressive visual fin evolution (4 variants), openable helmet with fin armor variant, custom water adaptation icon - all previously unused textures now functional
+- v1.6.0: Major expansion - Added 8 new abilities (5 base + 3 suit), rebalanced all projectile damage for smooth progression (35→300), enhanced Battle Cry and Arrow Rain with status effects, improved particle effects (added crit particles), updated all ability descriptions with exact stats
 - v1.5.0: Balanced armor and abilities for better gameplay - armor now netherite-tier (2000 durability), reduced overpowered stats, made all effect abilities passive, moved slow fall to armor requirement (thematic with rocket boosters)
+- v1.4.0: Implemented progressive visual fin evolution (4 variants), openable helmet with fin armor variant, custom water adaptation icon - all previously unused textures now functional
+- v1.3.0: Added absorption shields, detailed stat descriptions, improved extractor recipe, sound effects, enhanced armor stats and enchantability
+- v1.2.1: Enhanced progression with new mid-tier abilities, regeneration, water breathing, night vision, improved visual effects and particle trails
+- v1.2.0: Major improvements to abilities, balance, and added missing model files
 - v1.1.0: Initial release with full Yondu powers and suit
 
 ## Credits

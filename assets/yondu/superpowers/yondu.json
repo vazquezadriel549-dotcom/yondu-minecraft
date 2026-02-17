@@ -70,17 +70,17 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Yaka Arrow - Basic"},
-      "description": {"text": "Launch a controlled Yaka Arrow (30 dmg, 4.5 spd, 35 pierce)"},
+      "description": {"text": "Launch a controlled Yaka Arrow (35 dmg, 4.5 spd, 40 pierce, 4s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/yaka_arrow.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 30,
+        "damage": 35,
         "speed": 4.5,
         "gravity": false,
-        "piercing": 35
+        "piercing": 40
       },
       "cooldown": 4,
       "sound": "entity.arrow.shoot",
@@ -90,17 +90,17 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Whistle Control - Tracking"},
-      "description": {"text": "Whistle to guide your arrow (60 dmg, 7.0 spd, 60 pierce)"},
+      "description": {"text": "Whistle to guide your arrow with precision (65 dmg, 7.0 spd, 65 pierce, 3s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistle.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 60,
+        "damage": 65,
         "speed": 7.0,
         "gravity": false,
-        "piercing": 60,
+        "piercing": 65,
         "knockback": 5
       },
       "cooldown": 3,
@@ -135,18 +135,18 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Triple Arrow Strike"},
-      "description": {"text": "Split arrow into three projectiles (70 dmg, 6.0 spd, 80 pierce)"},
+      "description": {"text": "Split arrow into three devastating projectiles (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 70,
-        "speed": 6.0,
+        "damage": 80,
+        "speed": 6.5,
         "gravity": false,
-        "piercing": 80,
-        "knockback": 4
+        "piercing": 90,
+        "knockback": 5
       },
       "cooldown": 4,
       "sound": "entity.arrow.shoot",
@@ -156,20 +156,20 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Ravager Massacre"},
-      "description": {"text": "Devastating multi-pierce attack (85 dmg, 6.5 spd, 120 pierce)"},
+      "description": {"text": "Devastating multi-pierce onslaught (100 dmg, 7.0 spd, 130 pierce, 2.5s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/barrage.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 85,
-        "speed": 6.5,
+        "damage": 100,
+        "speed": 7.0,
         "gravity": false,
-        "piercing": 120,
-        "knockback": 3
+        "piercing": 130,
+        "knockback": 4
       },
-      "cooldown": 2,
+      "cooldown": 2.5,
       "sound": "entity.arrow.shoot",
       "required_level": 5
     },
@@ -177,11 +177,18 @@
       "ability": "lucraftcore:damage",
       "show_in_bar": true,
       "title": {"text": "Ravager Battle Cry"},
-      "description": {"text": "Unleash a fearsome war cry that damages and weakens nearby enemies"},
+      "description": {"text": "Fearsome war cry damages and weakens enemies (20 dmg, 10 range, Weakness II, 15s cooldown)"},
       "icon": {"type": "internal"},
-      "damage": 15,
-      "range": 8,
+      "damage": 20,
+      "range": 10,
       "cooldown": 15,
+      "effects": [
+        {
+          "effect": "weakness",
+          "amplifier": 1,
+          "duration": 100
+        }
+      ],
       "required_level": 5
     },
     "ravager_reflexes": {
@@ -219,32 +226,40 @@
       "ability": "lucraftcore:damage",
       "show_in_bar": true,
       "title": {"text": "Arrow Rain"},
-      "description": {"text": "Call down a rain of Yaka Arrows on nearby enemies (25 dmg, 12 range)"},
+      "description": {"text": "Devastating arrow bombardment from above (30 dmg, 14 range, Slowness II, 18s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
-      "damage": 25,
-      "range": 12,
-      "cooldown": 20,
+      "damage": 30,
+      "range": 14,
+      "cooldown": 18,
+      "effects": [
+        {
+          "effect": "slowness",
+          "amplifier": 1,
+          "duration": 80
+        }
+      ],
       "required_level": 7
     },
     "ship_clearer": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Ship Clearer"},
-      "description": {"text": "Room-clearing devastation (120 dmg, 8.0 spd, 180 pierce)"},
+      "description": {"text": "Room-clearing devastation (140 dmg, 8.5 spd, 200 pierce, Fire 5, 2s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 120,
-        "speed": 8.0,
+        "damage": 140,
+        "speed": 8.5,
         "gravity": false,
-        "piercing": 180,
-        "knockback": 7
+        "piercing": 200,
+        "knockback": 7,
+        "fire": 5
       },
       "cooldown": 2,
       "sound": "entity.arrow.shoot",
@@ -263,19 +278,19 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Arrow Barrage"},
-      "description": {"text": "Rapid-fire assault (150 dmg, 9.0 spd, 250 pierce, Fire 10)"},
+      "description": {"text": "Rapid-fire explosive assault (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/ravager.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 150,
-        "speed": 9.0,
+        "damage": 175,
+        "speed": 9.5,
         "gravity": false,
-        "piercing": 250,
-        "knockback": 8,
-        "fire": 10
+        "piercing": 280,
+        "knockback": 9,
+        "fire": 15
       },
       "cooldown": 1,
       "sound": "entity.arrow.shoot",
@@ -285,20 +300,20 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Yaka Boomerang"},
-      "description": {"text": "Returning arrow strikes multiple times (100 dmg, 7.0 spd, 150 pierce)"},
+      "description": {"text": "Returning arrow devastates multiple foes (160 dmg, 8.0 spd, 220 pierce, 6s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 100,
-        "speed": 7.0,
+        "damage": 160,
+        "speed": 8.0,
         "gravity": false,
-        "piercing": 150,
-        "knockback": 6
+        "piercing": 220,
+        "knockback": 8
       },
-      "cooldown": 8,
+      "cooldown": 6,
       "sound": "entity.arrow.shoot",
       "required_level": 9
     },
@@ -306,21 +321,21 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Centaurian Mastery"},
-      "description": {"text": "Ultimate arrow mastery (250 dmg, 10.0 spd, 999 pierce, Fire 25)"},
+      "description": {"text": "Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 0.5s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
       },
       "projectile": {
         "type": "arrow",
-        "damage": 250,
+        "damage": 300,
         "speed": 10.0,
         "gravity": false,
         "piercing": 999,
-        "knockback": 10,
-        "fire": 25
+        "knockback": 12,
+        "fire": 30
       },
-      "cooldown": 1,
+      "cooldown": 0.5,
       "sound": "entity.arrow.shoot",
       "required_level": 10
     }
@@ -362,12 +377,18 @@
       "type": "trail",
       "trail_type": "arrow",
       "color": [1.0, 0.2, 0.2],
-      "size": 0.4
+      "size": 0.5
     },
     {
       "type": "particles",
       "particle": "redstone",
-      "count": 3,
+      "count": 4,
+      "speed": 0.15
+    },
+    {
+      "type": "particles",
+      "particle": "crit",
+      "count": 2,
       "speed": 0.1
     }
   ]
