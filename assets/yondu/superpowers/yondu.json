@@ -169,26 +169,19 @@
         "piercing": 130,
         "knockback": 4
       },
-      "cooldown": 2.5,
+      "cooldown": 3,
       "sound": "entity.arrow.shoot",
       "required_level": 5
     },
     "battle_cry": {
-      "ability": "lucraftcore:damage",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {"text": "Ravager Battle Cry"},
-      "description": {"text": "Fearsome war cry damages and weakens enemies (20 dmg, 10 range, Weakness II, 15s cooldown)"},
+      "description": {"text": "Fearsome war cry damages nearby enemies (20 dmg, 15s cooldown)"},
       "icon": {"type": "internal"},
       "damage": 20,
-      "range": 10,
       "cooldown": 15,
-      "effects": [
-        {
-          "effect": "weakness",
-          "amplifier": 1,
-          "duration": 100
-        }
-      ],
+      "color": [255, 50, 50],
       "required_level": 5
     },
     "ravager_reflexes": {
@@ -223,24 +216,17 @@
       "required_level": 7
     },
     "arrow_rain": {
-      "ability": "lucraftcore:damage",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {"text": "Arrow Rain"},
-      "description": {"text": "Devastating arrow bombardment from above (30 dmg, 14 range, Slowness II, 18s cooldown)"},
+      "description": {"text": "Devastating arrow bombardment from above (30 dmg, 18s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
       "damage": 30,
-      "range": 14,
       "cooldown": 18,
-      "effects": [
-        {
-          "effect": "slowness",
-          "amplifier": 1,
-          "duration": 80
-        }
-      ],
+      "color": [255, 100, 0],
       "required_level": 7
     },
     "ship_clearer": {
@@ -335,7 +321,7 @@
         "knockback": 12,
         "fire": 30
       },
-      "cooldown": 0.5,
+      "cooldown": 1,
       "sound": "entity.arrow.shoot",
       "required_level": 10
     }
@@ -372,12 +358,6 @@
       "size": 0.62,
       "min_level": 10,
       "max_level": 10
-    },
-    {
-      "type": "trail",
-      "trail_type": "arrow",
-      "color": [1.0, 0.2, 0.2],
-      "size": 0.5
     }
   ]
 }
