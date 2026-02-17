@@ -136,17 +136,7 @@
       },
       "cooldown": 4,
       "sound": "entity.arrow.shoot",
-      "required_level": 0,
-      "particle": {
-        "type": "minecraft:crit",
-        "count": 5,
-        "speed": 0.1,
-        "spread": [
-          0.2,
-          0.2,
-          0.2
-        ]
-      }
+      "required_level": 0
     },
     "whistle_control": {
       "ability": "lucraftcore:energy_blast",
@@ -164,23 +154,13 @@
       "damage": 65,
       "speed": 7.0,
       "color": [
-        220,
+        255,
         50,
         50
       ],
       "cooldown": 3,
       "sound": "entity.arrow.shoot",
-      "required_level": 2,
-      "particle": {
-        "type": "minecraft:redstone",
-        "count": 8,
-        "speed": 0.05,
-        "spread": [
-          0.3,
-          0.3,
-          0.3
-        ]
-      }
+      "required_level": 2
     },
     "centaurian_healing": {
       "ability": "lucraftcore:healing",
@@ -238,17 +218,7 @@
       },
       "cooldown": 4,
       "sound": "entity.arrow.shoot",
-      "required_level": 4,
-      "particle": {
-        "type": "minecraft:crit_magic",
-        "count": 10,
-        "speed": 0.2,
-        "spread": [
-          0.5,
-          0.5,
-          0.5
-        ]
-      }
+      "required_level": 4
     },
     "ravager_massacre": {
       "ability": "lucraftcore:damage_aura",
@@ -267,17 +237,7 @@
       "radius": 6,
       "cooldown": 3,
       "sound": "entity.arrow.shoot",
-      "required_level": 5,
-      "particle": {
-        "type": "minecraft:sweep_attack",
-        "count": 15,
-        "speed": 0.3,
-        "spread": [
-          2.0,
-          1.0,
-          2.0
-        ]
-      }
+      "required_level": 5
     },
     "battle_cry": {
       "ability": "lucraftcore:damage_aura",
@@ -294,17 +254,7 @@
       "damage": 4,
       "radius": 5,
       "cooldown": 15,
-      "required_level": 5,
-      "particle": {
-        "type": "minecraft:angry_villager",
-        "count": 12,
-        "speed": 0.2,
-        "spread": [
-          2.5,
-          1.0,
-          2.5
-        ]
-      }
+      "required_level": 5
     },
     "ravager_reflexes": {
       "ability": "lucraftcore:sprint",
@@ -376,26 +326,16 @@
       },
       "cooldown": 10,
       "sound": "entity.arrow.shoot",
-      "required_level": 7,
-      "particle": {
-        "type": "minecraft:crit",
-        "count": 20,
-        "speed": 0.4,
-        "spread": [
-          1.0,
-          2.0,
-          1.0
-        ]
-      }
+      "required_level": 7
     },
     "ship_clearer": {
       "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {
-        "text": "Ship Clearer"
+        "text": "Eclector Blast"
       },
       "description": {
-        "text": "The Yaka Arrow tears through everything in its path leaving a glowing trail of destruction (140 dmg, 8.5 spd, 2s cooldown)"
+        "text": "Channel the Yaka Arrow's full destructive force into a devastating energy beam that tears through everything (140 dmg, 8.5 spd, 2s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -406,21 +346,11 @@
       "color": [
         255,
         80,
-        20
+        30
       ],
       "cooldown": 2,
       "sound": "entity.arrow.shoot",
-      "required_level": 8,
-      "particle": {
-        "type": "minecraft:flame",
-        "count": 15,
-        "speed": 0.3,
-        "spread": [
-          0.5,
-          0.5,
-          0.5
-        ]
-      }
+      "required_level": 8
     },
     "centaurian_endurance": {
       "ability": "lucraftcore:saturation",
@@ -461,26 +391,16 @@
       },
       "cooldown": 1,
       "sound": "entity.arrow.shoot",
-      "required_level": 9,
-      "particle": {
-        "type": "minecraft:large_smoke",
-        "count": 10,
-        "speed": 0.2,
-        "spread": [
-          0.8,
-          0.8,
-          0.8
-        ]
-      }
+      "required_level": 9
     },
     "yaka_boomerang": {
       "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {
-        "text": "Yaka Boomerang"
+        "text": "Yaka Piercing Trail"
       },
       "description": {
-        "text": "The Yaka Arrow curves through the air in a wide arc, striking everything in its path and returning (160 dmg, 8.0 spd, 6s cooldown)"
+        "text": "The Yaka Arrow blazes a piercing trail of energy through all enemies in its path (160 dmg, 8.0 spd, 6s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -489,23 +409,13 @@
       "damage": 160,
       "speed": 8.0,
       "color": [
-        255,
+        220,
         40,
-        0
+        80
       ],
       "cooldown": 6,
       "sound": "entity.arrow.shoot",
-      "required_level": 9,
-      "particle": {
-        "type": "minecraft:end_rod",
-        "count": 15,
-        "speed": 0.2,
-        "spread": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      }
+      "required_level": 9
     },
     "centaurian_mastery": {
       "ability": "lucraftcore:energy_blast",
@@ -514,7 +424,7 @@
         "text": "Centaurian Mastery"
       },
       "description": {
-        "text": "Total mastery of the Yaka Arrow \u2014 it blazes with red-hot energy, annihilating everything it touches (300 dmg, 10.0 spd, 1s cooldown)"
+        "text": "Total mastery of the Yaka Arrow \u2014 unleash a devastating beam of pure red-hot Centaurian energy that annihilates everything (300 dmg, 10.0 spd, 1s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -524,56 +434,72 @@
       "speed": 10.0,
       "color": [
         255,
-        20,
-        0
+        30,
+        30
       ],
       "cooldown": 1,
       "sound": "entity.arrow.shoot",
-      "required_level": 10,
-      "particle": {
-        "type": "minecraft:dragon_breath",
-        "count": 25,
-        "speed": 0.5,
-        "spread": [
-          1.5,
-          1.5,
-          1.5
-        ]
-      }
+      "required_level": 10
+    },
+    "battle_cry_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle minecraft:angry_villager ~ ~1 ~ 2 1 2 0.1 8 force @p",
+        "particle minecraft:crit ~ ~1 ~ 2 1 2 0.3 15 force @p"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "battle_cry"
+        }
+      ]
+    },
+    "ravager_massacre_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle minecraft:sweep_attack ~ ~1 ~ 2 0.5 2 0.2 12 force @p",
+        "particle minecraft:damage_indicator ~ ~0.5 ~ 2 0.5 2 0.1 6 force @p"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "ravager_massacre"
+        }
+      ]
+    },
+    "arrow_rain_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle minecraft:crit ~ ~3 ~ 3 2 3 0.5 30 force @p"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "arrow_rain"
+        }
+      ]
+    },
+    "arrow_barrage_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle minecraft:crit ~ ~1.5 ~ 1 0.5 1 0.8 20 force @p"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "arrow_barrage"
+        }
+      ]
     }
   },
   "effects": [
     {
-      "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin",
-      "glow": true,
-      "size": 0.55,
-      "min_level": 0,
-      "max_level": 3
-    },
-    {
-      "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin1",
-      "glow": true,
-      "size": 0.58,
-      "min_level": 4,
-      "max_level": 6
-    },
-    {
-      "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin2",
-      "glow": true,
-      "size": 0.6,
-      "min_level": 7,
-      "max_level": 9
-    },
-    {
-      "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin3",
-      "glow": true,
-      "size": 0.62,
-      "min_level": 10,
-      "max_level": 10
+      "type": "glow",
+      "color": [
+        1.0,
+        0.2,
+        0.2
+      ]
     }
   ]
 }

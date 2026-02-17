@@ -63,15 +63,15 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - **Arrow Rain** - Whistle a barrage of Yaka Arrows raining down on enemies (50 dmg, 5.0 spd, 80 pierce, 10s cooldown)
 
 ### Level 8 - Elite Ravager
-- **Ship Clearer** - The Yaka Arrow tears through everything leaving a glowing trail (140 dmg energy blast, 8.5 spd, 2s cooldown)
+- **Eclector Blast** - Channel the Yaka Arrow's full destructive force into a devastating energy beam (140 dmg energy blast, 8.5 spd, 2s cooldown)
 - **Centaurian Endurance** - Passive superior stamina reduces hunger (+5 saturation)
 
 ### Level 9 - Master Warrior
 - **Yaka Barrage** - Rapid-fire Yaka Arrows tipped with searing heat (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)
-- **Yaka Boomerang** - The arrow curves in a wide arc striking everything and returning (160 dmg energy blast, 8.0 spd, 6s cooldown)
+- **Yaka Piercing Trail** - The Yaka Arrow blazes a piercing trail of energy through all enemies in its path (160 dmg energy blast, 8.0 spd, 6s cooldown)
 
 ### Level 10 - Centaurian Master
-- **Centaurian Mastery** - Total mastery of the Yaka Arrow blazing with red-hot energy (300 dmg energy blast, 10.0 spd, 1s cooldown)
+- **Centaurian Mastery** - Total mastery of the Yaka Arrow — unleash a devastating beam of pure red-hot Centaurian energy (300 dmg energy blast, 10.0 spd, 1s cooldown)
 
 ## Ravager Suit Features
 - Balanced armor protection (2000 durability, netherite-tier)
@@ -120,7 +120,7 @@ These abilities are always active when unlocked (no activation required):
 ## Active Abilities Summary
 **Yaka Arrow Projectiles (4):** Yaka Arrow Basic, Yaka Volley, Arrow Rain, Yaka Barrage — actual Yaka Arrows flying through the air
 
-**Yaka Energy Blasts (4):** Whistle Control, Ship Clearer, Yaka Boomerang, Centaurian Mastery — the arrow's glowing red energy trail at higher power levels
+**Yaka Energy Blasts (4):** Whistle Control, Eclector Blast, Yaka Piercing Trail, Centaurian Mastery — the arrow's glowing red energy trail at higher power levels
 
 **Area Damage (2):** Battle Cry (war cry shockwave), Ravager Massacre (arrow spiraling around you)
 
