@@ -13,7 +13,7 @@
   "outputs": {
     "primary": {
       "item": "lucraftcore:injection",
-      "nbt": "{\"Injection\": \"yondu:yondu\"}",
+      "nbt": "{\"Superpower\": \"yondu:yondu\"}",
       "chance": 0.75
     },
     "secondary": {

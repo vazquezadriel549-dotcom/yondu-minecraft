@@ -8,7 +8,7 @@
   "effects": [
     {
       "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin.png",
+      "texture": "yondu:textures/skins/yondu_fin",
       "size": 0.55,
       "glow": true
     }
@@ -233,8 +233,8 @@
         "text": "Yondu Helmet"
       },
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_1.png",
-        "open": "yondu:textures/armor/yondu_fin_armor.png"
+        "normal": "yondu:textures/armor/yondu_layer_1",
+        "open": "yondu:textures/armor/yondu_fin_armor"
       }
     },
     "chest": {
@@ -244,7 +244,7 @@
         "text": "Yondu Chestplate"
       },
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_1.png"
+        "normal": "yondu:textures/armor/yondu_layer_1"
       }
     },
     "legs": {
@@ -254,7 +254,7 @@
         "text": "Yondu Leggings"
       },
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_2.png"
+        "normal": "yondu:textures/armor/yondu_layer_2"
       }
     },
     "feet": {
@@ -264,7 +264,7 @@
         "text": "Yondu Boosters"
       },
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_1.png"
+        "normal": "yondu:textures/armor/yondu_layer_1"
       }
     }
   }

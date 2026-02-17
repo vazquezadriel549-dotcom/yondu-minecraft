@@ -458,7 +458,7 @@
   "effects": [
     {
       "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin.png",
+      "texture": "yondu:textures/skins/yondu_fin",
       "glow": true,
       "size": 0.55,
       "min_level": 1,
@@ -466,7 +466,7 @@
     },
     {
       "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin1.png",
+      "texture": "yondu:textures/skins/yondu_fin1",
       "glow": true,
       "size": 0.58,
       "min_level": 4,
@@ -474,7 +474,7 @@
     },
     {
       "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin2.png",
+      "texture": "yondu:textures/skins/yondu_fin2",
       "glow": true,
       "size": 0.6,
       "min_level": 7,
@@ -482,7 +482,7 @@
     },
     {
       "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin3.png",
+      "texture": "yondu:textures/skins/yondu_fin3",
       "glow": true,
       "size": 0.62,
       "min_level": 10,
