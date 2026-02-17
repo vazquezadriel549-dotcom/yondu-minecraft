@@ -93,7 +93,7 @@
       "description": {"text": "Whistle to guide your arrow (60 dmg, 7.0 spd, 60 pierce)"},
       "icon": {
         "type": "texture",
-        "texture": "yondu:textures/gui/tracking.png"
+        "texture": "yondu:textures/gui/whistle.png"
       },
       "projectile": {
         "type": "arrow",
@@ -172,6 +172,17 @@
       "cooldown": 2,
       "sound": "entity.arrow.shoot",
       "required_level": 5
+    },
+    "enhanced_perception": {
+      "ability": "lucraftcore:night_vision",
+      "show_in_bar": false,
+      "title": {"text": "Enhanced Perception"},
+      "description": {"text": "Track targets in any environment with heightened senses"},
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/tracking.png"
+      },
+      "required_level": 6
     },
     "water_adaptation": {
       "ability": "lucraftcore:water_breathing",

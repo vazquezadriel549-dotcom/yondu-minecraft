@@ -46,8 +46,8 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 ### Level 5 - Ravager
 - Ravager Massacre - Multi-target piercing (85 dmg, 6.5 spd, 120 pierce, 2s cooldown)
 
-### Level 6 - Sky Dancer
-- (Slow fall moved to Ravager Suit requirement)
+### Level 6 - Tracker
+- **Enhanced Perception** - Passive night vision to track targets in any environment
 
 ### Level 7 - Aquatic Operative
 - **Aquatic Adaptation** - Passive underwater breathing for extended missions
@@ -89,6 +89,7 @@ These abilities are always active when unlocked (no activation required):
 **Base Powers:**
 - **Centaurian Healing** (Level 3): Constant regeneration from alien biology
 - **Ravager Shield** (Level 3): Passive absorption hearts for extra protection
+- **Enhanced Perception** (Level 6): Night vision to track targets in any environment
 - **Aquatic Adaptation** (Level 7): Breathe underwater indefinitely
 
 **Ravager Suit Required:**
