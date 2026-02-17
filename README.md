@@ -41,18 +41,18 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - Enhanced fall resistance (+5) and knockback resistance (+4)
 
 ### Level 2 - Whistler
-- Whistle Control - Tracking arrow (65 dmg, 7.0 spd, 65 pierce, 3s cooldown)
+- **Whistle Control** - Whistle to send the Yaka Arrow blazing toward your target (65 dmg energy blast, red glow trail, 3s cooldown)
 
 ### Level 3 - Regenerator & Shield Master
 - **Centaurian Healing** - Passive regeneration (+2) for sustained combat
 - **Ravager Shield** - Passive absorption shields (+6 hearts) for extra protection
 
-### Level 4 - Multi-Strike
-- Triple Arrow Strike - Split arrow attack (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)
+### Level 4 - Yaka Volley
+- **Yaka Volley** - Launch a volley of Yaka Arrows at high speed (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)
 
 ### Level 5 - Ravager Warrior
-- Ravager Massacre - Multi-target piercing (100 dmg, 7.0 spd, 130 pierce, 3s cooldown)
-- **Battle Cry** - Intimidating war cry damages all enemies in a 5-block radius (4 dmg per hit, 15s cooldown)
+- **Ravager Massacre** - The Yaka Arrow spirals around you shredding all nearby enemies (8 dmg AoE, 6 block radius, 3s cooldown)
+- **Battle Cry** - Fearsome war cry damages all nearby enemies (4 dmg AoE, 5 block radius, 15s cooldown)
 
 ### Level 6 - Enhanced Combatant
 - **Enhanced Perception** - Passive night vision to track targets in any environment
@@ -60,18 +60,18 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ### Level 7 - Tactical Specialist
 - **Aquatic Adaptation** - Passive underwater breathing for extended missions
-- **Arrow Rain** - Volley of piercing Yaka Arrows (30 dmg, 5.0 spd, 50 pierce, 18s cooldown)
+- **Arrow Rain** - Whistle a barrage of Yaka Arrows raining down on enemies (50 dmg, 5.0 spd, 80 pierce, 10s cooldown)
 
 ### Level 8 - Elite Ravager
-- Ship Clearer - Room-clearing devastation (140 dmg, 8.5 spd, 200 pierce, Fire 5, 2s cooldown)
+- **Ship Clearer** - The Yaka Arrow tears through everything leaving a glowing trail (140 dmg energy blast, 8.5 spd, 2s cooldown)
 - **Centaurian Endurance** - Passive superior stamina reduces hunger (+5 saturation)
 
 ### Level 9 - Master Warrior
-- Arrow Barrage - Rapid-fire explosive assault (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)
-- **Yaka Boomerang** - Returning arrow devastates multiple foes (160 dmg, 8.0 spd, 220 pierce, 6s cooldown)
+- **Yaka Barrage** - Rapid-fire Yaka Arrows tipped with searing heat (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)
+- **Yaka Boomerang** - The arrow curves in a wide arc striking everything and returning (160 dmg energy blast, 8.0 spd, 6s cooldown)
 
 ### Level 10 - Centaurian Master
-- Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 1s cooldown)
+- **Centaurian Mastery** - Total mastery of the Yaka Arrow blazing with red-hot energy (300 dmg energy blast, 10.0 spd, 1s cooldown)
 
 ## Ravager Suit Features
 - Balanced armor protection (2000 durability, netherite-tier)
@@ -118,9 +118,11 @@ These abilities are always active when unlocked (no activation required):
 - **Water Breathing**: Sealed suit life support systems
 
 ## Active Abilities Summary
-**Projectile Attacks (9):** Yaka Arrow Basic, Whistle Control, Triple Arrow Strike, Ravager Massacre, Arrow Rain, Ship Clearer, Arrow Barrage, Yaka Boomerang, Centaurian Mastery
+**Yaka Arrow Projectiles (4):** Yaka Arrow Basic, Yaka Volley, Arrow Rain, Yaka Barrage — actual Yaka Arrows flying through the air
 
-**Area Damage (1):** Battle Cry (damage aura)
+**Yaka Energy Blasts (4):** Whistle Control, Ship Clearer, Yaka Boomerang, Centaurian Mastery — the arrow's glowing red energy trail at higher power levels
+
+**Area Damage (2):** Battle Cry (war cry shockwave), Ravager Massacre (arrow spiraling around you)
 
 **Suit Active Powers (4):** Energy Shield, Ravager's Fury, Stealth Cloak, Yondu Boosters Flight
 

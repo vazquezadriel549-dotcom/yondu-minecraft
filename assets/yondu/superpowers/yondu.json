@@ -142,10 +142,10 @@
       "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {
-        "text": "Whistle Control - Tracking"
+        "text": "Whistle Control"
       },
       "description": {
-        "text": "Whistle to guide a precision energy bolt at your target (65 dmg, 7.0 spd, 3s cooldown)"
+        "text": "Whistle to send the Yaka Arrow blazing toward your target with deadly precision (65 dmg, 7.0 spd, 3s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -155,7 +155,7 @@
       "speed": 7.0,
       "color": [220, 50, 50],
       "cooldown": 3,
-      "sound": "entity.blaze.shoot",
+      "sound": "entity.arrow.hit",
       "required_level": 2
     },
     "centaurian_healing": {
@@ -195,44 +195,44 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {
-        "text": "Triple Arrow Strike"
+        "text": "Yaka Volley"
       },
       "description": {
-        "text": "Launch three blazing fireballs that explode on impact (80 dmg, 6.5 spd, 4s cooldown)"
+        "text": "Launch a volley of Yaka Arrows at high speed (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
       },
       "projectile": {
-        "type": "fireball",
+        "type": "arrow",
         "damage": 80,
         "speed": 6.5,
         "gravity": false,
-        "fire": 3
+        "piercing": 90,
+        "knockback": 5
       },
       "cooldown": 4,
-      "sound": "entity.blaze.shoot",
+      "sound": "entity.arrow.shoot",
       "required_level": 4
     },
     "ravager_massacre": {
-      "ability": "lucraftcore:energy_blast",
+      "ability": "lucraftcore:damage_aura",
       "show_in_bar": true,
       "title": {
         "text": "Ravager Massacre"
       },
       "description": {
-        "text": "Devastating energy blast onslaught (100 dmg, 7.0 spd, 3s cooldown)"
+        "text": "The Yaka Arrow spirals around you at lethal speed, shredding all nearby enemies (8 dmg per hit, 6 block radius, 3s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/barrage.png"
       },
-      "damage": 100,
-      "speed": 7.0,
-      "color": [255, 80, 30],
+      "damage": 8,
+      "radius": 6,
       "cooldown": 3,
-      "sound": "entity.enderdragon.shoot",
+      "sound": "entity.arrow.hit",
       "required_level": 5
     },
     "battle_cry": {
@@ -300,44 +300,48 @@
       "required_level": 7
     },
     "arrow_rain": {
-      "ability": "lucraftcore:lightning",
-      "show_in_bar": true,
-      "title": {
-        "text": "Yaka Lightning Storm"
-      },
-      "description": {
-        "text": "Channel the Yaka Arrow's energy into a devastating lightning strike at your target (18s cooldown)"
-      },
-      "icon": {
-        "type": "texture",
-        "texture": "yondu:textures/gui/arrow_storm.png"
-      },
-      "cooldown": 18,
-      "sound": "entity.lightning.thunder",
-      "required_level": 7
-    },
-    "ship_clearer": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {
-        "text": "Ship Clearer"
+        "text": "Arrow Rain"
       },
       "description": {
-        "text": "Room-clearing fireball devastation (140 dmg, 8.5 spd, Fire 5, 2s cooldown)"
+        "text": "Whistle a barrage of Yaka Arrows raining down on your enemies (50 dmg, 5.0 spd, 80 pierce, 10s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
       "projectile": {
-        "type": "fireball",
-        "damage": 140,
-        "speed": 8.5,
+        "type": "arrow",
+        "damage": 50,
+        "speed": 5.0,
         "gravity": false,
-        "fire": 5
+        "piercing": 80,
+        "knockback": 3
       },
+      "cooldown": 10,
+      "sound": "entity.arrow.shoot",
+      "required_level": 7
+    },
+    "ship_clearer": {
+      "ability": "lucraftcore:energy_blast",
+      "show_in_bar": true,
+      "title": {
+        "text": "Ship Clearer"
+      },
+      "description": {
+        "text": "The Yaka Arrow tears through everything in its path leaving a glowing trail of destruction (140 dmg, 8.5 spd, 2s cooldown)"
+      },
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/arrow_storm.png"
+      },
+      "damage": 140,
+      "speed": 8.5,
+      "color": [255, 80, 20],
       "cooldown": 2,
-      "sound": "entity.ghast.shoot",
+      "sound": "entity.arrow.hit",
       "required_level": 8
     },
     "centaurian_endurance": {
@@ -356,65 +360,69 @@
       "required_level": 8
     },
     "arrow_barrage": {
-      "ability": "lucraftcore:energy_blast",
+      "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {
-        "text": "Energy Barrage"
+        "text": "Yaka Barrage"
       },
       "description": {
-        "text": "Rapid-fire explosive energy blasts (175 dmg, 9.5 spd, 1s cooldown)"
+        "text": "Rapid-fire Yaka Arrows tipped with searing heat (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/ravager.png"
       },
-      "damage": 175,
-      "speed": 9.5,
-      "color": [255, 40, 40],
+      "projectile": {
+        "type": "arrow",
+        "damage": 175,
+        "speed": 9.5,
+        "gravity": false,
+        "piercing": 280,
+        "knockback": 9,
+        "fire": 15
+      },
       "cooldown": 1,
-      "sound": "entity.firework.blast",
+      "sound": "entity.arrow.shoot",
       "required_level": 9
     },
     "yaka_boomerang": {
-      "ability": "lucraftcore:projectile",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {
         "text": "Yaka Boomerang"
       },
       "description": {
-        "text": "Returning energy projectile devastates multiple foes (160 dmg, 8.0 spd, 6s cooldown)"
+        "text": "The Yaka Arrow curves through the air in a wide arc, striking everything in its path and returning (160 dmg, 8.0 spd, 6s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
       },
-      "projectile": {
-        "type": "snowball",
-        "damage": 160,
-        "speed": 8.0,
-        "gravity": false,
-        "knockback": 8
-      },
+      "damage": 160,
+      "speed": 8.0,
+      "color": [255, 40, 0],
       "cooldown": 6,
-      "sound": "entity.enderpearl.throw",
+      "sound": "entity.arrow.hit",
       "required_level": 9
     },
     "centaurian_mastery": {
-      "ability": "lucraftcore:command",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {
         "text": "Centaurian Mastery"
       },
       "description": {
-        "text": "Ultimate power - summon devastating lightning at your position (1s cooldown)"
+        "text": "Total mastery of the Yaka Arrow — it blazes with red-hot energy, annihilating everything it touches (300 dmg, 10.0 spd, 1s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
       },
-      "command": "/summon minecraft:lightning_bolt ~ ~ ~",
+      "damage": 300,
+      "speed": 10.0,
+      "color": [255, 20, 0],
       "cooldown": 1,
-      "sound": "entity.lightning.thunder",
+      "sound": "entity.arrow.hit",
       "required_level": 10
     }
   },
