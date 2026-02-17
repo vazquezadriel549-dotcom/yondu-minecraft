@@ -11,7 +11,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ## Features
 - **10 Progressive Ability Levels**: Unlock devastating powers as you level up
-- **37 Total Abilities**: 22 base powers + 15 suit abilities
+- **39 Total Abilities**: 24 base powers + 15 suit abilities
 - **Visual Progression**: Evolving fin appearance that grows with your power level
 - **Yaka Arrow Mastery**: 8 unique arrow abilities with smooth damage scaling (35-300 dmg)
 - **Centaurian Physiology**: Enhanced strength, resistance, agility, health, and endurance
@@ -72,6 +72,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ### Level 10 - Centaurian Master
 - **Centaurian Mastery** - Total mastery of the Yaka Arrow — unleash a devastating beam of pure red-hot Centaurian energy (300 dmg energy blast, 10.0 spd, 1s cooldown)
+- **Yaka Arrow Rampage** - Toggle ON/OFF — The Yaka Arrow flies on its own, hunting down and killing every enemy nearby one after another, just like the iconic Eclector hallway scene (25 dmg per hit, 10 block radius, continuous). Use the power again to turn it off.
 
 ## Ravager Suit Features
 - Balanced armor protection (2000 durability, netherite-tier)
@@ -122,7 +123,7 @@ These abilities are always active when unlocked (no activation required):
 
 **Yaka Energy Blasts (4):** Whistle Control, Eclector Blast, Yaka Piercing Trail, Centaurian Mastery — the arrow's glowing red energy trail at higher power levels
 
-**Area Damage (2):** Battle Cry (war cry shockwave), Ravager Massacre (arrow spiraling around you)
+**Area Damage (3):** Battle Cry (war cry shockwave), Ravager Massacre (arrow spiraling around you), Yaka Arrow Rampage (toggle — arrow hunts down all nearby enemies continuously, inspired by the Eclector hallway scene)
 
 **Suit Active Powers (4):** Energy Shield, Ravager's Fury, Stealth Cloak, Yondu Boosters Flight
 
