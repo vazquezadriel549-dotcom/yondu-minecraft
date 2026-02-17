@@ -11,13 +11,13 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ## Features
 - **10 Progressive Ability Levels**: Unlock devastating powers as you level up
-- **39 Total Abilities**: 24 base powers + 15 suit abilities
+- **40 Total Abilities**: 24 base powers + 16 suit abilities
 - **Visual Progression**: Evolving fin appearance that grows with your power level
-- **Yaka Arrow Mastery**: 8 unique arrow abilities with smooth damage scaling (35-300 dmg)
+- **Yaka Arrow Mastery**: Multiple arrow abilities with smooth damage scaling (35-300 dmg)
 - **Centaurian Physiology**: Enhanced strength, resistance, agility, health, and endurance
 - **Full Ravager Suit**: Complete armor set with boosted stats and flight capability
-- **Tactical Abilities**: Battle Cry, Arrow Rain, Energy Shield, Stealth Cloak, and more
-- **Passive Powers**: 12 always-active enhancements including healing, shields, and perception
+- **Tactical Abilities**: Battle Cry, Arrow Rain, Yaka Arrow Rampage, and more
+- **Passive Powers**: Always-active enhancements including healing, intimidation, and perception
 - **Openable Helmet**: Toggle between standard and fin armor variants
 - **Unique Abilities**: Including the iconic "I'm Mary Poppins Y'all" slow fall
 - **Enhanced Graphics**: Custom textures, particle effects, and visual trails
@@ -43,9 +43,9 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 ### Level 2 - Whistler
 - **Whistle Control** - Whistle to send the Yaka Arrow blazing toward your target (65 dmg energy blast, red glow trail, 3s cooldown)
 
-### Level 3 - Regenerator & Shield Master
-- **Centaurian Healing** - Passive regeneration (+2) for sustained combat
-- **Ravager Shield** - Passive absorption shields (+6 hearts) for extra protection
+### Level 3 - Ravager Veteran
+- **Tough It Out** - Passive regeneration -- shake off wounds like a true Ravager (+2)
+- **Ravager Intimidation** - Your fearsome reputation keeps you alive (+6 bonus hearts)
 
 ### Level 4 - Yaka Volley
 - **Yaka Volley** - Launch a volley of Yaka Arrows at high speed (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)
@@ -59,20 +59,20 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - **Ravager's Reflexes** - Passive speed boost from combat experience (+3 speed)
 
 ### Level 7 - Tactical Specialist
-- **Aquatic Adaptation** - Passive underwater breathing for extended missions
+- **Ravager Survival** - Passive fire resistance from years surviving on hostile worlds
 - **Arrow Rain** - Whistle a barrage of Yaka Arrows raining down on enemies (50 dmg, 5.0 spd, 80 pierce, 10s cooldown)
 
 ### Level 8 - Elite Ravager
-- **Eclector Blast** - Channel the Yaka Arrow's full destructive force into a devastating energy beam (140 dmg energy blast, 8.5 spd, 2s cooldown)
+- **Eclector Blast** - Channel the Yaka Arrow at full speed in a devastating blazing trail that tears through everything (140 dmg, 8.5 spd, 2s cooldown)
 - **Centaurian Endurance** - Passive superior stamina reduces hunger (+5 saturation)
 
 ### Level 9 - Master Warrior
-- **Yaka Barrage** - Rapid-fire Yaka Arrows tipped with searing heat (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)
-- **Yaka Piercing Trail** - The Yaka Arrow blazes a piercing trail of energy through all enemies in its path (160 dmg energy blast, 8.0 spd, 6s cooldown)
+- **Yaka Barrage** - Rapid-fire Yaka Arrows whistled at blinding speed (175 dmg, 9.5 spd, 280 pierce, 1s cooldown)
+- **Yaka Piercing Trail** - The Yaka Arrow blazes a piercing trail through all enemies in its path (160 dmg, 8.0 spd, 6s cooldown)
 
 ### Level 10 - Centaurian Master
-- **Centaurian Mastery** - Total mastery of the Yaka Arrow — unleash a devastating beam of pure red-hot Centaurian energy (300 dmg energy blast, 10.0 spd, 1s cooldown)
-- **Yaka Arrow Rampage** - Toggle ON/OFF — The Yaka Arrow flies on its own, hunting down and killing every enemy nearby one after another, just like the iconic Eclector hallway scene (25 dmg per hit, 10 block radius, continuous). Use the power again to turn it off.
+- **Centaurian Mastery** - Total mastery of the Yaka Arrow -- whistle it so fast it leaves a burning red trail, annihilating everything in its path (300 dmg, 10.0 spd, 1s cooldown)
+- **Yaka Arrow Rampage** - Toggle ON/OFF -- The Yaka Arrow flies on its own, hunting down and killing every enemy nearby one after another, just like the iconic Eclector hallway scene (25 dmg per hit, 10 block radius, continuous). Use the power again to turn it off.
 
 ## Ravager Suit Features
 - Balanced armor protection (2000 durability, netherite-tier)
@@ -82,15 +82,15 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - **"I'm Mary Poppins Y'all"** - Passive slow fall from rocket boosters
 - Combat bonuses: +3 strength, +4 resistance, +3 jump boost, +2 speed
 - Defensive systems: +6 fall resistance, +8 knockback resistance
-- Life support: +15 health, fire resistance, water breathing (passive)
-- Night vision HUD system (passive)
+- Survival: +15 health, fire resistance, saturation rations (passive)
+- Fin-Enhanced Sight: night vision through the cybernetic fin (passive)
 - **Openable Helmet**: Toggle between closed (standard) and open (fin armor) modes
 - Complete armor glow effects for intimidation
 
 ### Active Suit Abilities
-- **Energy Shield** - Temporary invulnerability field (8s duration, 45s cooldown)
+- **Brace for Impact** - Let the armor absorb the hit (+8 absorption hearts, 10s duration, 45s cooldown)
 - **Ravager's Fury** - Channel rage into devastating attacks (+5 damage, 12s duration, 30s cooldown)
-- **Stealth Cloak** - Advanced invisibility system (10s duration, 60s cooldown)
+- **Ravager Dash** - Activate suit thrusters for a burst of speed (+8 sprint, 8s duration, 30s cooldown)
 - **Yondu Boosters** - Rocket-powered flight (0.8 spd, 2.0 sprint, 25s cooldown)
 
 ## Visual Progression System
@@ -106,26 +106,26 @@ This progressive visual system lets other players immediately recognize your pow
 These abilities are always active when unlocked (no activation required):
 
 **Base Powers:**
-- **Centaurian Healing** (Level 3): Constant regeneration from alien biology
-- **Ravager Shield** (Level 3): Passive absorption hearts for extra protection
+- **Tough It Out** (Level 3): Constant regeneration -- shake off wounds like a true Ravager
+- **Ravager Intimidation** (Level 3): Passive absorption hearts from your fearsome reputation
 - **Enhanced Perception** (Level 6): Night vision to track targets in any environment
 - **Ravager's Reflexes** (Level 6): Lightning-fast combat reflexes (+3 speed)
-- **Aquatic Adaptation** (Level 7): Breathe underwater indefinitely
+- **Ravager Survival** (Level 7): Fire resistance from surviving on hostile worlds
 - **Centaurian Endurance** (Level 8): Superior stamina reduces hunger needs
 
 **Ravager Suit Required:**
 - **Mary Poppins Slowfall**: Rocket boosters provide controlled descent (armor only)
-- **Night Vision**: Advanced HUD targeting system
-- **Water Breathing**: Sealed suit life support systems
+- **Fin-Enhanced Sight**: Cybernetic fin enhances Centaurian vision in the dark
+- **Ravager Rations**: Built-in ration dispensers keep you fed on long missions
 
 ## Active Abilities Summary
-**Yaka Arrow Projectiles (4):** Yaka Arrow Basic, Yaka Volley, Arrow Rain, Yaka Barrage — actual Yaka Arrows flying through the air
+**Yaka Arrow Projectiles (4):** Yaka Arrow Basic, Yaka Volley, Arrow Rain, Yaka Barrage -- actual Yaka Arrows flying through the air
 
-**Yaka Energy Blasts (4):** Whistle Control, Eclector Blast, Yaka Piercing Trail, Centaurian Mastery — the arrow's glowing red energy trail at higher power levels
+**Yaka Arrow Trails (4):** Whistle Control, Eclector Blast, Yaka Piercing Trail, Centaurian Mastery -- the arrow moving so fast it leaves a glowing red trail
 
-**Area Damage (3):** Battle Cry (war cry shockwave), Ravager Massacre (arrow spiraling around you), Yaka Arrow Rampage (toggle — arrow hunts down all nearby enemies continuously, inspired by the Eclector hallway scene)
+**Area Damage (3):** Battle Cry (war cry shockwave), Ravager Massacre (arrow spiraling around you), Yaka Arrow Rampage (toggle -- arrow hunts down all nearby enemies continuously, inspired by the Eclector hallway scene)
 
-**Suit Active Powers (4):** Energy Shield, Ravager's Fury, Stealth Cloak, Yondu Boosters Flight
+**Suit Active Powers (4):** Brace for Impact, Ravager's Fury, Ravager Dash, Yondu Boosters Flight
 
 ## Controls
 - **W, A, S, D**: Move your character

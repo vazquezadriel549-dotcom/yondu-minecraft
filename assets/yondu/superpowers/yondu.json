@@ -162,14 +162,14 @@
       "sound": "entity.arrow.shoot",
       "required_level": 2
     },
-    "centaurian_healing": {
+    "tough_it_out": {
       "ability": "lucraftcore:healing",
       "show_in_bar": false,
       "title": {
-        "text": "Centaurian Healing"
+        "text": "Tough It Out"
       },
       "description": {
-        "text": "Accelerated healing from alien biology"
+        "text": "Shake off wounds like a true Ravager -- pain is just weakness leaving the body"
       },
       "icon": {
         "type": "texture",
@@ -179,14 +179,14 @@
       "required_level": 3,
       "frequency": 20
     },
-    "ravager_shield": {
+    "ravager_intimidation": {
       "ability": "lucraftcore:absorption",
       "show_in_bar": false,
       "title": {
-        "text": "Ravager Shield"
+        "text": "Ravager Intimidation"
       },
       "description": {
-        "text": "Generate protective energy shields (+6 absorption hearts)"
+        "text": "Your fearsome reputation keeps you alive -- enemies hesitate to strike (+6 bonus hearts)"
       },
       "icon": {
         "type": "texture",
@@ -288,14 +288,14 @@
       },
       "required_level": 6
     },
-    "water_adaptation": {
-      "ability": "lucraftcore:water_breathing",
+    "ravager_survival": {
+      "ability": "lucraftcore:fire_resistance",
       "show_in_bar": false,
       "title": {
-        "text": "Aquatic Adaptation"
+        "text": "Ravager Survival"
       },
       "description": {
-        "text": "Breathe underwater for extended operations"
+        "text": "Years surviving on hostile worlds have made you resistant to extreme heat and fire"
       },
       "icon": {
         "type": "texture",
@@ -335,7 +335,7 @@
         "text": "Eclector Blast"
       },
       "description": {
-        "text": "Channel the Yaka Arrow's full destructive force into a devastating energy beam that tears through everything (140 dmg, 8.5 spd, 2s cooldown)"
+        "text": "Channel the Yaka Arrow at full speed in a devastating blazing trail that tears through everything in its path (140 dmg, 8.5 spd, 2s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -374,7 +374,7 @@
         "text": "Yaka Barrage"
       },
       "description": {
-        "text": "Rapid-fire Yaka Arrows tipped with searing heat (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)"
+        "text": "Rapid-fire Yaka Arrows whistled at blinding speed (175 dmg, 9.5 spd, 280 pierce, 1s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -386,8 +386,7 @@
         "speed": 9.5,
         "gravity": false,
         "piercing": 280,
-        "knockback": 9,
-        "fire": 15
+        "knockback": 9
       },
       "cooldown": 1,
       "sound": "entity.arrow.shoot",
@@ -424,7 +423,7 @@
         "text": "Centaurian Mastery"
       },
       "description": {
-        "text": "Total mastery of the Yaka Arrow \u2014 unleash a devastating beam of pure red-hot Centaurian energy that annihilates everything (300 dmg, 10.0 spd, 1s cooldown)"
+        "text": "Total mastery of the Yaka Arrow -- whistle it so fast it leaves a burning red trail, annihilating everything in its path (300 dmg, 10.0 spd, 1s cooldown)"
       },
       "icon": {
         "type": "texture",
