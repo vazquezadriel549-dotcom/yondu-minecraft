@@ -378,18 +378,6 @@
       "trail_type": "arrow",
       "color": [1.0, 0.2, 0.2],
       "size": 0.5
-    },
-    {
-      "type": "particles",
-      "particle": "redstone",
-      "count": 4,
-      "speed": 0.15
-    },
-    {
-      "type": "particles",
-      "particle": "crit",
-      "count": 2,
-      "speed": 0.1
     }
   ]
 }
