@@ -15,62 +15,114 @@
     "centaurian_strength": {
       "ability": "lucraftcore:strength",
       "show_in_bar": false,
-      "title": {"text": "Centaurian Strength"},
-      "description": {"text": "Enhanced physical strength from Centauri heritage"},
-      "icon": {"type": "internal"},
+      "title": {
+        "text": "Centaurian Strength"
+      },
+      "description": {
+        "text": "Enhanced physical strength from Centauri heritage"
+      },
+      "icon": {
+        "type": "internal"
+      },
       "amount": 2,
-      "required_level": 1
+      "required_level": 1,
+      "operation": 0,
+      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
     "basic_resistance": {
       "ability": "lucraftcore:resistance",
       "show_in_bar": false,
-      "title": {"text": "Ravager Toughness"},
-      "description": {"text": "Years of combat have hardened your body"},
-      "icon": {"type": "internal"},
+      "title": {
+        "text": "Ravager Toughness"
+      },
+      "description": {
+        "text": "Years of combat have hardened your body"
+      },
+      "icon": {
+        "type": "internal"
+      },
       "amount": 3,
-      "required_level": 1
+      "required_level": 1,
+      "operation": 0,
+      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
     "centaurian_agility": {
       "ability": "lucraftcore:jump_boost",
       "show_in_bar": false,
-      "title": {"text": "Centaurian Agility"},
-      "description": {"text": "Superior mobility and reflexes"},
-      "icon": {"type": "internal"},
+      "title": {
+        "text": "Centaurian Agility"
+      },
+      "description": {
+        "text": "Superior mobility and reflexes"
+      },
+      "icon": {
+        "type": "internal"
+      },
       "amount": 2,
-      "required_level": 1
+      "required_level": 1,
+      "operation": 0,
+      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
     "fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "show_in_bar": false,
-      "title": {"text": "Acrobatic Landing"},
-      "description": {"text": "Take less damage from falls"},
-      "icon": {"type": "internal"},
+      "title": {
+        "text": "Acrobatic Landing"
+      },
+      "description": {
+        "text": "Take less damage from falls"
+      },
+      "icon": {
+        "type": "internal"
+      },
       "amount": 5,
-      "required_level": 1
+      "required_level": 1,
+      "operation": 0,
+      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
     "knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "show_in_bar": false,
-      "title": {"text": "Unwavering Stance"},
-      "description": {"text": "Resist being knocked back in combat"},
-      "icon": {"type": "internal"},
+      "title": {
+        "text": "Unwavering Stance"
+      },
+      "description": {
+        "text": "Resist being knocked back in combat"
+      },
+      "icon": {
+        "type": "internal"
+      },
       "amount": 4,
-      "required_level": 1
+      "required_level": 1,
+      "operation": 0,
+      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
     "centaurian_vitality": {
       "ability": "lucraftcore:health",
       "show_in_bar": false,
-      "title": {"text": "Centaurian Vitality"},
-      "description": {"text": "Increased health from alien physiology"},
-      "icon": {"type": "internal"},
+      "title": {
+        "text": "Centaurian Vitality"
+      },
+      "description": {
+        "text": "Increased health from alien physiology"
+      },
+      "icon": {
+        "type": "internal"
+      },
       "amount": 15,
-      "required_level": 1
+      "required_level": 1,
+      "operation": 0,
+      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
     "yaka_arrow_basic": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Yaka Arrow - Basic"},
-      "description": {"text": "Launch a controlled Yaka Arrow (35 dmg, 4.5 spd, 40 pierce, 4s cooldown)"},
+      "title": {
+        "text": "Yaka Arrow - Basic"
+      },
+      "description": {
+        "text": "Launch a controlled Yaka Arrow (35 dmg, 4.5 spd, 40 pierce, 4s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/yaka_arrow.png"
@@ -89,8 +141,12 @@
     "whistle_control": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Whistle Control - Tracking"},
-      "description": {"text": "Whistle to guide your arrow with precision (65 dmg, 7.0 spd, 65 pierce, 3s cooldown)"},
+      "title": {
+        "text": "Whistle Control - Tracking"
+      },
+      "description": {
+        "text": "Whistle to guide your arrow with precision (65 dmg, 7.0 spd, 65 pierce, 3s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistle.png"
@@ -108,22 +164,31 @@
       "required_level": 2
     },
     "centaurian_healing": {
-      "ability": "lucraftcore:regeneration",
+      "ability": "lucraftcore:healing",
       "show_in_bar": false,
-      "title": {"text": "Centaurian Healing"},
-      "description": {"text": "Accelerated healing from alien biology"},
+      "title": {
+        "text": "Centaurian Healing"
+      },
+      "description": {
+        "text": "Accelerated healing from alien biology"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/combat.png"
       },
       "amount": 2,
-      "required_level": 3
+      "required_level": 3,
+      "frequency": 20
     },
     "ravager_shield": {
       "ability": "lucraftcore:absorption",
       "show_in_bar": false,
-      "title": {"text": "Ravager Shield"},
-      "description": {"text": "Generate protective energy shields (+6 absorption hearts)"},
+      "title": {
+        "text": "Ravager Shield"
+      },
+      "description": {
+        "text": "Generate protective energy shields (+6 absorption hearts)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/combat.png"
@@ -134,8 +199,12 @@
     "triple_arrow_strike": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Triple Arrow Strike"},
-      "description": {"text": "Split arrow into three devastating projectiles (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)"},
+      "title": {
+        "text": "Triple Arrow Strike"
+      },
+      "description": {
+        "text": "Split arrow into three devastating projectiles (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
@@ -155,8 +224,12 @@
     "ravager_massacre": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Ravager Massacre"},
-      "description": {"text": "Devastating multi-pierce onslaught (100 dmg, 7.0 spd, 130 pierce, 2.5s cooldown)"},
+      "title": {
+        "text": "Ravager Massacre"
+      },
+      "description": {
+        "text": "Devastating multi-pierce onslaught (100 dmg, 7.0 spd, 130 pierce, 3s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/barrage.png"
@@ -169,42 +242,57 @@
         "piercing": 130,
         "knockback": 4
       },
-      "cooldown": 2.5,
+      "cooldown": 3,
       "sound": "entity.arrow.shoot",
       "required_level": 5
     },
     "battle_cry": {
-      "ability": "lucraftcore:damage",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
-      "title": {"text": "Ravager Battle Cry"},
-      "description": {"text": "Fearsome war cry damages and weakens enemies (20 dmg, 10 range, Weakness II, 15s cooldown)"},
-      "icon": {"type": "internal"},
-      "damage": 20,
-      "range": 10,
+      "title": {
+        "text": "Ravager Battle Cry"
+      },
+      "description": {
+        "text": "Fearsome war cry damages nearby enemies (20 dmg, 15s cooldown)"
+      },
+      "icon": {
+        "type": "internal"
+      },
+      "damage": 20.0,
       "cooldown": 15,
-      "effects": [
-        {
-          "effect": "weakness",
-          "amplifier": 1,
-          "duration": 100
-        }
+      "color": [
+        255,
+        50,
+        50
       ],
       "required_level": 5
     },
     "ravager_reflexes": {
-      "ability": "lucraftcore:speed_boost",
+      "ability": "lucraftcore:sprint",
       "show_in_bar": false,
-      "title": {"text": "Ravager's Reflexes"},
-      "description": {"text": "Lightning-fast reflexes from years of combat (+3 speed)"},
-      "icon": {"type": "internal"},
+      "title": {
+        "text": "Ravager's Reflexes"
+      },
+      "description": {
+        "text": "Lightning-fast reflexes from years of combat (+3 speed)"
+      },
+      "icon": {
+        "type": "internal"
+      },
       "amount": 3,
-      "required_level": 6
+      "required_level": 6,
+      "operation": 0,
+      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
     },
     "enhanced_perception": {
       "ability": "lucraftcore:night_vision",
       "show_in_bar": false,
-      "title": {"text": "Enhanced Perception"},
-      "description": {"text": "Track targets in any environment with heightened senses"},
+      "title": {
+        "text": "Enhanced Perception"
+      },
+      "description": {
+        "text": "Track targets in any environment with heightened senses"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/tracking.png"
@@ -214,8 +302,12 @@
     "water_adaptation": {
       "ability": "lucraftcore:water_breathing",
       "show_in_bar": false,
-      "title": {"text": "Aquatic Adaptation"},
-      "description": {"text": "Breathe underwater for extended operations"},
+      "title": {
+        "text": "Aquatic Adaptation"
+      },
+      "description": {
+        "text": "Breathe underwater for extended operations"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/icons/yondu_fin_icon.png"
@@ -223,31 +315,36 @@
       "required_level": 7
     },
     "arrow_rain": {
-      "ability": "lucraftcore:damage",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
-      "title": {"text": "Arrow Rain"},
-      "description": {"text": "Devastating arrow bombardment from above (30 dmg, 14 range, Slowness II, 18s cooldown)"},
+      "title": {
+        "text": "Arrow Rain"
+      },
+      "description": {
+        "text": "Devastating arrow bombardment from above (30 dmg, 18s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
       },
-      "damage": 30,
-      "range": 14,
+      "damage": 30.0,
       "cooldown": 18,
-      "effects": [
-        {
-          "effect": "slowness",
-          "amplifier": 1,
-          "duration": 80
-        }
+      "color": [
+        255,
+        100,
+        0
       ],
       "required_level": 7
     },
     "ship_clearer": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Ship Clearer"},
-      "description": {"text": "Room-clearing devastation (140 dmg, 8.5 spd, 200 pierce, Fire 5, 2s cooldown)"},
+      "title": {
+        "text": "Ship Clearer"
+      },
+      "description": {
+        "text": "Room-clearing devastation (140 dmg, 8.5 spd, 200 pierce, Fire 5, 2s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/arrow_storm.png"
@@ -268,17 +365,27 @@
     "centaurian_endurance": {
       "ability": "lucraftcore:saturation",
       "show_in_bar": false,
-      "title": {"text": "Centaurian Endurance"},
-      "description": {"text": "Superior stamina requires less food"},
-      "icon": {"type": "internal"},
+      "title": {
+        "text": "Centaurian Endurance"
+      },
+      "description": {
+        "text": "Superior stamina requires less food"
+      },
+      "icon": {
+        "type": "internal"
+      },
       "amount": 5,
       "required_level": 8
     },
     "arrow_barrage": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Arrow Barrage"},
-      "description": {"text": "Rapid-fire explosive assault (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)"},
+      "title": {
+        "text": "Arrow Barrage"
+      },
+      "description": {
+        "text": "Rapid-fire explosive assault (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/ravager.png"
@@ -299,8 +406,12 @@
     "yaka_boomerang": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Yaka Boomerang"},
-      "description": {"text": "Returning arrow devastates multiple foes (160 dmg, 8.0 spd, 220 pierce, 6s cooldown)"},
+      "title": {
+        "text": "Yaka Boomerang"
+      },
+      "description": {
+        "text": "Returning arrow devastates multiple foes (160 dmg, 8.0 spd, 220 pierce, 6s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
@@ -320,8 +431,12 @@
     "centaurian_mastery": {
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
-      "title": {"text": "Centaurian Mastery"},
-      "description": {"text": "Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 0.5s cooldown)"},
+      "title": {
+        "text": "Centaurian Mastery"
+      },
+      "description": {
+        "text": "Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 1s cooldown)"
+      },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
@@ -335,7 +450,7 @@
         "knockback": 12,
         "fire": 30
       },
-      "cooldown": 0.5,
+      "cooldown": 1,
       "sound": "entity.arrow.shoot",
       "required_level": 10
     }
@@ -361,7 +476,7 @@
       "type": "skin_overlay",
       "texture": "yondu:textures/skins/yondu_fin2.png",
       "glow": true,
-      "size": 0.60,
+      "size": 0.6,
       "min_level": 7,
       "max_level": 9
     },
@@ -372,12 +487,6 @@
       "size": 0.62,
       "min_level": 10,
       "max_level": 10
-    },
-    {
-      "type": "trail",
-      "trail_type": "arrow",
-      "color": [1.0, 0.2, 0.2],
-      "size": 0.5
     }
   ]
 }

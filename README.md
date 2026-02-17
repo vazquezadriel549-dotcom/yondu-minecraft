@@ -48,8 +48,8 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - Triple Arrow Strike - Split arrow attack (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)
 
 ### Level 5 - Ravager Warrior
-- Ravager Massacre - Multi-target piercing (100 dmg, 7.0 spd, 130 pierce, 2.5s cooldown)
-- **Battle Cry** - Intimidating war cry damages and weakens enemies (20 dmg, 10 range, Weakness II, 15s cooldown)
+- Ravager Massacre - Multi-target piercing (100 dmg, 7.0 spd, 130 pierce, 3s cooldown)
+- **Battle Cry** - Intimidating war cry damages nearby enemies (20 dmg, 15s cooldown)
 
 ### Level 6 - Enhanced Combatant
 - **Enhanced Perception** - Passive night vision to track targets in any environment
@@ -57,7 +57,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 
 ### Level 7 - Tactical Specialist
 - **Aquatic Adaptation** - Passive underwater breathing for extended missions
-- **Arrow Rain** - Area-of-effect bombardment (30 dmg, 14 range, Slowness II, 18s cooldown)
+- **Arrow Rain** - Area-of-effect bombardment (30 dmg, 18s cooldown)
 
 ### Level 8 - Elite Ravager
 - Ship Clearer - Room-clearing devastation (140 dmg, 8.5 spd, 200 pierce, Fire 5, 2s cooldown)
@@ -68,7 +68,7 @@ A comprehensive Heroes Expansion addon that brings Yondu Udonta from Guardians o
 - **Yaka Boomerang** - Returning arrow devastates multiple foes (160 dmg, 8.0 spd, 220 pierce, 6s cooldown)
 
 ### Level 10 - Centaurian Master
-- Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 0.5s cooldown)
+- Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 1s cooldown)
 
 ## Ravager Suit Features
 - Balanced armor protection (2000 durability, netherite-tier)
