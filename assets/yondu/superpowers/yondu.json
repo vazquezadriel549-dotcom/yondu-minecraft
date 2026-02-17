@@ -463,9 +463,9 @@
       "sound": "entity.arrow.shoot",
       "required_level": 9,
       "particle": {
-        "type": "minecraft:lava",
-        "count": 12,
-        "speed": 0.3,
+        "type": "minecraft:large_smoke",
+        "count": 10,
+        "speed": 0.2,
         "spread": [
           0.8,
           0.8,
