@@ -136,7 +136,17 @@
       },
       "cooldown": 4,
       "sound": "entity.arrow.shoot",
-      "required_level": 0
+      "required_level": 0,
+      "particle": {
+        "type": "minecraft:crit",
+        "count": 5,
+        "speed": 0.1,
+        "spread": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      }
     },
     "whistle_control": {
       "ability": "lucraftcore:energy_blast",
@@ -160,7 +170,17 @@
       ],
       "cooldown": 3,
       "sound": "entity.arrow.shoot",
-      "required_level": 2
+      "required_level": 2,
+      "particle": {
+        "type": "minecraft:redstone",
+        "count": 8,
+        "speed": 0.05,
+        "spread": [
+          0.3,
+          0.3,
+          0.3
+        ]
+      }
     },
     "centaurian_healing": {
       "ability": "lucraftcore:healing",
@@ -218,7 +238,17 @@
       },
       "cooldown": 4,
       "sound": "entity.arrow.shoot",
-      "required_level": 4
+      "required_level": 4,
+      "particle": {
+        "type": "minecraft:crit_magic",
+        "count": 10,
+        "speed": 0.2,
+        "spread": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
     },
     "ravager_massacre": {
       "ability": "lucraftcore:damage_aura",
@@ -237,7 +267,17 @@
       "radius": 6,
       "cooldown": 3,
       "sound": "entity.arrow.shoot",
-      "required_level": 5
+      "required_level": 5,
+      "particle": {
+        "type": "minecraft:sweep_attack",
+        "count": 15,
+        "speed": 0.3,
+        "spread": [
+          2.0,
+          1.0,
+          2.0
+        ]
+      }
     },
     "battle_cry": {
       "ability": "lucraftcore:damage_aura",
@@ -254,7 +294,17 @@
       "damage": 4,
       "radius": 5,
       "cooldown": 15,
-      "required_level": 5
+      "required_level": 5,
+      "particle": {
+        "type": "minecraft:angry_villager",
+        "count": 12,
+        "speed": 0.2,
+        "spread": [
+          2.5,
+          1.0,
+          2.5
+        ]
+      }
     },
     "ravager_reflexes": {
       "ability": "lucraftcore:sprint",
@@ -326,7 +376,17 @@
       },
       "cooldown": 10,
       "sound": "entity.arrow.shoot",
-      "required_level": 7
+      "required_level": 7,
+      "particle": {
+        "type": "minecraft:crit",
+        "count": 20,
+        "speed": 0.4,
+        "spread": [
+          1.0,
+          2.0,
+          1.0
+        ]
+      }
     },
     "ship_clearer": {
       "ability": "lucraftcore:energy_blast",
@@ -350,7 +410,17 @@
       ],
       "cooldown": 2,
       "sound": "entity.arrow.shoot",
-      "required_level": 8
+      "required_level": 8,
+      "particle": {
+        "type": "minecraft:flame",
+        "count": 15,
+        "speed": 0.3,
+        "spread": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
     },
     "centaurian_endurance": {
       "ability": "lucraftcore:saturation",
@@ -391,7 +461,17 @@
       },
       "cooldown": 1,
       "sound": "entity.arrow.shoot",
-      "required_level": 9
+      "required_level": 9,
+      "particle": {
+        "type": "minecraft:lava",
+        "count": 12,
+        "speed": 0.3,
+        "spread": [
+          0.8,
+          0.8,
+          0.8
+        ]
+      }
     },
     "yaka_boomerang": {
       "ability": "lucraftcore:energy_blast",
@@ -415,7 +495,17 @@
       ],
       "cooldown": 6,
       "sound": "entity.arrow.shoot",
-      "required_level": 9
+      "required_level": 9,
+      "particle": {
+        "type": "minecraft:end_rod",
+        "count": 15,
+        "speed": 0.2,
+        "spread": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
     },
     "centaurian_mastery": {
       "ability": "lucraftcore:energy_blast",
@@ -439,7 +529,17 @@
       ],
       "cooldown": 1,
       "sound": "entity.arrow.shoot",
-      "required_level": 10
+      "required_level": 10,
+      "particle": {
+        "type": "minecraft:dragon_breath",
+        "count": 25,
+        "speed": 0.5,
+        "spread": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
     }
   },
   "effects": [
