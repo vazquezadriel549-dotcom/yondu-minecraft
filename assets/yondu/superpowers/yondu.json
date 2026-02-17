@@ -156,7 +156,7 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Ravager Massacre"},
-      "description": {"text": "Devastating multi-pierce onslaught (100 dmg, 7.0 spd, 130 pierce, 2.5s cooldown)"},
+      "description": {"text": "Devastating multi-pierce onslaught (100 dmg, 7.0 spd, 130 pierce, 3s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/barrage.png"
@@ -307,7 +307,7 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {"text": "Centaurian Mastery"},
-      "description": {"text": "Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 0.5s cooldown)"},
+      "description": {"text": "Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 1s cooldown)"},
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
