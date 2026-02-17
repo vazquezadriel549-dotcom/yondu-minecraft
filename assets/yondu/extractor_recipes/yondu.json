@@ -1,25 +1,16 @@
 {
-  "input": {
-    "item": "minecraft:arrow"
-  },
-  "input_container": {
-    "item": "lucraftcore:injection"
-  },
-  "input_fluid": {
-    "fluid": "water",
-    "amount": 3000
-  },
-  "energy": 50000,
-  "outputs": {
-    "primary": {
-      "item": "lucraftcore:injection",
-      "nbt": "{\"Injection\": \"yondu:yondu\"}",
-      "chance": 0.75
-    },
-    "secondary": {
-      "item": "minecraft:feather",
-      "count": 2,
-      "chance": 0.35
+  "type": "lucraftcore:extractor",
+  "ingredients": [
+    {
+      "item": "minecraft:arrow"
     }
-  }
+  ],
+  "result": {
+    "item": "lucraftcore:injection",
+    "nbt": {
+      "Superpower": "yondu:yondu"
+    }
+  },
+  "extractingTime": 200,
+  "extractingPower": 100
 }

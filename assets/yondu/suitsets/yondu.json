@@ -8,7 +8,7 @@
   "effects": [
     {
       "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin.png",
+      "texture": "yondu:textures/skins/yondu_fin",
       "size": 0.55,
       "glow": true
     }
@@ -24,7 +24,7 @@
     ],
     "enchantibility": 10,
     "toughness": 3,
-    "sound": "item.armor.equip_netherite"
+    "sound": "item.armor.equip_diamond"
   },
   "abilities": {
     "ravager_strength": {
@@ -38,7 +38,7 @@
       "amount": 3,
       "show_in_bar": false,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "6fc681d0-63d0-411b-bfc3-cdbb13fee7b3"
     },
     "ravager_resistance": {
       "ability": "lucraftcore:resistance",
@@ -51,69 +51,69 @@
       "amount": 4,
       "show_in_bar": false,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "b13dcace-3e78-47bb-b245-f872a16e949f"
     },
     "ravager_agility": {
       "ability": "lucraftcore:jump_boost",
       "title": {
-        "text": "Powered Ravager Boots"
+        "text": "Ravager Boot Jets"
       },
       "description": {
-        "text": "Hydraulic leg systems (+3 jump boost)"
+        "text": "Jet-assisted boots for superior jumping (+3 jump boost)"
       },
       "amount": 3,
       "show_in_bar": false,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "c55dc56c-9d59-48fe-a841-60b229c0188a"
     },
     "enhanced_health": {
       "ability": "lucraftcore:health",
       "title": {
-        "text": "Ravager Vitality Enhancement"
+        "text": "Ravager Toughness Plating"
       },
       "description": {
-        "text": "Life support systems (+15 health)"
+        "text": "Heavy Ravager armor keeps you alive longer (+15 health)"
       },
       "amount": 15,
       "show_in_bar": false,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "e1e81678-ac04-425e-8955-618d3e3e333b"
     },
     "fire_resistance": {
       "ability": "lucraftcore:fire_resistance",
       "title": {
-        "text": "Environmental Protection"
+        "text": "Ravager Fireproofing"
       },
       "description": {
-        "text": "Sealed suit protects against fire and extreme temperatures"
+        "text": "The suit's thick leather and metal plating protect against fire"
       },
       "show_in_bar": false
     },
     "enhanced_fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
       "title": {
-        "text": "Shock Absorbers"
+        "text": "Ravager Padding"
       },
       "description": {
-        "text": "Advanced dampening (+6 fall resistance)"
+        "text": "Thick padded armor absorbs impact from falls (+6 fall resistance)"
       },
       "amount": 6,
       "show_in_bar": false,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "8df37566-1862-4344-b00b-880284d1d79d"
     },
     "enhanced_knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
       "title": {
-        "text": "Stability Gyros"
+        "text": "Ravager Grit"
       },
       "description": {
-        "text": "Gyroscopic stabilizers (+8 knockback resistance)"
+        "text": "A Ravager captain never gets pushed around (+8 knockback resistance)"
       },
       "amount": 8,
       "show_in_bar": false,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "293eab2f-5fdf-461c-9390-c6fc7ee7fa5d"
     },
     "ravager_speed": {
       "ability": "lucraftcore:sprint",
@@ -126,26 +126,27 @@
       "amount": 2,
       "show_in_bar": false,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "35597bfd-3c43-4f0c-baee-bc5133bb45f8"
     },
     "night_vision": {
       "ability": "lucraftcore:night_vision",
       "title": {
-        "text": "Helmet HUD"
+        "text": "Fin-Enhanced Sight"
       },
       "description": {
-        "text": "Advanced targeting system with night vision"
+        "text": "The cybernetic fin enhances Centaurian vision to see in the dark"
       },
       "show_in_bar": false
     },
-    "water_breathing": {
-      "ability": "lucraftcore:water_breathing",
+    "ravager_endurance": {
+      "ability": "lucraftcore:saturation",
       "title": {
-        "text": "Sealed Suit Systems"
+        "text": "Ravager Rations"
       },
       "description": {
-        "text": "Breathe underwater with suit life support"
+        "text": "Built-in ration dispensers keep you fed on long missions"
       },
+      "amount": 3,
       "show_in_bar": false
     },
     "mary_poppins_slowfall": {
@@ -158,16 +159,17 @@
       },
       "show_in_bar": false
     },
-    "energy_shield": {
-      "ability": "lucraftcore:invulnerability",
+    "ravager_armor_boost": {
+      "ability": "lucraftcore:absorption",
       "show_in_bar": true,
       "title": {
-        "text": "Energy Shield"
+        "text": "Brace for Impact"
       },
       "description": {
-        "text": "Deploy temporary protective energy field (8s duration, 45s cooldown)"
+        "text": "Brace yourself and let the armor take the hit (+8 absorption hearts, 10s duration, 45s cooldown)"
       },
-      "duration": 8,
+      "amount": 8,
+      "duration": 10,
       "cooldown": 45,
       "icon": {
         "type": "internal"
@@ -189,22 +191,25 @@
         "type": "internal"
       },
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "68239363-ba03-4503-87fd-271b27addb87"
     },
-    "stealth_mode": {
-      "ability": "lucraftcore:invisibility",
+    "ravager_dash": {
+      "ability": "lucraftcore:sprint",
       "show_in_bar": true,
       "title": {
-        "text": "Stealth Cloak"
+        "text": "Ravager Dash"
       },
       "description": {
-        "text": "Advanced cloaking device (10s duration, 60s cooldown)"
+        "text": "Activate suit thrusters for a burst of speed (+8 sprint, 8s duration, 30s cooldown)"
       },
-      "duration": 10,
-      "cooldown": 60,
+      "amount": 8,
+      "duration": 8,
+      "cooldown": 30,
       "icon": {
         "type": "internal"
-      }
+      },
+      "operation": 0,
+      "uuid": "a59f8c21-7e34-4b62-9c15-3dfe92b64a01"
     },
     "yondu_booster_flight": {
       "ability": "lucraftcore:flight",
@@ -233,8 +238,8 @@
         "text": "Yondu Helmet"
       },
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_1.png",
-        "open": "yondu:textures/armor/yondu_fin_armor.png"
+        "normal": "yondu:textures/armor/yondu_layer_1",
+        "open": "yondu:textures/armor/yondu_fin_armor"
       }
     },
     "chest": {
@@ -244,7 +249,7 @@
         "text": "Yondu Chestplate"
       },
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_1.png"
+        "normal": "yondu:textures/armor/yondu_layer_1"
       }
     },
     "legs": {
@@ -254,7 +259,7 @@
         "text": "Yondu Leggings"
       },
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_2.png"
+        "normal": "yondu:textures/armor/yondu_layer_2"
       }
     },
     "feet": {
@@ -264,7 +269,7 @@
         "text": "Yondu Boosters"
       },
       "textures": {
-        "normal": "yondu:textures/armor/yondu_layer_1.png"
+        "normal": "yondu:textures/armor/yondu_layer_1"
       }
     }
   }

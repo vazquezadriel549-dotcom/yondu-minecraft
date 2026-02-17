@@ -25,9 +25,9 @@
         "type": "internal"
       },
       "amount": 2,
-      "required_level": 1,
+      "required_level": 0,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "08562b61-fae6-4fdc-bd99-faf661d76172"
     },
     "basic_resistance": {
       "ability": "lucraftcore:resistance",
@@ -44,7 +44,7 @@
       "amount": 3,
       "required_level": 1,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "263af649-170e-49e3-8ebd-ca00ae8d4e90"
     },
     "centaurian_agility": {
       "ability": "lucraftcore:jump_boost",
@@ -61,7 +61,7 @@
       "amount": 2,
       "required_level": 1,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "e584ed74-530d-44e0-92ea-09513d02bda4"
     },
     "fall_resistance": {
       "ability": "lucraftcore:fall_resistance",
@@ -78,7 +78,7 @@
       "amount": 5,
       "required_level": 1,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "04c0e500-a0f7-4808-a586-f8e83841219d"
     },
     "knockback_resistance": {
       "ability": "lucraftcore:knockback_resistance",
@@ -95,7 +95,7 @@
       "amount": 4,
       "required_level": 1,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "d02cd09e-1b80-4591-b0e1-e09b49576917"
     },
     "centaurian_vitality": {
       "ability": "lucraftcore:health",
@@ -110,9 +110,9 @@
         "type": "internal"
       },
       "amount": 15,
-      "required_level": 1,
+      "required_level": 0,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "11c70866-89dd-461e-9492-1d814b9726c9"
     },
     "yaka_arrow_basic": {
       "ability": "lucraftcore:projectile",
@@ -136,41 +136,40 @@
       },
       "cooldown": 4,
       "sound": "entity.arrow.shoot",
-      "required_level": 1
+      "required_level": 0
     },
     "whistle_control": {
-      "ability": "lucraftcore:projectile",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {
-        "text": "Whistle Control - Tracking"
+        "text": "Whistle Control"
       },
       "description": {
-        "text": "Whistle to guide your arrow with precision (65 dmg, 7.0 spd, 65 pierce, 3s cooldown)"
+        "text": "Whistle to send the Yaka Arrow blazing toward your target with deadly precision (65 dmg, 7.0 spd, 3s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistle.png"
       },
-      "projectile": {
-        "type": "arrow",
-        "damage": 65,
-        "speed": 7.0,
-        "gravity": false,
-        "piercing": 65,
-        "knockback": 5
-      },
+      "damage": 65,
+      "speed": 7.0,
+      "color": [
+        255,
+        50,
+        50
+      ],
       "cooldown": 3,
       "sound": "entity.arrow.shoot",
       "required_level": 2
     },
-    "centaurian_healing": {
+    "tough_it_out": {
       "ability": "lucraftcore:healing",
       "show_in_bar": false,
       "title": {
-        "text": "Centaurian Healing"
+        "text": "Tough It Out"
       },
       "description": {
-        "text": "Accelerated healing from alien biology"
+        "text": "Shake off wounds like a true Ravager -- pain is just weakness leaving the body"
       },
       "icon": {
         "type": "texture",
@@ -180,14 +179,14 @@
       "required_level": 3,
       "frequency": 20
     },
-    "ravager_shield": {
+    "ravager_intimidation": {
       "ability": "lucraftcore:absorption",
       "show_in_bar": false,
       "title": {
-        "text": "Ravager Shield"
+        "text": "Ravager Intimidation"
       },
       "description": {
-        "text": "Generate protective energy shields (+6 absorption hearts)"
+        "text": "Your fearsome reputation keeps you alive -- enemies hesitate to strike (+6 bonus hearts)"
       },
       "icon": {
         "type": "texture",
@@ -200,10 +199,10 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {
-        "text": "Triple Arrow Strike"
+        "text": "Yaka Volley"
       },
       "description": {
-        "text": "Split arrow into three devastating projectiles (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)"
+        "text": "Launch a volley of Yaka Arrows at high speed (80 dmg, 6.5 spd, 90 pierce, 4s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -222,49 +221,39 @@
       "required_level": 4
     },
     "ravager_massacre": {
-      "ability": "lucraftcore:projectile",
+      "ability": "lucraftcore:damage_aura",
       "show_in_bar": true,
       "title": {
         "text": "Ravager Massacre"
       },
       "description": {
-        "text": "Devastating multi-pierce onslaught (100 dmg, 7.0 spd, 130 pierce, 3s cooldown)"
+        "text": "The Yaka Arrow spirals around you at lethal speed, shredding all nearby enemies (8 dmg per hit, 6 block radius, 3s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/barrage.png"
       },
-      "projectile": {
-        "type": "arrow",
-        "damage": 100,
-        "speed": 7.0,
-        "gravity": false,
-        "piercing": 130,
-        "knockback": 4
-      },
+      "damage": 8,
+      "radius": 6,
       "cooldown": 3,
       "sound": "entity.arrow.shoot",
       "required_level": 5
     },
     "battle_cry": {
-      "ability": "lucraftcore:energy_blast",
+      "ability": "lucraftcore:damage_aura",
       "show_in_bar": true,
       "title": {
         "text": "Ravager Battle Cry"
       },
       "description": {
-        "text": "Fearsome war cry damages nearby enemies (20 dmg, 15s cooldown)"
+        "text": "Fearsome war cry damages all nearby enemies (4 dmg per hit, 5 block radius, 15s cooldown)"
       },
       "icon": {
         "type": "internal"
       },
-      "damage": 20.0,
+      "damage": 4,
+      "radius": 5,
       "cooldown": 15,
-      "color": [
-        255,
-        50,
-        50
-      ],
       "required_level": 5
     },
     "ravager_reflexes": {
@@ -282,7 +271,7 @@
       "amount": 3,
       "required_level": 6,
       "operation": 0,
-      "uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+      "uuid": "b3eae4fa-dff7-4deb-8e4c-2ba03613b691"
     },
     "enhanced_perception": {
       "ability": "lucraftcore:night_vision",
@@ -299,14 +288,14 @@
       },
       "required_level": 6
     },
-    "water_adaptation": {
-      "ability": "lucraftcore:water_breathing",
+    "ravager_survival": {
+      "ability": "lucraftcore:fire_resistance",
       "show_in_bar": false,
       "title": {
-        "text": "Aquatic Adaptation"
+        "text": "Ravager Survival"
       },
       "description": {
-        "text": "Breathe underwater for extended operations"
+        "text": "Years surviving on hostile worlds have made you resistant to extreme heat and fire"
       },
       "icon": {
         "type": "texture",
@@ -315,35 +304,13 @@
       "required_level": 7
     },
     "arrow_rain": {
-      "ability": "lucraftcore:energy_blast",
+      "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {
         "text": "Arrow Rain"
       },
       "description": {
-        "text": "Devastating arrow bombardment from above (30 dmg, 18s cooldown)"
-      },
-      "icon": {
-        "type": "texture",
-        "texture": "yondu:textures/gui/arrow_storm.png"
-      },
-      "damage": 30.0,
-      "cooldown": 18,
-      "color": [
-        255,
-        100,
-        0
-      ],
-      "required_level": 7
-    },
-    "ship_clearer": {
-      "ability": "lucraftcore:projectile",
-      "show_in_bar": true,
-      "title": {
-        "text": "Ship Clearer"
-      },
-      "description": {
-        "text": "Room-clearing devastation (140 dmg, 8.5 spd, 200 pierce, Fire 5, 2s cooldown)"
+        "text": "Whistle a barrage of Yaka Arrows raining down on your enemies (50 dmg, 5.0 spd, 80 pierce, 10s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -351,13 +318,36 @@
       },
       "projectile": {
         "type": "arrow",
-        "damage": 140,
-        "speed": 8.5,
+        "damage": 50,
+        "speed": 5.0,
         "gravity": false,
-        "piercing": 200,
-        "knockback": 7,
-        "fire": 5
+        "piercing": 80,
+        "knockback": 3
       },
+      "cooldown": 10,
+      "sound": "entity.arrow.shoot",
+      "required_level": 7
+    },
+    "ship_clearer": {
+      "ability": "lucraftcore:energy_blast",
+      "show_in_bar": true,
+      "title": {
+        "text": "Eclector Blast"
+      },
+      "description": {
+        "text": "Channel the Yaka Arrow at full speed in a devastating blazing trail that tears through everything in its path (140 dmg, 8.5 spd, 2s cooldown)"
+      },
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/arrow_storm.png"
+      },
+      "damage": 140,
+      "speed": 8.5,
+      "color": [
+        255,
+        80,
+        30
+      ],
       "cooldown": 2,
       "sound": "entity.arrow.shoot",
       "required_level": 8
@@ -381,10 +371,10 @@
       "ability": "lucraftcore:projectile",
       "show_in_bar": true,
       "title": {
-        "text": "Arrow Barrage"
+        "text": "Yaka Barrage"
       },
       "description": {
-        "text": "Rapid-fire explosive assault (175 dmg, 9.5 spd, 280 pierce, Fire 15, 1s cooldown)"
+        "text": "Rapid-fire Yaka Arrows whistled at blinding speed (175 dmg, 9.5 spd, 280 pierce, 1s cooldown)"
       },
       "icon": {
         "type": "texture",
@@ -396,97 +386,196 @@
         "speed": 9.5,
         "gravity": false,
         "piercing": 280,
-        "knockback": 9,
-        "fire": 15
+        "knockback": 9
       },
       "cooldown": 1,
       "sound": "entity.arrow.shoot",
       "required_level": 9
     },
     "yaka_boomerang": {
-      "ability": "lucraftcore:projectile",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {
-        "text": "Yaka Boomerang"
+        "text": "Yaka Piercing Trail"
       },
       "description": {
-        "text": "Returning arrow devastates multiple foes (160 dmg, 8.0 spd, 220 pierce, 6s cooldown)"
+        "text": "The Yaka Arrow blazes a piercing trail of energy through all enemies in its path (160 dmg, 8.0 spd, 6s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/whistler.png"
       },
-      "projectile": {
-        "type": "arrow",
-        "damage": 160,
-        "speed": 8.0,
-        "gravity": false,
-        "piercing": 220,
-        "knockback": 8
-      },
+      "damage": 160,
+      "speed": 8.0,
+      "color": [
+        220,
+        40,
+        80
+      ],
       "cooldown": 6,
       "sound": "entity.arrow.shoot",
       "required_level": 9
     },
     "centaurian_mastery": {
-      "ability": "lucraftcore:projectile",
+      "ability": "lucraftcore:energy_blast",
       "show_in_bar": true,
       "title": {
         "text": "Centaurian Mastery"
       },
       "description": {
-        "text": "Ultimate arrow mastery (300 dmg, 10.0 spd, 999 pierce, Fire 30, 1s cooldown)"
+        "text": "Total mastery of the Yaka Arrow -- whistle it so fast it leaves a burning red trail, annihilating everything in its path (300 dmg, 10.0 spd, 1s cooldown)"
       },
       "icon": {
         "type": "texture",
         "texture": "yondu:textures/gui/sonic.png"
       },
-      "projectile": {
-        "type": "arrow",
-        "damage": 300,
-        "speed": 10.0,
-        "gravity": false,
-        "piercing": 999,
-        "knockback": 12,
-        "fire": 30
-      },
+      "damage": 300,
+      "speed": 10.0,
+      "color": [
+        255,
+        30,
+        30
+      ],
       "cooldown": 1,
       "sound": "entity.arrow.shoot",
       "required_level": 10
+    },
+    "battle_cry_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle angryVillager ~ ~1 ~ 2 1 2 0.1 8 force @s",
+        "particle smoke ~ ~0.5 ~ 2 0.3 2 0.02 10 force @s"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "battle_cry"
+        }
+      ]
+    },
+    "ravager_massacre_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle sweepAttack ~ ~1 ~ 2 0.5 2 0.2 12 force @s",
+        "particle crit ~ ~1 ~ 2 0.5 2 0.1 8 force @s"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "ravager_massacre"
+        }
+      ]
+    },
+    "arrow_rain_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle crit ~ ~3 ~ 3 2 3 0.5 30 force @s"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "arrow_rain"
+        }
+      ]
+    },
+    "arrow_barrage_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle crit ~ ~1.5 ~ 1 0.5 1 0.8 20 force @s",
+        "particle flame ~ ~1 ~ 0.5 0.3 0.5 0.03 6 force @s"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "arrow_barrage"
+        }
+      ]
+    },
+    "eclector_blast_vfx": {
+      "ability": "lucraftcore:command",
+      "commands": [
+        "particle hugeexplosion ~ ~1 ~ 0 0 0 0.01 1 force @s",
+        "particle largeexplode ~ ~1 ~ 2 1 2 0.01 3 force @s",
+        "particle flame ~ ~1 ~ 1 0.5 1 0.1 15 force @s"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "ship_clearer"
+        }
+      ]
+    },
+    "centaurian_mastery_vfx": {
+      "ability": "lucraftcore:command",
+      "commands": [
+        "particle hugeexplosion ~ ~1 ~ 0 0 0 0.01 2 force @s",
+        "particle largeexplode ~ ~1 ~ 3 1.5 3 0.01 5 force @s",
+        "particle flame ~ ~1 ~ 2 1 2 0.15 25 force @s",
+        "particle reddust ~ ~1.5 ~ 2 1 2 1 20 force @s"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "centaurian_mastery"
+        }
+      ]
+    },
+    "yaka_piercing_trail_vfx": {
+      "ability": "lucraftcore:command",
+      "commands": [
+        "particle flame ~ ~1 ~ 0.3 0.2 0.3 0.05 8 force @s",
+        "particle reddust ~ ~1 ~ 0.5 0.3 0.5 1 12 force @s"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "yaka_boomerang"
+        }
+      ]
+    },
+    "yaka_arrow_rampage": {
+      "ability": "lucraftcore:damage_aura",
+      "show_in_bar": true,
+      "title": {
+        "text": "Yaka Arrow Rampage"
+      },
+      "description": {
+        "text": "Toggle ON/OFF -- The Yaka Arrow flies on its own, hunting down and killing every enemy nearby one after another. Inspired by the iconic Eclector hallway scene. (25 dmg per hit, 10 block radius)"
+      },
+      "icon": {
+        "type": "texture",
+        "texture": "yondu:textures/gui/sonic.png"
+      },
+      "damage": 25,
+      "radius": 10,
+      "cooldown": 1,
+      "sound": "entity.arrow.shoot",
+      "required_level": 10
+    },
+    "yaka_arrow_rampage_vfx": {
+      "ability": "lucraftcore:command_loop",
+      "commands": [
+        "particle sweepAttack ~ ~1 ~ 4 1 4 0.3 20 force @s",
+        "particle crit ~ ~1.5 ~ 5 1 5 0.5 30 force @s",
+        "particle reddust ~ ~1 ~ 5 1 5 1 15 force @s",
+        "particle flame ~ ~1 ~ 3 0.5 3 0.05 10 force @s"
+      ],
+      "conditions": [
+        {
+          "type": "lucraftcore:ability",
+          "ability": "yaka_arrow_rampage"
+        }
+      ]
     }
   },
   "effects": [
     {
-      "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin.png",
-      "glow": true,
-      "size": 0.55,
-      "min_level": 1,
-      "max_level": 3
-    },
-    {
-      "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin1.png",
-      "glow": true,
-      "size": 0.58,
-      "min_level": 4,
-      "max_level": 6
-    },
-    {
-      "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin2.png",
-      "glow": true,
-      "size": 0.6,
-      "min_level": 7,
-      "max_level": 9
-    },
-    {
-      "type": "skin_overlay",
-      "texture": "yondu:textures/skins/yondu_fin3.png",
-      "glow": true,
-      "size": 0.62,
-      "min_level": 10,
-      "max_level": 10
+      "type": "glow",
+      "color": [
+        1.0,
+        0.2,
+        0.2
+      ]
     }
   ]
 }
