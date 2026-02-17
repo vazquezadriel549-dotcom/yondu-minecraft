@@ -102,7 +102,7 @@
       "icon": {"type": "internal"}
     },
     "ravager_fury": {
-      "ability": "lucraftcore:damage_boost",
+      "ability": "lucraftcore:strength",
       "show_in_bar": true,
       "title": {"text": "Ravager's Fury"},
       "description": {"text": "Channel your rage into devastating attacks (+5 damage, 12s duration)"},
