@@ -171,16 +171,6 @@
       "cooldown": 45,
       "icon": {
         "type": "internal"
-      },
-      "particle": {
-        "type": "minecraft:enchanted_hit",
-        "count": 6,
-        "speed": 0.1,
-        "spread": [
-          0.5,
-          0.5,
-          0.5
-        ]
       }
     },
     "ravager_fury": {
@@ -199,17 +189,7 @@
         "type": "internal"
       },
       "operation": 0,
-      "uuid": "68239363-ba03-4503-87fd-271b27addb87",
-      "particle": {
-        "type": "minecraft:angry_villager",
-        "count": 4,
-        "speed": 0.1,
-        "spread": [
-          0.3,
-          0.3,
-          0.3
-        ]
-      }
+      "uuid": "68239363-ba03-4503-87fd-271b27addb87"
     },
     "stealth_mode": {
       "ability": "lucraftcore:invisibility",
